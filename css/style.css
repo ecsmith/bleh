@@ -1,5 +1,5 @@
 @charset 'UTF-8';
-@import url('http://fonts.googleapis.com/css?family=Unica+One:300,300italic,400,600|Libre+Baskerville');
+@import url('http://fonts.googleapis.com/css?family=Unica+One:300,300italic,400,600|Libre+Baskerville|Jacques+Francois+Shadow');
 @import url('font-awesome.min.css');
 
 /*
@@ -44,6 +44,7 @@
 
 	body,input,textarea,select
 	{
+		text-shadow: 1px 0 1px rgba(36, 34,37, 0.3);
 		font-family: 'Unica One', sans-serif;
 		font-size: 18pt;
 		line-height: 1.75em;
@@ -576,8 +577,8 @@ input[type="reset"]:before,
 				input[type="reset"].style3:hover,
 				.button.style3:hover
 				{
-/*					color: rgba(67,63,64,0.5);
-*/					box-shadow: inset 0 0 15px rgba(255,255,255,1.0);
+					color: rgba(67,63,64,0.5);
+					box-shadow: inset 0 0 15px rgba(255,255,255,0.01);
 				}
 
 	/* Box */
@@ -842,9 +843,10 @@ input[type="reset"]:before,
 					display: block;
 
 
-/*					width: 35%;
-*/					border-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 20"><path fill="none" stroke="rgba(191, 191, 191, 0.9)" stroke-width="3" d="M0,13.5c3,0,3-12,6-12s3,12,6,12"/></svg>') 0 0 100% repeat;
-					border-width: 0 0 15px;
+/*					width: 35%;*/
+					/*border-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 20"><path fill="none" stroke="rgba(191, 191, 191, 0.9)" stroke-width="3" d="M0,13.5c3,0,3-12,6-12s3,12,6,12"/></svg>') 0 0 100% repeat;*/
+					border-image: url("images/border.svg") 0 0 100% stretch repeat;
+					border-width: 0 0 25px;
 					border-style: solid;
 					position: relative;
 
