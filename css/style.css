@@ -1,5 +1,5 @@
 @charset 'UTF-8';
-@import url('http://fonts.googleapis.com/css?family=Pathway+Gothic+One:300,300italic,400,600|Lobster|PT+Sans');
+@import url('http://fonts.googleapis.com/css?family=Pathway+Gothic+One:300,300italic,400,600|Niconne|PT+Sans');
 @import url('font-awesome.min.css');
 
 /*
@@ -552,7 +552,7 @@ input[type="reset"]:before,
 			.button.style3
 			{
 				font-style: italic;
-				font-family: 'Lobster', sans-serif;
+				font-family: 'PT Sans', sans-serif;
 				background: none;
 				color: #3a3939;
 
@@ -629,7 +629,7 @@ input[type="reset"]:before,
 		
 			.box.style1
 			{
-				background: url('images/banner2.svg') center no-repeat;
+				background: url('images/overlay.svg') 100% center no-repeat;
 				padding: 3em;
 			}
 			
@@ -910,7 +910,7 @@ input[type="reset"]:before,
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255,255,255,0.25);
 		text-align: center;
-		background: #fff url('images/banner.svg') bottom center no-repeat;
+		background: #fff url('images/overlay.svg') bottom center no-repeat;
 		padding: 5em 0 5em 0;
 		margin: 0;
 		background-size: 125% auto;
