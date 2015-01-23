@@ -1,5 +1,5 @@
 @charset 'UTF-8';
-@import url('http://fonts.googleapis.com/css?family=Unica+One:300,300italic,400,600|Libre+Baskerville|Jacques+Francois+Shadow');
+@import url('http://fonts.googleapis.com/css?family=Pathway+Gothic+One:300,300italic,400,600|Lobster|PT+Sans');
 @import url('font-awesome.min.css');
 
 /*
@@ -14,8 +14,8 @@
 
 	body
 	{
-		background-color:		#183026;
-		background-image:		/*url('images/overlay.png'),*/			url('../images/bg-mirror.jpg');
+		background-color:		#FFFFF8;
+		background-image:		*/url('images/overlay.png'),*/			url('../images/bg-mirror.jpg');
 		background-repeat:		repeat,								no-repeat;
 		background-size:		auto,								cover;
 		background-position: 	top left,							center 0;
@@ -45,7 +45,6 @@
 	body,input,textarea,select
 	{
 		text-shadow: 1px 0 1px rgba(36, 34,37, 0.3);
-		font-family: 'Unica One', sans-serif;
 		font-size: 18pt;
 		line-height: 1.75em;
 		font-weight: 300;
@@ -57,6 +56,7 @@
 
 	h1,h2,h3,h4,h5,h6
 	{
+		font-family: 'Pathway Gothic One', sans-serif;
 		font-weight: 400;
 		text-transform: uppercase;
 		line-height: 1.75em;
@@ -64,6 +64,8 @@
 	
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
 		{
+			font-family: 'PT Sans', cursive;
+
 			color: inherit;
 			text-decoration: none;
 		}
@@ -125,7 +127,7 @@
 	hr
 	{
 		border: 0;
-		border-top: solid 1px #dad9d9;
+		border-top: solid 1px rgba(67,63,64,0.5);
 		margin: 2em 0 2em 0;
 	}
 	
@@ -138,6 +140,7 @@
 	
 	p, ul, ol, dl, table
 	{
+		font-family: 'Pathway Gothic One', sans-serif;
 		margin-bottom: 1em;
 	}
 
@@ -286,7 +289,7 @@
 				{
 					display: inline-block;
 					line-height: 1em;
-					border-left: solid 1px #dad9d9;
+					border-left: solid 1px rgba(67,63,64,0.5);
 					padding: 0 0 0 0.5em;
 					margin: 0 0 0 0.5em;
 				}
@@ -445,7 +448,7 @@
 			
 				table.default tbody tr
 				{
-					border-top: solid 1px #eae9e9;
+					border-top: solid 1px rgba(36, 34,37, 0.3);
 				}
 
 				table.default tbody tr:first-child
@@ -548,7 +551,8 @@ input[type="reset"]:before,
 			input[type="reset"].style3,
 			.button.style3
 			{
-				font-family: 'Libre Baskerville', cursive;
+				font-style: italic;
+				font-family: 'Lobster', sans-serif;
 				background: none;
 				color: #3a3939;
 
@@ -566,7 +570,7 @@ input[type="reset"]:before,
 					display: block;
 					position: absolute;
 					border-image: url("images/border2.svg") 0 0 100% stretch repeat;
-					border-width: 0 0 35px;
+					border-width: 0 0 25px;
 					border-style: solid;
 					left: 45%;
 /*					top: 3.2em;
@@ -612,7 +616,7 @@ input[type="reset"]:before,
 				height: 114px;
 				position: absolute;
 				left: 50%;
-				bottom: -4.5em;
+				top: 100%;
 				margin-left: -45px;
 				margin-bottom: -33px;
 				background: url('images/arrow.svg') center no-repeat;
@@ -726,7 +730,7 @@ input[type="reset"]:before,
 						content: '';
 						display: block;
 						position: absolute;
-						top: 0;
+						top: 100%;
 						left: 50%;
 						height: 100%;
 						border-left: solid 1px rgba(67,63,64,0.5);
@@ -890,7 +894,7 @@ input[type="reset"]:before,
 				height: 114px;
 				position: absolute;
 				left: 50%;
-				bottom: -4.5em;
+				top: 100%;
 				margin-left: -45px;
 				margin-bottom: -33px;
 				background: url('images/arrow.svg') center no-repeat;
@@ -906,7 +910,7 @@ input[type="reset"]:before,
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255,255,255,0.25);
 		text-align: center;
-		background: #433F40 url('images/banner.svg') bottom center no-repeat;
+		background: #fff url('images/banner.svg') bottom center no-repeat;
 		padding: 5em 0 5em 0;
 		margin: 0;
 		background-size: 125% auto;
@@ -977,14 +981,14 @@ input[type="reset"]:before,
 
 		#footer a
 		{
-			color: #fff;
+			color: rgba(67,63,64,0.5);
 			text-shadow: 0 0 0.5px rgba(255,255,255,0.25);
 			border-bottom-color: rgba(255,255,255,0.5);
 		}	
 		
 			#footer a:hover
 			{
-				color: #35b88f;
+				color: rgba(67,63,64,1.0);
 				text-shadow: 0 0 0.5px rgba(69,200,159,0.25);
 				border-bottom-color: rgba(53,184,143,0.5);
 			}

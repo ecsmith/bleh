@@ -3,10 +3,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="1148px" height="164px" viewBox="0 0 1148 164" enable-background="new 0 0 1148 164" xml:space="preserve">
-<line opacity="0.5" fill="none" stroke="#333333" stroke-width="5" enable-background="new    " x1="72.831" y1="12.169" x2="1029.257" y2="12.169"/>
-<line opacity="0.5" fill="none" stroke="#333333" stroke-width="5" enable-background="new    " x1="72.831" y1="26.169" x2="1029.257" y2="26.169"/>
-<line opacity="0.5" fill="none" stroke="#333333" stroke-width="5" enable-background="new    " x1="72.831" y1="40.169" x2="1029.257" y2="40.169"/>
-<line opacity="0.5" fill="none" stroke="#333333" stroke-width="5" enable-background="new    " x1="72.831" y1="54.169" x2="1029.257" y2="54.169"/>
-<line opacity="0.5" fill="none" stroke="#333333" stroke-width="5" enable-background="new    " x1="72.831" y1="69.169" x2="1029.257" y2="69.169"/>
-<line opacity="0.5" fill="none" stroke="#333333" stroke-width="5" enable-background="new    " x1="72.831" y1="84.17" x2="1029.257" y2="84.17"/>
+<line opacity="0.5" fill="none" stroke="#333333" stroke-width="7" enable-background="new    " x1="72.831" y1="12.169" x2="1029.257" y2="12.169"/>
+<line opacity="0.5" fill="none" stroke="#333333" stroke-width="7" enable-background="new    " x1="72.831" y1="43.628" x2="1029.257" y2="43.628"/>
+<line opacity="0.5" fill="none" stroke="#333333" stroke-width="7" enable-background="new    " x1="72.831" y1="75.088" x2="1029.257" y2="75.088"/>
 </svg>
