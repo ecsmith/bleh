@@ -552,12 +552,15 @@ input[type="reset"]:before,
 			.button.style3
 			{
 				font-style: italic;
-				font-family: 'PT Sans', sans-serif;
+				font-family: 'Pathway Gothic One', sans-serif;
+
 				background: none;
 				color: #3a3939;
 
-				/*box-shadow: inset 0 0 1px 0 #dad9d9;*/
-				/*background-image: linear-gradient(45deg, rgba(13, 13, 13, 0), rgba(13, 13, 13, 0) 33.33%, #0d0d0d 33.33%, #0d0d0d 66.67%, rgba(13, 13, 13, 0) 66.67%, rgba(13, 13, 13, 0) 100%);*/
+				box-shadow: inset 0 0 1px 0 #dad9d9;
+				border: solid 1px ;
+				/*border-bottom-image: url("images/border.svg") 0 0 100% stretch repeat;*/
+				/*border-image: linear-gradient(45deg, rgba(13, 13, 13, 0), rgba(13, 13, 13, 0) 33.33%, #0d0d0d 33.33%, #0d0d0d 66.67%, rgba(13, 13, 13, 0) 66.67%, rgba(13, 13, 13, 0) 100%);*/
 				/*background-size: 10px 100%;*/
 			}
 
@@ -566,18 +569,21 @@ input[type="reset"]:before,
 				input[type="reset"].style3:after,
 				.button.style3:after
 				{
-					content: '';
+				/*	content: '';
 					display: block;
 					position: absolute;
 					border-image: url("images/border2.svg") 0 0 100% stretch repeat;
-					border-width: 0 0 25px;
+					border-width: 0 0 25px 25px;
 					border-style: solid;
-					left: 45%;
-/*					top: 3.2em;
-*//*					height: 15px;
-*//*					background-size: 0.5em 2px;
-*/					width: 2em;
+					left: 50%;
+					top: 3.2em;
+					height: 15px;
+					background-size: 0.5em 2px;
+					width: 2em;*/
 				}
+
+					
+				
 
 				input[type="button"].style3:hover,
 				input[type="submit"].style3:hover,
@@ -588,7 +594,7 @@ input[type="reset"]:before,
 					box-shadow: inset 0 0 15px rgba(255,255,255,0.01);
 				}
 
-	/* Box */
+	 /*Box*/ 
 
 		.box
 		{
@@ -640,8 +646,8 @@ input[type="reset"]:before,
 					top: 0;
 					width: 50%;
 					height: 100%;
-/*					background: #152E33;
-*/					overflow: hidden;
+					background: #152E33;
+					overflow: hidden;
 				}
 
 					.box.style1 .image img
@@ -774,9 +780,9 @@ input[type="reset"]:before,
 					text-align: center;
 				}
 
-/*********************************************************************************/
-/* Icons                                                                         */
-/*********************************************************************************/
+/********************************************************************************
+/* Icons                                                                         
+/********************************************************************************
 
 	.icon {
 		text-decoration: none;
@@ -910,10 +916,13 @@ input[type="reset"]:before,
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255,255,255,0.25);
 		text-align: center;
-		background: #fff url('images/overlay.svg') bottom center no-repeat;
+		background: url('images/overlay.svg') left  no-repeat;
 		padding: 5em 0 5em 0;
 		margin: 0;
-		background-size: 125% auto;
+/*							border-image: url("images/border.svg") 0 0 200% stretch repeat;
+*/					border-width: 0 0 25px;
+					border-style: solid 1px;
+		background-size: 100% auto;
 	}
 
 		#banner .button
