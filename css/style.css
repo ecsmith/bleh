@@ -917,13 +917,14 @@ input[type="reset"]:before,
 		text-shadow: 0 0 0.5px rgba(255,255,255,0.25);
 		text-align: center;
 		width: 100%;
-		background: url('images/diagonal.svg') center no-repeat;
+		/*background: url('images/diagonal.svg') center no-repeat;*/
 		padding: 5em 0 5em 0;
 		margin: 0;
-/*							border-image: url("images/border.svg") 0 0 200% stretch repeat;
-*/					border-width: 0 0 25px;
-					border-style: solid 1px;
-		background-size: 100% auto;
+		border-image: url("images/diagonal.svg") 25% 0 25% 0 stretch repeat;
+		/*border-image-slice: 50% 0 50% 0;*/
+		border-width: 100px 0 100px 0;
+		border-style: solid 1px;
+		/*background-size: 100% auto;*/
 	}
 
 		/*#banner .button
