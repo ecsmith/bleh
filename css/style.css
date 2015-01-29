@@ -15,7 +15,7 @@
 	body
 	{
 		background-color:		#FFFFF8;
-		background-image:		*/url('images/overlay.png'),*/			url('../images/bg-mirror.jpg');
+		background-image:		*/url('images/diagonal.png'),*/			url('../images/bg-mirror.jpg');
 		background-repeat:		repeat,								no-repeat;
 		background-size:		auto,								cover;
 		background-position: 	top left,							center 0;
@@ -913,10 +913,10 @@ input[type="reset"]:before,
 	#banner
 	{
 		position: relative;
-		color: #fff;
+		color: rgba(32, 36, 33, 0.99);
 		text-shadow: 0 0 0.5px rgba(255,255,255,0.25);
 		text-align: center;
-		background: url('images/overlay.svg') left  no-repeat;
+		background: url('images/diagonal.svg') center no-repeat;
 		padding: 5em 0 5em 0;
 		margin: 0;
 /*							border-image: url("images/border.svg") 0 0 200% stretch repeat;
@@ -925,11 +925,11 @@ input[type="reset"]:before,
 		background-size: 100% auto;
 	}
 
-		#banner .button
+		/*#banner .button
 		{
 			color: #35b882;
 			text-shadow: 0 0 0.5px rgba(53,184,130,0.25);
-		}
+		}*/
 
 		#banner header
 		{
@@ -946,6 +946,7 @@ input[type="reset"]:before,
 		#banner p
 		{
 			margin: 0;
+
 		}
 
 		#banner footer
@@ -953,11 +954,11 @@ input[type="reset"]:before,
 			margin: 2em 0 0 0;
 		}
 		
-		#banner a
+		/*#banner a
 		{
 			color: inherit;
 			border-bottom-color: rgba(255,255,255,0.5);
-		}
+		}*/
 		
 			#banner a:hover
 			{
