@@ -2,62 +2,71 @@
 <!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" zoomAndPan="disable"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="89.494px" height="115px"
-	 viewBox="0 0 89.494 115" enable-background="new 0 0 89.494 115" xml:space="preserve">
-<polygon opacity="0.5" fill="none" stroke="#333333" enable-background="new    " points="89.494,27.097 69.604,48.892 
-	19.89,48.892 0,27.097 "/>
-<g opacity="0.5">
-	<g>
-		<g>
-			<path fill="#333333" d="M19.784,109.35c2.941,0.179,3.863,3.097,6.278,4.271c1.749,0.852,3.755,0.271,5.19-0.865
-				c0.886-0.7,1.541-1.686,2.369-2.453c1.638-1.519,3.977-1.065,5.482,0.33c1.753,1.624,2.703,3.212,5.284,3.368
-				c2.19,0.133,3.622-1.554,4.944-3.018c1.355-1.502,3.228-2.092,5.125-1.17c1.099,0.534,1.88,1.755,2.708,2.612
-				c1.446,1.498,3.479,1.899,5.428,1.246c2.675-0.896,3.276-4.132,6.405-4.321c0.641-0.039,0.645-1.039,0-1
-				c-2.284,0.139-3.481,1.396-4.947,3.018c-1.357,1.501-3.23,2.092-5.128,1.17c-1.099-0.534-1.88-1.756-2.708-2.612
-				c-1.445-1.497-3.479-1.899-5.428-1.246c-2.673,0.896-3.272,4.132-6.399,4.321c-2.783,0.169-4.045-3.183-6.283-4.271
-				c-1.75-0.851-3.755-0.271-5.19,0.865c-0.886,0.7-1.54,1.686-2.369,2.453c-1.638,1.519-3.976,1.065-5.481-0.33
-				c-1.751-1.623-2.7-3.212-5.279-3.368C19.14,108.311,19.144,109.311,19.784,109.35L19.784,109.35z"/>
-		</g>
-	</g>
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="89.494px" height="127px"
+	 viewBox="0 0 89.494 127" enable-background="new 0 0 89.494 127" xml:space="preserve">
+<polygon opacity="0.5" fill="none" stroke="#202422" enable-background="new    " points="89.494,29.097 69.604,50.893 
+	19.89,50.893 0,29.097 "/>
+<path opacity="0.5" fill="none" stroke="#333333" enable-background="new    " d="M47.7,11.677"/>
+<path opacity="0.5" fill="none" stroke="#333333" enable-background="new    " d="M42.012,11.752"/>
+<path opacity="0.5" fill="none" stroke="#333333" enable-background="new    " d="M40.322,17.434"/>
+<path opacity="0.5" fill="none" stroke="#333333" enable-background="new    " d="M44.967,20.87"/>
+<path opacity="0.5" fill="none" stroke="#333333" enable-background="new    " d="M49.522,17.313"/>
+<polyline opacity="0.5" fill="none" stroke="#333333" enable-background="new    " points="60.631,15.417 44.932,26.141 
+	29.672,15.483 "/>
+<polyline opacity="0.5" fill="none" stroke="#333333" enable-background="new    " points="29.672,15.483 44.875,3.25 
+	60.631,15.417 "/>
+<ellipse opacity="0.5" fill="none" stroke="#433F40" enable-background="new    " cx="44.967" cy="14.429" rx="6.431" ry="6.724"/>
+<ellipse opacity="0.5" fill="#433F40" stroke="#433F40" enable-background="new    " cx="45.103" cy="14.56" rx="3.316" ry="3.316"/>
+<polyline opacity="0.5" fill="none" stroke="#242220" enable-background="new    " points="19.89,50.893 44.748,78.134 
+	69.604,50.893 "/>
+<polygon opacity="0.5" fill="#333333" stroke="#333333" points="19.867,93.691 15.167,91.009 15.081,85.6 19.694,82.873 
+	24.393,85.553 24.479,90.966 "/>
+<path opacity="0.5" fill="none" stroke="#333333" d="M14.573,76.549"/>
+<path opacity="0.5" fill="none" stroke="#333333" d="M31.982,123.848"/>
+<path opacity="0.6" fill="none" stroke="#222420" d="M25.608,42.333c0,2.734,2.216,4.95,4.948,4.95c2.733,0,4.948-2.216,4.948-4.95
+	c0-2.733-4.948-9.833-4.948-9.833S25.608,39.6,25.608,42.333z"/>
+<polygon opacity="0.5" fill="#333333" stroke="#333333" points="19.94,99.549 15.24,96.866 15.154,94.14 19.949,97.236 
+	24.552,94.14 24.552,96.823 "/>
+<polygon opacity="0.5" fill="#333333" stroke="#333333" points="19.94,105.549 15.24,102.866 15.154,100.14 19.95,103.236 
+	24.552,100.14 24.552,102.823 "/>
+<line opacity="0.6" fill="#333333" stroke="#333333" x1="69.631" y1="50.892" x2="69.631" y2="99.549"/>
+<polyline opacity="0.5" fill="none" stroke="#333333" enable-background="new    " points="75.823,87.682 69.544,91.971 
+	63.44,87.708 "/>
+<polyline opacity="0.5" fill="none" stroke="#333333" enable-background="new    " points="75.823,91.682 69.544,95.971 
+	63.44,91.708 "/>
+<line opacity="0.6" fill="#333333" stroke="#333333" x1="30.556" y1="32.5" x2="30.556" y2="15.483"/>
+<line opacity="0.6" fill="#222420" stroke="#333333" x1="19.694" y1="82.873" x2="19.78" y2="72.334"/>
+<g opacity="0.5" enable-background="new    ">
+	<path fill="none" stroke="#333333" d="M13.969,111.669c5.883,0,5.883,4,11.766,4c5.885,0,5.885-4,11.77-4c5.883,0,5.883,4,11.766,4
+		c5.887,0,5.887-4,11.774-4s5.888,4,11.774,4"/>
 </g>
-<path opacity="0.5" fill="none" stroke="#333333" enable-background="new    " d="M47.7,9.677"/>
-<path opacity="0.5" fill="none" stroke="#333333" enable-background="new    " d="M42.012,9.752"/>
-<path opacity="0.5" fill="none" stroke="#333333" enable-background="new    " d="M40.322,15.434"/>
-<path opacity="0.5" fill="none" stroke="#333333" enable-background="new    " d="M44.967,18.87"/>
-<path opacity="0.5" fill="none" stroke="#333333" enable-background="new    " d="M49.522,15.313"/>
-<polyline opacity="0.5" fill="none" stroke="#333333" enable-background="new    " points="62.076,12.429 44.932,24.141 
-	28.164,12.429 "/>
-<polyline opacity="0.5" fill="none" stroke="#333333" enable-background="new    " points="28.165,14.696 44.875,1.25 
-	62.076,14.533 "/>
-<ellipse opacity="0.5" fill="none" stroke="#433F40" enable-background="new    " cx="44.967" cy="12.429" rx="6.431" ry="6.724"/>
-<ellipse opacity="0.5" fill="#433F40" stroke="#433F40" enable-background="new    " cx="45.2" cy="12.513" rx="3.216" ry="3.363"/>
-<g opacity="0.5">
-	<g>
-		<g>
-			<path fill="#333333" d="M19.784,103.697c2.941,0.179,3.863,3.097,6.278,4.271c1.749,0.852,3.755,0.271,5.19-0.865
-				c0.886-0.7,1.541-1.686,2.369-2.453c1.638-1.519,3.977-1.065,5.482,0.33c1.753,1.624,2.703,3.212,5.284,3.368
-				c2.19,0.133,3.622-1.554,4.944-3.018c1.355-1.502,3.228-2.092,5.125-1.17c1.099,0.534,1.88,1.755,2.708,2.612
-				c1.446,1.498,3.479,1.899,5.428,1.246c2.675-0.896,3.276-4.132,6.405-4.321c0.641-0.039,0.645-1.039,0-1
-				c-2.284,0.139-3.481,1.396-4.947,3.018c-1.357,1.501-3.23,2.092-5.128,1.17c-1.099-0.534-1.88-1.756-2.708-2.612
-				c-1.445-1.497-3.479-1.899-5.428-1.246c-2.673,0.896-3.272,4.132-6.399,4.321c-2.783,0.169-4.045-3.183-6.283-4.271
-				c-1.75-0.851-3.755-0.271-5.19,0.865c-0.886,0.7-1.54,1.686-2.369,2.453c-1.638,1.519-3.976,1.065-5.481-0.33
-				c-1.751-1.623-2.7-3.212-5.279-3.368C19.14,102.658,19.144,103.658,19.784,103.697L19.784,103.697z"/>
-		</g>
-	</g>
+<g opacity="0.5" enable-background="new    ">
+	<path fill="none" stroke="#333333" d="M13.969,116.669c5.883,0,5.883,4,11.766,4c5.885,0,5.885-4,11.77-4c5.883,0,5.883,4,11.766,4
+		c5.887,0,5.887-4,11.774-4s5.888,4,11.774,4"/>
 </g>
-<polyline opacity="0.5" fill="none" stroke="#333333" enable-background="new    " points="19.89,48.892 44.748,76.134 
-	69.604,48.892 "/>
-<polygon opacity="0.5" fill="none" stroke="#333333" points="44.844,101.164 40.144,98.481 40.058,93.072 44.671,90.346 
-	49.37,93.025 49.456,98.438 "/>
-<path opacity="0.5" fill="none" stroke="#333333" d="M24.87,92.25"/>
-<path opacity="0.5" fill="none" stroke="#333333" d="M32.982,107.848"/>
-<polyline opacity="0.5" fill="none" stroke="#333333" enable-background="new    " points="28.331,79.667 44.858,96.893 
-	61.386,79.667 "/>
-<polygon opacity="0.5" fill="none" stroke="#333333" points="28.844,86.164 24.144,83.481 24.058,78.072 28.671,75.346 
-	33.37,78.025 33.456,83.438 "/>
-<polygon opacity="0.5" fill="none" stroke="#333333" points="60.844,86.164 56.144,83.481 56.058,78.072 60.671,75.346 
-	65.37,78.025 65.456,83.438 "/>
-<g opacity="0.5">
-	<path fill="none" stroke="#222420" d="M33.914,78.667c3.609,0,3.609,4,7.219,4c3.612,0,3.612-4,7.224-4s3.612,4,7.224,4"/>
+<g opacity="0.5" enable-background="new    ">
+	<path fill="none" stroke="#333333" d="M13.969,121.669c5.883,0,5.883,4,11.766,4c5.885,0,5.885-4,11.77-4c5.883,0,5.883,4,11.766,4
+		c5.887,0,5.887-4,11.774-4s5.888,4,11.774,4"/>
 </g>
+<path opacity="0.6" fill="#202422" stroke="#202422" stroke-linecap="round" d="M50.048,46.584"/>
+<line opacity="0.6" fill="#202422" stroke="#202422" stroke-linecap="round" x1="38.304" y1="33.084" x2="44.747" y2="29.097"/>
+<line opacity="0.6" fill="#202422" stroke="#202422" stroke-linecap="round" x1="44.747" y1="50.893" x2="51.19" y2="46.905"/>
+<line opacity="0.6" fill="#202422" stroke="#202422" stroke-linecap="round" x1="38.304" y1="33.084" x2="51.19" y2="33.097"/>
+<line opacity="0.6" fill="#202422" stroke="#202422" stroke-linecap="round" x1="38.304" y1="46.898" x2="51.19" y2="46.912"/>
+<line opacity="0.6" fill="#202422" stroke="#202422" stroke-linecap="round" x1="51.19" y1="33.097" x2="38.304" y2="40.344"/>
+<line opacity="0.6" fill="#202422" stroke="#202422" stroke-linecap="round" x1="38.304" y1="40.344" x2="51.19" y2="40.344"/>
+<line opacity="0.6" fill="#202422" stroke="#202422" stroke-linecap="round" x1="51.19" y1="40.344" x2="38.304" y2="46.898"/>
+<path opacity="0.5" fill="none" stroke="#202422" enable-background="new    " d="M19.89,72.893"/>
+<line opacity="0.5" fill="none" stroke="#202422" enable-background="new    " x1="89.494" y1="51.098" x2="69.604" y2="72.893"/>
+<polyline opacity="0.5" fill="none" stroke="#242220" enable-background="new    " points="19.89,72.893 44.748,100.134 
+	69.604,72.893 "/>
+<line opacity="0.5" fill="none" stroke="#202422" enable-background="new    " x1="0" y1="51.098" x2="19.89" y2="72.893"/>
+<line opacity="0.5" fill="none" stroke="#202422" enable-background="new    " x1="19.781" y1="50.893" x2="0" y2="50.893"/>
+<line opacity="0.5" fill="none" stroke="#202422" enable-background="new    " x1="89.494" y1="50.893" x2="69.714" y2="50.893"/>
+<path opacity="0.5" fill="#433F40" stroke="#433F40" enable-background="new    " d="M17.103,5.244c0-1.829,0,3.316,3.313,3.316
+	c1.831,0-3.313,0-3.313,3.316c0,1.83,0-3.316-3.313-3.316C11.958,8.56,17.103,8.56,17.103,5.244z"/>
+<path opacity="0.5" fill="#433F40" stroke="#433F40" enable-background="new    " d="M74.103,22.876c0,1.83,0-3.316-3.313-3.316
+	c-1.831,0,3.313,0,3.313-3.316c0-1.829,0,3.316,3.313,3.316C79.247,19.56,74.103,19.56,74.103,22.876"/>
+<path opacity="0.5" fill="#433F40" stroke="#433F40" enable-background="new    " d="M4.27,84.313c0,1.83,0-3.315-3.313-3.315
+	c-1.831,0,3.313,0,3.313-3.316c0-1.829,0,3.316,3.313,3.316C9.415,80.998,4.27,80.998,4.27,84.313"/>
 </svg>
