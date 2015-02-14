@@ -3,7 +3,47 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="1148px" height="164px" viewBox="0 0 1148 164" enable-background="new 0 0 1148 164" xml:space="preserve">
-<line opacity="0.5" fill="none" stroke="#333333" stroke-width="7" enable-background="new    " x1="72.831" y1="12.169" x2="1029.257" y2="12.169"/>
-<line opacity="0.5" fill="none" stroke="#333333" stroke-width="7" enable-background="new    " x1="72.831" y1="43.628" x2="1029.257" y2="43.628"/>
-<line opacity="0.5" fill="none" stroke="#333333" stroke-width="7" enable-background="new    " x1="72.831" y1="75.088" x2="1029.257" y2="75.088"/>
+<g opacity="0.6">
+	<g>
+		<g>
+			<path fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="M751.027,65.48
+				c0.125-10.781,8.844-19.438,19.766-19.375c10.938,0.125,19.047,8.953,18.953,19.688c-0.125,10.781-8.375,19.188-19.312,19.062
+				C759.496,84.793,750.934,76.262,751.027,65.48z"/>
+		</g>
+		<g>
+			<path fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="M619.324,64.277
+				c0.109-10.781,8.453-19.062,19.391-18.969c10.938,0.125,19.578,8.562,19.484,19.344c-0.109,10.781-8.906,18.844-19.844,18.766
+				C627.434,83.293,619.23,75.059,619.324,64.277z"/>
+		</g>
+		<g>
+			<path fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="M485.277,63.105
+				c0.078-10.781,8.469-19.688,19.406-19.594c10.938,0.125,19.922,9.156,19.828,19.906c-0.094,10.781-9.25,19.609-20.203,19.516
+				C493.387,82.824,485.168,73.871,485.277,63.105z"/>
+		</g>
+		<g>
+			<path fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="M905.559,121.574
+				c-33.281-0.188-33.109-33.609-66.375-33.766c-33.281-0.172-33.344,15.234-66.625,15.062
+				c-33.312-0.172-33.125-30.172-66.453-30.359c-33.281-0.188-33.531,45.781-66.828,45.625
+				c-33.266-0.188-33.062-36.781-66.344-36.969c-33.281-0.172-33.406,22.312-66.688,22.125c-33.297-0.188-33.203-18.969-66.5-19.172
+				c-33.312-0.156-33.422,22.766-66.734,22.578c-33.359-0.156-33.25-26.188-66.609-26.344
+				c-33.359-0.188-33.484,27.828-66.844,27.656"/>
+		</g>
+		<g>
+			<path fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="M351.324,61.887
+				c0.109-10.781,8.609-19.016,19.547-18.938c10.938,0.125,20.484,8.516,20.406,19.297c-0.109,10.781-9.844,19.734-20.766,19.609
+				C359.574,81.793,351.23,72.668,351.324,61.887z"/>
+		</g>
+		<g>
+			<path fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="M228.746,60.793
+				c0.109-10.781,9.438-19.547,20.375-19.422c10.938,0.094,19.75,8.984,19.656,19.766c-0.109,10.781-9.109,19.922-20.031,19.812
+				C237.809,80.84,228.652,71.574,228.746,60.793z"/>
+		</g>
+		<g>
+			<path fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="M878.387,66.621
+				c0.078-10.781,9.188-19.062,20.125-18.953c10.953,0.125,20.016,8.547,19.938,19.312c-0.109,10.781-9.375,19.594-20.312,19.531
+				C887.199,86.387,878.277,77.402,878.387,66.621z"/>
+		</g>
+	</g>
+</g>
+<line opacity="0.6" fill="none" stroke="#000000" stroke-width="0.1" stroke-linecap="round" stroke-linejoin="round" x1="568.167" y1="0" x2="567.833" y2="164"/>
 </svg>
