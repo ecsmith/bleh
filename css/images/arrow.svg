@@ -4,38 +4,46 @@
 <svg version="1.1" id="Layer_1" zoomAndPan="disable"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="144px"
 	 viewBox="27.753 -2.578 40 144" enable-background="new 27.753 -2.578 40 144" xml:space="preserve">
-<polygon opacity="0.4" fill="none" stroke="#202422" stroke-width="0.5" enable-background="new    " points="62.236,102.625 
-	56.021,109.435 40.485,109.435 34.27,102.625 "/>
-<path opacity="0.4" fill="none" stroke="#202422" stroke-width="0.5" enable-background="new    " d="M51.944,58.112"/>
-<path opacity="0.4" fill="none" stroke="#202422" stroke-width="0.5" enable-background="new    " d="M44.834,58.207"/>
-<path opacity="0.4" fill="none" stroke="#202422" stroke-width="0.5" enable-background="new    " d="M42.722,65.309"/>
-<path opacity="0.4" fill="none" stroke="#202422" stroke-width="0.5" enable-background="new    " d="M48.527,69.604"/>
-<path opacity="0.4" fill="none" stroke="#202422" stroke-width="0.5" enable-background="new    " d="M54.222,65.157"/>
-<ellipse opacity="0.4" fill="none" stroke="#202422" stroke-width="0.5" enable-background="new    " cx="48.527" cy="61.553" rx="8.038" ry="8.404"/>
-<ellipse opacity="0.4" fill="none" stroke="#202422" stroke-width="0.5" enable-background="new    " cx="48.697" cy="61.717" rx="4.145" ry="4.145"/>
-<polyline opacity="0.4" fill="none" stroke="#202422" stroke-width="0.5" enable-background="new    " points="40.661,109.628 
-	48.253,117.948 55.849,109.624 "/>
-<polygon opacity="0.4" fill="none" stroke="#202422" stroke-width="0.5" enable-background="new    " points="48.36,30.426 
-	44.835,28.414 44.771,24.357 48.231,22.312 51.754,24.322 51.819,28.383 "/>
-<polygon opacity="0.4" fill="none" stroke="#202422" stroke-width="0.5" enable-background="new    " points="48.501,39.935 
-	42.332,35.743 42.218,31.484 48.511,36.322 54.553,31.484 54.553,35.676 "/>
-<polygon opacity="0.4" fill="none" stroke="#202422" stroke-width="0.5" enable-background="new    " points="48.501,47.31 
-	42.332,43.118 42.218,38.859 48.513,43.697 54.553,38.859 54.553,43.051 "/>
-<polyline opacity="0.4" fill="none" stroke="#202422" stroke-width="0.5" enable-background="new    " points="55.849,119.119 
-	47.999,124.48 40.37,119.151 "/>
-<polyline opacity="0.4" fill="none" stroke="#202422" stroke-width="0.5" enable-background="new    " points="55.849,124.119 
-	47.999,129.48 40.37,124.151 "/>
-<path opacity="0.4" fill="none" stroke="#202422" stroke-width="0.5" enable-background="new    " d="M54.879,96.496"/>
-<line opacity="0.4" fill="none" stroke="#202422" stroke-width="0.5" enable-background="new    " x1="40.199" y1="79.621" x2="48.253" y2="74.639"/>
-<line opacity="0.4" fill="none" stroke="#202422" stroke-width="0.5" enable-background="new    " x1="48.253" y1="101.883" x2="56.308" y2="96.898"/>
-<line opacity="0.4" fill="none" stroke="#202422" stroke-width="0.5" enable-background="new    " x1="40.199" y1="79.621" x2="56.308" y2="79.639"/>
-<line opacity="0.4" fill="none" stroke="#202422" stroke-width="0.5" enable-background="new    " x1="40.199" y1="96.89" x2="56.308" y2="96.906"/>
-<line opacity="0.4" fill="none" stroke="#202422" stroke-width="0.5" enable-background="new    " x1="56.308" y1="79.639" x2="40.199" y2="88.696"/>
-<line opacity="0.4" fill="none" stroke="#202422" stroke-width="0.5" enable-background="new    " x1="40.199" y1="88.696" x2="56.308" y2="88.696"/>
-<line opacity="0.4" fill="none" stroke="#202422" stroke-width="0.5" enable-background="new    " x1="56.308" y1="88.696" x2="40.199" y2="96.89"/>
-<path opacity="0.4" fill="none" stroke="#202422" stroke-width="0.5" enable-background="new    " d="M54.468,132.105"/>
-<path opacity="0.4" fill="none" stroke="#202422" stroke-width="0.5" enable-background="new    " d="M42.039,132.105"/>
-<polygon opacity="0.4" fill="none" stroke="#202422" stroke-width="0.5" points="65.753,61.717 48.591,73.885 31.376,61.643 
-	48.54,49.475 "/>
-<circle opacity="0.4" fill="none" stroke="#202422" stroke-width="0.5" stroke-miterlimit="10" cx="48.296" cy="136.297" r="3.125"/>
+<polygon opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" enable-background="new    " points="
+	62.236,102.087 56.021,108.896 40.485,108.896 34.27,102.087 "/>
+<path opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" enable-background="new    " d="
+	M51.944,57.574"/>
+<path opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" enable-background="new    " d="
+	M44.834,57.669"/>
+<path opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" enable-background="new    " d="
+	M42.722,64.771"/>
+<path opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" enable-background="new    " d="
+	M48.527,69.066"/>
+<path opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" enable-background="new    " d="
+	M54.222,64.619"/>
+<ellipse opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" enable-background="new    " cx="48.527" cy="61.015" rx="8.038" ry="8.404"/>
+<ellipse opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" enable-background="new    " cx="48.697" cy="61.179" rx="4.145" ry="4.145"/>
+<polyline opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" enable-background="new    " points="
+	40.661,109.09 48.253,117.41 55.849,109.086 "/>
+<polygon opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" enable-background="new    " points="
+	48.354,23.791 43.946,21.276 43.866,16.206 48.192,13.649 52.596,16.161 52.677,21.237 "/>
+<polygon opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" enable-background="new    " points="
+	48.565,35.812 38.926,29.523 38.749,23.135 48.582,30.392 58.021,23.135 58.021,29.424 "/>
+<polygon opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" enable-background="new    " points="
+	48.565,46.874 38.926,40.586 38.749,34.197 48.584,41.454 58.021,34.197 58.021,40.486 "/>
+<polyline opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" enable-background="new    " points="
+	57.783,116.043 47.971,122.745 38.436,116.084 "/>
+<polyline opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" enable-background="new    " points="
+	57.783,122.293 47.971,128.995 38.436,122.334 "/>
+<path opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" enable-background="new    " d="
+	M54.878,95.64"/>
+<line opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" enable-background="new    " x1="40.198" y1="78.765" x2="48.253" y2="73.782"/>
+<line opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" enable-background="new    " x1="48.253" y1="101.026" x2="56.308" y2="96.042"/>
+<line opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" enable-background="new    " x1="40.198" y1="78.765" x2="56.308" y2="78.782"/>
+<line opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" enable-background="new    " x1="40.198" y1="96.033" x2="56.308" y2="96.05"/>
+<line opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" enable-background="new    " x1="56.308" y1="78.782" x2="40.198" y2="87.84"/>
+<line opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" enable-background="new    " x1="40.198" y1="87.84" x2="56.308" y2="87.84"/>
+<line opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" enable-background="new    " x1="56.308" y1="87.84" x2="40.198" y2="96.033"/>
+<path opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" enable-background="new    " d="
+	M56.057,132.276"/>
+<path opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" enable-background="new    " d="
+	M40.521,132.276"/>
+<polygon opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" points="65.753,61.179 
+	48.591,73.347 31.376,61.104 48.54,48.937 "/>
+<circle opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" stroke-miterlimit="10" cx="48.342" cy="137.185" r="3.906"/>
 </svg>

@@ -34,8 +34,8 @@
 	77.545,0.109 "/>
 <polygon opacity="0.6" fill="none" stroke="#000000" stroke-width="0.1" stroke-miterlimit="10" points="79.624,2.109 78.584,4.031 
 	77.545,2.109 "/>
-<polygon fill="none" stroke="#000000" stroke-width="0.1" stroke-miterlimit="10" points="79.438,78.789 78.399,80.711 
-	77.36,78.789 "/>
-<polygon fill="none" stroke="#000000" stroke-width="0.1" stroke-miterlimit="10" points="79.438,76.789 78.399,78.711 
-	77.36,76.789 "/>
+<polygon opacity="0.6" fill="none" stroke="#000000" stroke-width="0.1" stroke-miterlimit="10" points="79.438,78.789 
+	78.399,80.711 77.36,78.789 "/>
+<polygon opacity="0.6" fill="none" stroke="#000000" stroke-width="0.1" stroke-miterlimit="10" points="79.438,76.789 
+	78.399,78.711 77.36,76.789 "/>
 </svg>
