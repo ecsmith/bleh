@@ -693,11 +693,15 @@ input[type="reset"]:before,
 
 			.box.style2
 			{
+
 				text-align: center;
 			}
 
 				.box.style2 header
 				{
+					border-image: url("images/border2.svg") 25% 0 25% 0 stretch  repeat;
+					border-width: 100px 0 100px 0;
+					border-style: solid 1px;
 					display: inline-block;
 					padding: 2em 3em 2em 3em;
 					margin: 0;
@@ -901,7 +905,6 @@ input[type="reset"]:before,
 		padding: 5em 0 5em 0;
 		margin: 0;
 		border-image: url("images/diagonal.svg") 25% 0 25% 0 stretch repeat;
-		/*border-image-slice: 50% 0 50% 0;*/
 		border-width: 100px 0 100px 0;
 		border-style: solid 1px;
 		/*background-size: 100% auto;*/
