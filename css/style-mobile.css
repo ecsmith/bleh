@@ -249,6 +249,9 @@
 	{
 		padding: 3em 2em 3em 2em;
 		background-size: auto 150%;
+		border-image: url("images/diagonal-mobile.svg") 25% 0 25% 0 stretch repeat;
+		border-width: 100px 0 100px 0;
+		border-style: solid 1px;
 	}
 
 		#banner header

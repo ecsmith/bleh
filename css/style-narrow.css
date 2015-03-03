@@ -107,3 +107,44 @@
 		{
 			display: none;
 		}
+		.box:before
+			{
+				content: '';
+				display: block;
+				width: 77px;
+				height: 80px;
+				position: absolute;
+				left: 50%;
+				top: -9em;
+				margin-left: -38.5px;
+				margin-bottom: -33px;
+				background: url('images/arrow-small
+					.svg') no-repeat;
+			}
+			#header footer:before
+			{
+				content: '';
+				display: block;
+				width: 77px;
+				height: 80px;
+				position: absolute;
+				left: 50%;
+				top: 100%;
+				margin-left: -38.5px;
+				margin-bottom: -33px;
+				background: url('images/arrow-small.svg') center no-repeat;
+			}
+			#banner
+				{
+		position: relative;
+		color: rgba(32, 36, 33, 0.99);
+		text-shadow: 0 0 0.5px rgba(255,255,255,0.25);
+		text-align: center;
+		width: 100%;
+		padding: 5em 0 5em 0;
+		margin: 0;
+		border-image: url("images/diagonal-narrow.svg") 25% 0 25% 0 stretch repeat;
+		border-width: 100px 0 100px 0;
+		border-style: solid 1px;
+		/*background-size: 100% auto;*/
+	}
