@@ -1,5 +1,5 @@
 @charset 'UTF-8';
-@import url('http://fonts.googleapis.com/css?family=Pathway+Gothic+One:300,300italic,400,600');
+@import url('http://fonts.googleapis.com/css?family=Pathway+Gothic+One:300,300italic,400,600|Old+Standard+TT|Vollkorn');
 @import url('font-awesome.min.css');
 
 /*
@@ -10,7 +10,7 @@
 
 /*********************************************************************************/
 /* Basic                                                                         */
-/*********************************************************************************/
+
 
 	body
 	{
@@ -140,7 +140,7 @@
 
 	p, ul, ol, dl, table
 	{
-		font-family: 'Pathway Gothic One', sans-serif;
+		font-family: 'Old Standard TT', sans-serif;
 		margin-bottom: 1em;
 	}
 
@@ -533,7 +533,7 @@ input[type="reset"]:before,
 			.button.style2
 			{
 				font-style: italic;
-				font-family: 'Pathway Gothic One', sans-serif;
+				font-family: 'Vollkorn', sans-serif;
 				background: none;
 				color: #3a3939;
 				box-shadow: inset 0 0 1px 0 #dad9d9;
@@ -556,7 +556,7 @@ input[type="reset"]:before,
 			.button.style3
 			{
 				font-style: italic;
-				font-family: 'Pathway Gothic One', sans-serif;
+				font-family: 'Vollkorn', sans-serif;
 
 				background: none;
 				color: #3a3939;
