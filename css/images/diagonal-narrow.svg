@@ -16,7 +16,7 @@
 		150.39,10.241 152.572,8.241 154.75,10.241 156.931,8.241 159.116,10.241 161.297,8.241 163.483,10.241 165.67,8.241 
 		167.859,10.241 	"/>
 </g>
-<line opacity="0" fill="none" stroke="#000000" stroke-width="0.1" enable-background="new    " x1="78.494" y1="0" x2="78.494" y2="8.293"/>
+<line opacity="0.6" fill="none" stroke="#000000" stroke-width="0.1" enable-background="new    " x1="78.494" y1="0" x2="78.494" y2="8.293"/>
 <g>
 	<polyline fill="none" stroke="#000000" stroke-width="0.1" points="-6.381,69.241 -4.211,71.241 -2.041,69.241 0.13,71.241 
 		2.301,69.241 4.472,71.241 6.644,69.241 8.816,71.241 10.99,69.241 13.164,71.241 15.34,69.241 17.518,71.241 19.694,69.241 
@@ -30,10 +30,6 @@
 		152.5,71.241 154.681,69.241 156.86,71.241 159.042,69.241 161.224,71.241 163.409,69.241 165.592,71.241 167.782,69.241 
 		169.967,71.241 	"/>
 </g>
-<polygon opacity="0.6" fill="none" stroke="#000000" stroke-width="0.1" stroke-miterlimit="10" points="79.624,0.109 78.584,2.031 
-	77.545,0.109 "/>
-<polygon opacity="0.6" fill="none" stroke="#000000" stroke-width="0.1" stroke-miterlimit="10" points="79.624,2.109 78.584,4.031 
-	77.545,2.109 "/>
 <polygon opacity="0.6" fill="none" stroke="#000000" stroke-width="0.1" stroke-miterlimit="10" points="79.438,78.789 
 	78.399,80.711 77.36,78.789 "/>
 <polygon opacity="0.6" fill="none" stroke="#000000" stroke-width="0.1" stroke-miterlimit="10" points="79.438,76.789 

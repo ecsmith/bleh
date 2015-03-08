@@ -111,12 +111,12 @@
 			{
 				content: '';
 				display: block;
-				width: 77px;
-				height: 80px;
+				width: 59px;
+				height: 46px;
 				position: absolute;
 				left: 50%;
 				top: -9em;
-				margin-left: -38.5px;
+				margin-left: -29.5px;
 				margin-bottom: -33px;
 				background: url('images/arrow-small
 					.svg') no-repeat;
@@ -125,12 +125,12 @@
 			{
 				content: '';
 				display: block;
-				width: 77px;
-				height: 80px;
+				width: 59px;
+				height: 46px;
 				position: absolute;
 				left: 50%;
-				top: 100%;
-				margin-left: -38.5px;
+				top: 175%;
+				margin-left: -29.5px;
 				margin-bottom: -33px;
 				background: url('images/arrow-small.svg') center no-repeat;
 			}
