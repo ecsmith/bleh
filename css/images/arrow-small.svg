@@ -4,8 +4,8 @@
 <svg version="1.1" id="Layer_1" zoomAndPan="disable"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="59px" height="46px"
 	 viewBox="30.747 32.993 59 46" enable-background="new 30.747 32.993 59 46" xml:space="preserve">
-<line fill="none" stroke="#202422" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="36.035" y1="54.094" x2="82.997" y2="54.094"/>
-<line fill="none" stroke="#000000" stroke-width="0.5" x1="31.322" y1="33.5" x2="60.247" y2="78.5"/>
-<line fill="none" stroke="#000000" stroke-width="0.5" x1="89.172" y1="33.5" x2="60.247" y2="78.5"/>
-<line fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" stroke-miterlimit="10" x1="31.647" y1="33.715" x2="89.172" y2="33.715"/>
+<line fill="none" stroke="#202422" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="36.035" y1="55.094" x2="82.997" y2="55.094"/>
+<line fill="none" stroke="#000000" stroke-width="0.25" x1="31.322" y1="33.5" x2="60.247" y2="78.5"/>
+<line fill="none" stroke="#000000" stroke-width="0.25" x1="89.172" y1="33.5" x2="60.247" y2="78.5"/>
+<line fill="none" stroke="#202422" stroke-width="0.25" stroke-linejoin="round" stroke-miterlimit="10" x1="31.647" y1="33.715" x2="89.172" y2="33.715"/>
 </svg>
