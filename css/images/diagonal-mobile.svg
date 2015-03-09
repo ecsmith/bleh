@@ -30,9 +30,6 @@
 		152.5,71.241 154.682,69.241 156.859,71.241 159.042,69.241 161.225,71.241 163.409,69.241 165.592,71.241 167.782,69.241 
 		169.967,71.241 	"/>
 </g>
-<polygon opacity="0.6" fill="none" stroke="#000000" stroke-width="0.1" stroke-miterlimit="10" enable-background="new    " points="
-	79.438,78.789 78.398,80.711 77.359,78.789 "/>
-<polygon opacity="0.6" fill="none" stroke="#000000" stroke-width="0.1" stroke-miterlimit="10" enable-background="new    " points="
-	79.438,76.789 78.398,78.711 77.359,76.789 "/>
 <line fill="none" stroke="#000000" stroke-width="0.05" stroke-linecap="square" enable-background="new    " x1="48.041" y1="0" x2="48.041" y2="8.293"/>
+<line fill="none" stroke="#000000" stroke-width="0.05" stroke-linecap="square" enable-background="new    " x1="48.041" y1="71.241" x2="48.041" y2="80.75"/>
 </svg>

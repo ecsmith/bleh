@@ -4,12 +4,17 @@
 <svg version="1.1" id="Layer_1" zoomAndPan="disable"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="59px" height="46px"
 	 viewBox="30.747 32.993 59 46" enable-background="new 30.747 32.993 59 46" xml:space="preserve">
-<path fill="none" stroke="#202422" stroke-width="0.25" stroke-linejoin="round" enable-background="new    " d="M63.938,46.074"/>
-<path fill="none" stroke="#202422" stroke-width="0.25" stroke-linejoin="round" enable-background="new    " d="M56.828,46.169"/>
-<path fill="none" stroke="#202422" stroke-width="0.25" stroke-linejoin="round" enable-background="new    " d="M54.717,53.271"/>
-<path fill="none" stroke="#202422" stroke-width="0.25" stroke-linejoin="round" enable-background="new    " d="M66.217,53.119"/>
-<ellipse fill="none" stroke="#202422" stroke-width="0.25" stroke-linejoin="round" enable-background="new    " cx="60.597" cy="60.493" rx="12.055" ry="12.606"/>
-<ellipse fill="none" stroke="#202422" stroke-width="0.25" stroke-linejoin="round" enable-background="new    " cx="60.851" cy="60.739" rx="6.218" ry="6.218"/>
-<polygon fill="none" stroke="#202422" stroke-width="0.25" stroke-linejoin="round" enable-background="new    " points="
+<path opacity="0.6" fill="none" stroke="#202422" stroke-width="0.25" stroke-linejoin="round" enable-background="new    " d="
+	M63.938,46.074"/>
+<path opacity="0.6" fill="none" stroke="#202422" stroke-width="0.25" stroke-linejoin="round" enable-background="new    " d="
+	M56.828,46.169"/>
+<path opacity="0.6" fill="none" stroke="#202422" stroke-width="0.25" stroke-linejoin="round" enable-background="new    " d="
+	M54.717,53.271"/>
+<path opacity="0.6" fill="none" stroke="#202422" stroke-width="0.25" stroke-linejoin="round" enable-background="new    " d="
+	M66.217,53.119"/>
+<ellipse opacity="0.6" fill="none" stroke="#202422" stroke-width="0.25" stroke-linejoin="round" enable-background="new    " cx="60.597" cy="60.493" rx="12.055" ry="12.606"/>
+<ellipse opacity="0.6" fill="none" stroke="#202422" stroke-width="0.25" stroke-linejoin="round" enable-background="new    " cx="60.851" cy="60.739" rx="6.218" ry="6.218"/>
+<polygon opacity="0.6" fill="none" stroke="#202422" stroke-width="0.25" stroke-linejoin="round" enable-background="new    " points="
 	86.435,60.739 60.691,78.992 34.869,60.627 60.615,42.376 "/>
+<line fill="none" stroke="#202422" stroke-width="0.25" stroke-linejoin="round" x1="48.538" y1="47.887" x2="74.497" y2="73.625"/>
 </svg>
