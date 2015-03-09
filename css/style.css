@@ -718,7 +718,7 @@ input[type="reset"]:before,
 					padding: 40px 0 0px 0;
 				}
 
-					.box.style2 .inner:after
+					.box.style2 .gallery:after
 					{
 						content: '';
 						display: block;
