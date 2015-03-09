@@ -2,8 +2,8 @@
 <!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" zoomAndPan="disable"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="144px"
-	 viewBox="0 0 40 144" enable-background="new 0 0 40 144" xml:space="preserve">
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="166px"
+	 viewBox="0 -22.25 40 166" enable-background="new 0 -22.25 40 166" xml:space="preserve">
 <polygon opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" enable-background="new    " points="
 	34.483,103.087 28.269,109.896 12.731,109.896 6.517,103.087 "/>
 <path opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" enable-background="new    " d="
@@ -21,15 +21,15 @@
 <polyline opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" enable-background="new    " points="
 	12.908,110.09 20.5,118.41 28.097,110.086 "/>
 <polygon opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" enable-background="new    " points="
-	20.593,24.382 15.744,21.616 15.657,16.04 20.415,13.226 25.26,15.99 25.349,21.573 "/>
+	20.593,-0.793 15.744,-3.56 15.657,-9.136 20.415,-11.949 25.26,-9.186 25.349,-3.603 "/>
 <path opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" enable-background="new    " d="
-	M31.228,21.46"/>
+	M31.228-3.715"/>
 <path opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" enable-background="new    " d="
-	M26.904,24.785"/>
+	M26.904-0.391"/>
 <polyline opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" enable-background="new    " points="
-	20.825,35.406 6.87,27.087 6.87,10.175 11.545,13.681 11.622,24.382 20.845,29.444 "/>
+	20.825,10.23 6.87,1.912 6.87,-15 11.545,-11.494 11.622,-0.793 20.845,4.269 "/>
 <polygon opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" enable-background="new    " points="
-	20.825,47.574 10.223,40.657 10.028,33.629 20.847,41.612 31.228,33.629 31.228,40.547 "/>
+	20.825,22.398 10.223,15.481 10.028,8.454 20.847,16.437 31.228,8.454 31.228,15.372 "/>
 <polyline opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" enable-background="new    " points="
 	30.03,117.043 20.218,123.745 10.683,117.084 "/>
 <polyline opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" enable-background="new    " points="
@@ -51,7 +51,17 @@
 	38,62.179 20.838,74.348 3.623,62.104 20.787,49.937 "/>
 <circle opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" stroke-miterlimit="10" enable-background="new    " cx="20.589" cy="138.185" r="3.906"/>
 <polyline opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" enable-background="new    " points="
-	20.503,29.444 29.725,24.382 29.803,13.681 34.478,10.175 34.478,27.087 20.522,35.406 "/>
-<line opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" x1="15.657" y1="16.04" x2="20.629" y2="18.804"/>
-<line opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" x1="25.26" y1="15.99" x2="20.207" y2="18.804"/>
+	20.503,4.269 29.725,-0.793 29.803,-11.494 34.478,-15 34.478,1.912 20.522,10.23 "/>
+<line opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" x1="15.657" y1="-9.136" x2="20.629" y2="-6.371"/>
+<line opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" x1="25.26" y1="-9.186" x2="20.207" y2="-6.371"/>
+<path opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" enable-background="new    " d="
+	M27.714,44.249"/>
+<line opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" enable-background="new    " x1="29.089" y1="27.374" x2="21.034" y2="22.39"/>
+<line opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" enable-background="new    " x1="21.089" y1="49.633" x2="29.145" y2="44.65"/>
+<line opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" enable-background="new    " x1="29.145" y1="44.65" x2="29.145" y2="27.39"/>
+<path opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" enable-background="new    " d="
+	M14.203,27.783"/>
+<line opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" enable-background="new    " x1="12.828" y1="44.658" x2="20.883" y2="49.642"/>
+<line opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" enable-background="new    " x1="20.828" y1="22.398" x2="12.772" y2="27.382"/>
+<line opacity="0.6" fill="none" stroke="#202422" stroke-width="0.5" stroke-linejoin="round" enable-background="new    " x1="12.772" y1="27.382" x2="12.772" y2="44.642"/>
 </svg>
