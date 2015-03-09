@@ -34,6 +34,6 @@
 		359.495,76.264 487.493,156.264 615.492,76.264 743.491,156.264 871.495,76.264 999.5,156.264 	"/>
 </g>
 <circle opacity="0.6" fill="none" stroke="#333333" stroke-width="3" stroke-linecap="round" cx="564.5" cy="81.863" r="37.5"/>
-<line fill="none" stroke="#333333" stroke-width="4" x1="564.5" y1="162.483" x2="564.5" y2="1.242"/>
+<line fill="none" stroke="#000000" stroke-width="5" x1="564.5" y1="162.483" x2="564.5" y2="1.242"/>
 <line opacity="0.6" fill="none" stroke="#333333" stroke-width="3" stroke-linecap="round" x1="311" y1="81.263" x2="834.5" y2="81.263"/>
 </svg>
