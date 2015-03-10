@@ -111,6 +111,7 @@
 
 		a:hover
 		{
+			font-weight: bolder;
 			border-bottom-color: rgba(53,184,143,0);
 		}
 
@@ -602,18 +603,31 @@ input[type="reset"]:before,
 				border-left: solid 1px rgba(67,63,64,0.5);
 			}
 
-			.box:before
+			/*.box:before
 			{
 				content: '';
 				display: block;
 				width: 40px;
-				height: 166px;
+				height: 192px;
 				position: absolute;
 				left: 50%;
 				top: -9em;
 				margin-left: -20px;
 				margin-bottom: -33px;
 				background: url('images/arrow.svg') no-repeat;
+			}*/
+			.box:before {
+				content: '';
+				display: block;
+				width: 59px;
+				height: 46px;
+				position: absolute;
+				left: 50%;
+				top: -5em;
+				margin-left: -29.5px;
+				margin-bottom: -33px;
+				background: url('images/arrow-small.svg') center no-repeat;
+				z-index: 999;
 			}
 
 			.box :last-child
@@ -885,15 +899,29 @@ input[type="reset"]:before,
 			{
 				content: '';
 				display: block;
+				width: 59px;
+				height: 46px;
+				position: absolute;
+				left: 50%;
+				top: 175%;
+				margin-left: -29.5px;
+				margin-bottom: -33px;
+				background: url('images/arrow-small.svg') center no-repeat;
+				z-index: 999;
+			}
+			/*#header footer:before
+			{
+				content: '';
+				display: block;
 				width: 40px;
-				height: 166px;
+				height: 192px;
 				position: absolute;
 				left: 50%;
 				top: 100%;
 				margin-left: -20px;
 				margin-bottom: -33px;
 				background: url('images/arrow.svg') center no-repeat;
-			}
+			}*/
 
 /*********************************************************************************/
 /* Banner                                                                        */
@@ -909,7 +937,7 @@ input[type="reset"]:before,
 		padding: 5em 0 5em 0;
 		margin: 0;
 		border-image: url("images/diagonal.svg") 25% 0 25% 0 stretch repeat;
-		border-width: 100px 0 100px 0;
+		border-width: 80px 0 80px 0;
 		border-style: solid 1px;
 		/*background-size: 100% auto;*/
 	}
