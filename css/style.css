@@ -906,7 +906,7 @@ input[type="reset"]:before,
 				top: 175%;
 				margin-left: -29.5px;
 				margin-bottom: -33px;
-				background: url('images/arrow-small.svg') center no-repeat;
+				background: url('images/arrow-small-header.svg') center no-repeat;
 				z-index: 999;
 			}
 			/*#header footer:before
