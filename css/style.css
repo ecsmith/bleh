@@ -861,7 +861,7 @@ input[type="reset"]:before,
 					content: '';
 					display: block;
 					border-image: url("images/border.svg") 100% 0 100% 0 repeat;
-					border-width: 0 0 25px;
+					border-width: 0 0 45px;
 					border-style: solid;
 					position: relative;
 
