@@ -107,7 +107,7 @@
 		{
 			display: none;
 		}
-		.box:before
+		/*.box:before
 			{
 				content: '';
 				display: block;
@@ -133,7 +133,7 @@
 				margin-left: -29.5px;
 				margin-bottom: -33px;
 				background: url('images/arrow-small.svg') center no-repeat;
-			}
+			}*/
 			#banner
 				{
 		position: relative;
