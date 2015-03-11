@@ -865,6 +865,7 @@ input[type="reset"]:before,
 					border-style: solid;
 					position: relative;
 
+
 					/*height: 10px;*/
 					/*background-image: linear-gradient(45deg, rgba(13, 13, 13, 0), rgba(13, 13, 13, 0) 33.33%, #0d0d0d 33.33%, #0d0d0d 66.67%, rgba(13, 13, 13, 0) 66.67%, rgba(13, 13, 13, 0) 100%);*/
 					/*background-size: 10px 100%;*/
@@ -875,6 +876,19 @@ input[type="reset"]:before,
 					margin: 4px 0 1em 0;
 				}
 
+
+				/*#header h1:after
+				{
+
+				content: '';
+				display: block;
+				position: absolute;
+				bottom: 4em;
+				left: 50%;
+				height: 10em;
+				border-left: solid 1px rgba(67,63,64,0.5);
+	
+				}*/
 
 		#header footer
 		{
