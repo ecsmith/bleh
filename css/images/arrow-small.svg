@@ -13,7 +13,7 @@
 <polygon fill="none" stroke="#000000" stroke-width="0.8" points="4,1.792 55.023,1.834 29.478,44.654 "/>
 <line fill="none" stroke="#202422" stroke-width="0.75" stroke-linejoin="round" x1="4" y1="1.792" x2="29.512" y2="20.008"/>
 <line fill="none" stroke="#202422" stroke-width="0.75" stroke-linejoin="round" x1="29.512" y1="20.008" x2="55.023" y2="1.792"/>
-<g>
+<g opacity="0">
 	<g>
 		<line fill="none" stroke="#000000" stroke-width="0.5" stroke-linejoin="round" x1="6.381" y1="5.506" x2="15.332" y2="11.425"/>
 		<line fill="none" stroke="#000000" stroke-width="0.5" stroke-linejoin="round" x1="8.48" y1="9.048" x2="16.75" y2="14.506"/>
