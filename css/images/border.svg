@@ -52,8 +52,8 @@
 	
 		<line fill="none" stroke="#000000" stroke-width="0.5" stroke-linejoin="round" x1="-69.423" y1="109.328" x2="-71.551" y2="110.629"/>
 </g>
-<circle fill="#202422" stroke="#202422" cx="290.033" cy="68.133" r="2.5"/>
-<circle fill="#202422" stroke="#202422" cx="290.033" cy="9.133" r="2.5"/>
+<circle fill="#202422" stroke="#202422" cx="292.256" cy="168.5" r="2.5"/>
+<circle fill="#202422" stroke="#202422" cx="292.533" cy="135.5" r="2.5"/>
 <polygon fill="#202422" stroke="#202422" points="292.533,199.25 295.997,205.25 289.069,205.25 "/>
-<circle fill="#202422" stroke="#202422" cx="290.588" cy="-20.867" r="2.5"/>
+<circle fill="#202422" stroke="#202422" cx="292.256" cy="106" r="2.5"/>
 </svg>
