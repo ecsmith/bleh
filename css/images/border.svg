@@ -2,53 +2,58 @@
 <!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="574px" height="82px" viewBox="0 0 574 82" enable-background="new 0 0 574 82" xml:space="preserve">
-<polyline fill="none" stroke="#000000" stroke-width="1.5" points="254.482,144.297 287.178,90 323.372,144.295 "/>
-<polyline fill="none" stroke="#000000" points="254.824,144.297 287.52,158.871 323.714,144.295 "/>
+	 width="83.996px" height="311px" viewBox="249.092 -105.75 83.996 311" enable-background="new 249.092 -105.75 83.996 311"
+	 xml:space="preserve">
+<polyline fill="none" stroke="#000000" stroke-width="1.5" points="-93.112,144.93 -60.416,90.633 -24.222,144.928 "/>
+<polyline fill="none" stroke="#000000" points="-92.77,144.93 -60.074,159.504 -23.88,144.928 "/>
 <g>
-	<path fill="none" stroke="#000000" stroke-width="0.75" stroke-linejoin="round" d="M272.949,157.488"/>
-	<path fill="none" stroke="#000000" stroke-width="0.75" stroke-linejoin="round" d="M257.848,148.244"/>
-	<path fill="none" stroke="#000000" stroke-width="0.75" stroke-linejoin="round" d="M261.514,153.959"/>
+	<path fill="none" stroke="#000000" stroke-width="0.75" stroke-linejoin="round" d="M-74.645,158.121"/>
+	<path fill="none" stroke="#000000" stroke-width="0.75" stroke-linejoin="round" d="M-89.746,148.877"/>
+	<path fill="none" stroke="#000000" stroke-width="0.75" stroke-linejoin="round" d="M-86.08,154.592"/>
 </g>
 <g>
-	<path fill="none" stroke="#000000" stroke-width="0.75" stroke-linejoin="round" d="M319.171,149.746"/>
-	<path fill="none" stroke="#000000" stroke-width="0.75" stroke-linejoin="round" d="M304.07,157.488"/>
-	<path fill="none" stroke="#000000" stroke-width="0.75" stroke-linejoin="round" d="M315.507,155.459"/>
+	<path fill="none" stroke="#000000" stroke-width="0.75" stroke-linejoin="round" d="M-28.423,150.379"/>
+	<path fill="none" stroke="#000000" stroke-width="0.75" stroke-linejoin="round" d="M-43.523,158.121"/>
+	<path fill="none" stroke="#000000" stroke-width="0.75" stroke-linejoin="round" d="M-32.087,156.092"/>
 </g>
-<path fill="none" stroke="#000000" d="M287.52,158.871"/>
-<line fill="none" stroke="#000000" x1="287.52" y1="91.37" x2="287.52" y2="158.871"/>
-<line fill="none" stroke="#000000" stroke-width="0.75" stroke-linejoin="round" x1="288.227" y1="155.943" x2="283.945" y2="153.959"/>
-<line fill="none" stroke="#000000" stroke-width="0.75" stroke-linejoin="round" x1="288.759" y1="147.471" x2="285.891" y2="146.547"/>
-<line fill="none" stroke="#000000" stroke-width="0.75" stroke-linejoin="round" x1="291.486" y1="153.959" x2="286.945" y2="155.459"/>
-<line fill="none" stroke="#000000" stroke-width="0.75" stroke-linejoin="round" x1="289.727" y1="151.443" x2="285.445" y2="149.459"/>
-<path fill="#202224" stroke="#202422" stroke-width="0.5" stroke-miterlimit="10" stroke-opacity="0" d="M279.895,63.809
+<path fill="none" stroke="#000000" d="M-60.074,159.504"/>
+<line fill="none" stroke="#000000" x1="-60.074" y1="92.003" x2="-60.074" y2="159.504"/>
+<line fill="none" stroke="#000000" stroke-width="0.75" stroke-linejoin="round" x1="-59.367" y1="156.576" x2="-63.649" y2="154.592"/>
+<line fill="none" stroke="#000000" stroke-width="0.75" stroke-linejoin="round" x1="-58.835" y1="148.104" x2="-61.703" y2="147.18"/>
+<line fill="none" stroke="#000000" stroke-width="0.75" stroke-linejoin="round" x1="-56.107" y1="154.592" x2="-60.649" y2="156.092"/>
+<line fill="none" stroke="#000000" stroke-width="0.75" stroke-linejoin="round" x1="-57.867" y1="152.076" x2="-62.149" y2="150.092"/>
+<path fill="#202224" stroke="#202422" stroke-width="0.5" stroke-miterlimit="10" stroke-opacity="0" d="M-67.699,124.441
 	c-2.401-4.736-0.512-10.519,4.228-12.922c1.67-0.847,4.587-1.203,6.975-0.549c1.43,0.393,2.66,1.398,3.344,2.188
 	c1.125,1.304-2.854,0.158-4.5,0.648c-1.029,0.307-2.199,1.09-2.974,1.997c-0.736,0.866-1.332,2.169-1.453,3.252
 	c-0.152,1.358,0.787,2.979,1.051,3.499c0.285,0.562,1.15,1.377,2.362,1.925c0.836,0.378,2.893,0.189,3.909,0.089
 	c1.203-0.121,2.078-1.175,3.062-1.926c1.504-1.15,1.037-3.48,1.434-2.327c0.889,2.589-1.882,7.02-4.514,8.351
-	C288.078,70.436,282.293,68.542,279.895,63.809z"/>
+	C-59.516,131.068-65.301,129.175-67.699,124.441z"/>
 <g>
 	
-		<line fill="none" stroke="#000000" stroke-width="0.5" stroke-linejoin="round" x1="263.991" y1="139.495" x2="255.04" y2="145.414"/>
+		<line fill="none" stroke="#000000" stroke-width="0.5" stroke-linejoin="round" x1="-83.603" y1="140.128" x2="-92.554" y2="146.047"/>
 	
-		<line fill="none" stroke="#000000" stroke-width="0.5" stroke-linejoin="round" x1="265.409" y1="136.414" x2="257.139" y2="141.872"/>
+		<line fill="none" stroke="#000000" stroke-width="0.5" stroke-linejoin="round" x1="-82.185" y1="137.047" x2="-90.455" y2="142.505"/>
 	
-		<line fill="none" stroke="#000000" stroke-width="0.5" stroke-linejoin="round" x1="266.827" y1="133.335" x2="259.239" y2="138.331"/>
+		<line fill="none" stroke="#000000" stroke-width="0.5" stroke-linejoin="round" x1="-80.767" y1="133.968" x2="-88.354" y2="138.964"/>
 	
-		<line fill="none" stroke="#000000" stroke-width="0.5" stroke-linejoin="round" x1="268.246" y1="130.255" x2="261.34" y2="134.789"/>
+		<line fill="none" stroke="#000000" stroke-width="0.5" stroke-linejoin="round" x1="-79.348" y1="130.888" x2="-86.254" y2="135.422"/>
 	
-		<line fill="none" stroke="#000000" stroke-width="0.5" stroke-linejoin="round" x1="269.664" y1="127.176" x2="263.439" y2="131.247"/>
+		<line fill="none" stroke="#000000" stroke-width="0.5" stroke-linejoin="round" x1="-77.93" y1="127.809" x2="-84.154" y2="131.88"/>
 	
-		<line fill="none" stroke="#000000" stroke-width="0.5" stroke-linejoin="round" x1="271.082" y1="124.096" x2="265.541" y2="127.705"/>
+		<line fill="none" stroke="#000000" stroke-width="0.5" stroke-linejoin="round" x1="-76.512" y1="124.729" x2="-82.053" y2="128.338"/>
 	
-		<line fill="none" stroke="#000000" stroke-width="0.5" stroke-linejoin="round" x1="272.499" y1="121.016" x2="267.641" y2="124.163"/>
+		<line fill="none" stroke="#000000" stroke-width="0.5" stroke-linejoin="round" x1="-75.095" y1="121.648" x2="-79.953" y2="124.796"/>
 	
-		<line fill="none" stroke="#000000" stroke-width="0.5" stroke-linejoin="round" x1="273.917" y1="117.936" x2="269.741" y2="120.621"/>
+		<line fill="none" stroke="#000000" stroke-width="0.5" stroke-linejoin="round" x1="-73.677" y1="118.568" x2="-77.853" y2="121.254"/>
 	
-		<line fill="none" stroke="#000000" stroke-width="0.5" stroke-linejoin="round" x1="275.335" y1="114.855" x2="271.843" y2="117.08"/>
+		<line fill="none" stroke="#000000" stroke-width="0.5" stroke-linejoin="round" x1="-72.259" y1="115.488" x2="-75.751" y2="117.713"/>
 	
-		<line fill="none" stroke="#000000" stroke-width="0.5" stroke-linejoin="round" x1="276.753" y1="111.775" x2="273.942" y2="113.538"/>
+		<line fill="none" stroke="#000000" stroke-width="0.5" stroke-linejoin="round" x1="-70.841" y1="112.408" x2="-73.651" y2="114.171"/>
 	
-		<line fill="none" stroke="#000000" stroke-width="0.5" stroke-linejoin="round" x1="278.171" y1="108.695" x2="276.043" y2="109.996"/>
+		<line fill="none" stroke="#000000" stroke-width="0.5" stroke-linejoin="round" x1="-69.423" y1="109.328" x2="-71.551" y2="110.629"/>
 </g>
+<circle fill="#202422" stroke="#202422" cx="290.033" cy="68.133" r="2.5"/>
+<circle fill="#202422" stroke="#202422" cx="290.033" cy="9.133" r="2.5"/>
+<polygon fill="#202422" stroke="#202422" points="292.533,199.25 295.997,205.25 289.069,205.25 "/>
+<circle fill="#202422" stroke="#202422" cx="290.588" cy="-20.867" r="2.5"/>
 </svg>

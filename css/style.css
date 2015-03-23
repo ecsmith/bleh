@@ -889,11 +889,25 @@ margin-top: 0.35em;
 	/*content: '';
 	display: block;
 	position: absolute;
+	top: -10em;
+	bottom: 1em;
 	border-image: url("images/border.svg") 100% 0 100% 0 ;
-	border-width: 0 0 28px;
+	border-width: 0 0 130px;
 	border-style: solid;
 	position: relative;
 	margin: 4px 0 1em 0;*/
+
+	content: '';
+	display: block;
+	width: 84px;
+	height: 311px;
+	position: absolute;
+	left: 50%;
+	top: 0;
+	margin-left: -42px;
+	margin-bottom: -33px;
+	background: url('images/border.svg') center no-repeat;
+	z-index: 999;
 }
 
 

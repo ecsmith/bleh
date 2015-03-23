@@ -52,6 +52,10 @@
 			<line fill="none" stroke="#000000" stroke-width="0.5" stroke-linejoin="round" x1="27.046" y1="26.025" x2="28.715" y2="27.008"/>
 	</g>
 </g>
-<polygon fill="#FFFFF8" stroke="#FFFFF8" stroke-width="0.5" stroke-linejoin="round" points="29.857,17.863 21.09,11.34 
-	20.824,1.417 38.34,1.417 38.34,11.506 "/>
+<polygon fill="#FFFFF8" stroke="#FFFFF8" stroke-width="0.5" stroke-linejoin="round" points="29.857,17.863 6.669,1.062 
+	20.938,1.062 38.176,1.062 53.25,1.062 "/>
+<polygon fill="#FFFFF8" stroke="#FFFFF8" stroke-width="0.5" stroke-linejoin="round" points="29.398,41.25 6.669,3.13 
+	28.375,18.673 "/>
+<polyline fill="#FFFFF8" stroke="#FFFFF8" stroke-width="0.5" stroke-linejoin="round" points="53,3.13 30.271,41.25 30.732,19.331 
+	"/>
 </svg>
