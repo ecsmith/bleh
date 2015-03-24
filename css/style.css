@@ -19,7 +19,7 @@
 	body
 	{
 		background-color:		#FFFFF8;
-		background-image:		url('images/overlay.png'),			url('../images/bg-mirror.svg');
+		background-image:		url('images/overlay3.png'),			url('../images/bg-mirror.svg');
 		background-repeat:		repeat,								no-repeat;
 		background-size:		auto,								cover;
 		background-position: 	top left,							center 0;
