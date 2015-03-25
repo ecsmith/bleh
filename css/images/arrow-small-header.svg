@@ -2,8 +2,8 @@
 <!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" zoomAndPan="disable"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="59px" height="46px"
-	 viewBox="0 0 59 46" enable-background="new 0 0 59 46" xml:space="preserve">
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="59px" height="98px"
+	 viewBox="0 -52.229 59 98" enable-background="new 0 -52.229 59 98" xml:space="preserve">
 <path opacity="0.6" fill="none" stroke="#202422" stroke-width="0.25" stroke-linejoin="round" enable-background="new    " d="
 	M5.035,26.301"/>
 <path opacity="0.6" fill="none" stroke="#202422" stroke-width="0.25" stroke-linejoin="round" enable-background="new    " d="
@@ -52,4 +52,6 @@
 			<line fill="none" stroke="#000000" stroke-width="0.5" stroke-linejoin="round" x1="27.046" y1="26.025" x2="28.715" y2="27.008"/>
 	</g>
 </g>
+<circle fill="#202422" stroke="#202422" cx="29.801" cy="-20.93" r="2.75"/>
+<polygon fill="#202422" stroke="#202422" points="29.499,-45.057 25.689,-51.657 33.311,-51.657 "/>
 </svg>
