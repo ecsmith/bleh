@@ -89,7 +89,7 @@
 </g>
 <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="384.6118" y1="404.9434" x2="384.6118" y2="618" gradientTransform="matrix(1 0 0 -1 12 584)">
 	<stop  offset="0" style="stop-color:#ACD2CA"/>
-	<stop  offset="1" style="stop-color:#ACD2CA"/>
+	<stop  offset="1" style="stop-color:#B6DFCA"/>
 </linearGradient>
 <rect x="-38.794" y="-34" fill="url(#SVGID_1_)" stroke="#ACD2CA" width="870.812" height="213.056"/>
 <polyline opacity="0.25" fill="none" stroke="#000000" stroke-width="0.25" enable-background="new    " points="-45.143,244.871 

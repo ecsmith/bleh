@@ -494,7 +494,9 @@ input[type="submit"],
 input[type="reset"],
 .button
 {
-	font-family: 'Old Standard TT', sans-serif;
+	font-family: 'Bebas Neue', sans-serif;
+	letter-spacing: 0.1em;
+	font-size: 14pt;
 	z-index: 999;
 	-webkit-appearance: none;
 	position: relative;
