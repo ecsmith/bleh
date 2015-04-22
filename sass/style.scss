@@ -1409,11 +1409,11 @@
 		@include vendor('transition', 'background-color #{_duration(transitions)} ease');
 		background: _palette(bg);
 		height: 3em;
-		left: 10%;
+		left: 5%;
 		line-height: 3em;
 		position: fixed;
 		top: 0;
-		width: 80%;
+		width: 90%;
 		z-index: _misc(z-index-base);
 
 		h1 {

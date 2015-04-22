@@ -3549,11 +3549,11 @@ body.is-menu-visible #menu {
   transition: background-color 0.2s ease;
   background: #2e3842;
   height: 3em;
-  left: 10%;
+  left: 5%;
   line-height: 3em;
   position: fixed;
   top: 0;
-  width: 80%;
+  width: 90%;
   z-index: 10000;
 }
 /* line 1419, ../sass/style.scss */
