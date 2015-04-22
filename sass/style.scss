@@ -3,14 +3,56 @@
 @import 'mixins';
 @import 'skel-layout';
 @import 'font-awesome.min.css';
-@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic');
+@font-face { 
+	font-family: Proxima Nova;
+	src: url('../fonts/ProximaNova-Regular.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: Proxima Nova Black;
+	src: url('../fonts/ProximaNova-Black.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Proxima Nova Semibold;
+	src: url('../fonts/ProximaNova-Semibold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Proxima Nova Light;
+	src: url('../fonts/ProximaNova-Light.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Proxima Nova Condensed Light;
+	src: url('../fonts/ProximaNovaCond-Light.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Proxima Nova Bold;
+	src: url('../fonts/ProximaNova-Bold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Proxima Nova Condensed Bold;
+	src: url('../fonts/ProximaNovaCond-Bold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+// @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic');
 
 /*
 	Spectral by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-
+	
 /* IE Viewport Fix */
 
 	@-ms-viewport { width: device-width; }
@@ -42,11 +84,12 @@
 	body, input, select, textarea {
 		color: _palette(fg);
 		font-family: _font(family);
-		font-size: 15pt;
+		font-size: 25pt;
 		font-weight: _font(weight);
 		letter-spacing: _size(letter-spacing);
 		line-height: 1.65em;
-
+		-webkit-font-smoothing:antialiased;
+  		-moz-osx-font-smoothing:grayscale;
 		@include breakpoint(xlarge) {
 			font-size: 13pt;
 		}
@@ -1299,7 +1342,7 @@
 			padding: 0;
 
 			> li {
-				border-top: solid 1px _palette(accent1, border);
+				border-top: solid 1px _palette(accent2, border);
 				margin: 0.5em 0 0 0;
 				padding: 0.5em 0 0 0;
 
@@ -1366,11 +1409,11 @@
 		@include vendor('transition', 'background-color #{_duration(transitions)} ease');
 		background: _palette(bg);
 		height: 3em;
-		left: 0;
+		left: 10%;
 		line-height: 3em;
 		position: fixed;
 		top: 0;
-		width: 100%;
+		width: 80%;
 		z-index: _misc(z-index-base);
 
 		h1 {
@@ -1412,7 +1455,7 @@
 
 					> a {
 						border: 0;
-						color: _palette(fg-bold);
+						color: _palette(bg);
 						display: block;
 						font-size: 0.8em;
 						letter-spacing: _size(letter-spacing-alt);
@@ -1478,19 +1521,41 @@
 		position: relative;
 		text-align: center;
 
+
 		h2 {
-			@include vendor('transform', 'scale(1)');
+			// @include vendor('transform', 'scale(1)');
+			// font-family: _font(family-bold);
 			@include vendor('transition', ('transform 0.5s ease', 'opacity 0.5s ease'));
 			display: inline-block;
-			font-size: 1.75em;
+			font-size: 3.5em;
+			font-weight: 900;
+			// letter-spacing: 0.2em;
 			opacity: 1;
-			padding: 0.35em 1em;
+			// padding: 0.35em 1em;
+			padding: 0.35em .35em;
 			position: relative;
 			z-index: 1;
 
+			.x {
+				color: transparent;
+				display: inline;
+				width: 26px;
+	  			height: 26px;
+	  			margin: .5em auto;
+		  		background: url('images/whitex.svg') 0 0 no-repeat;
+		  		background-size: 26px 26px;
+		  		overflow: hidden;
+		  		border: 0;
+		  		background-color: transparent;
+		  		background-repeat: no-repeat;
+		  		vertical-align: bottom;
+		  		text-indent: -999em;
+		  		direction: ltr;
+			}
+
 			&:before, &:after {
-				@include vendor('transition', 'width 0.85s ease');
-				@include vendor('transition-delay', '0.25s');
+				// @include vendor('transition', 'width 0.85s ease');
+				// @include vendor('transition-delay', '0.25s');
 				background: _palette(fg-bold);
 				content: '';
 				display: block;
@@ -1672,8 +1737,24 @@
 			text-align: center;
 
 			h2 {
-				font-size: 1.75em;
+				font-size: 3em;
 				margin: 0 0 (_size(element-margin) * 0.25) 0;
+				.x{
+					width: 26px;
+		  			height: 26px;
+		  			margin: .5em auto;
+			  		background: url('images/whitex.svg') 0 0 no-repeat;
+			  		background-size: 26px 26px;
+			  		overflow: hidden;
+			 		display: block;
+			  		border: 0;
+			  		background-color: transparent;
+			  		background-repeat: no-repeat;
+			  		vertical-align: top;
+			  		text-align: center;
+			  		text-indent: -999em;
+			  		direction: ltr;
+				}
 			}
 
 			p {
@@ -1708,6 +1789,9 @@
 				}
 			}
 		}
+		& .style2{
+			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/GivJoy/GivJoy3.jpg")'));
+		}
 	}
 
 	body.is-mobile {
@@ -1717,6 +1801,7 @@
 			}
 		}
 	}
+
 
 /* Footer */
 
