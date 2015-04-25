@@ -199,6 +199,15 @@
 		}
 	}
 
+	blockquote .big{
+		font-size: 2em;
+		border-left: solid 4px _palette(border);
+		line-height: 1em;
+		font-style: italic;
+		margin: 0 0 _size(element-margin) 0;
+		padding: 0.1em 0 0.1em 2em;
+	}
+
 	blockquote {
 		border-left: solid 4px _palette(border);
 		font-style: italic;
@@ -1018,21 +1027,21 @@
 			@include vendor('flex-direction', 'row-reverse');
 		}
 
-		@for $i from 1 through _misc(max-spotlights) {
-			$j: 0.075 * $i;
+		// @for $i from 1 through _misc(max-spotlights) {
+		// 	$j: 0.075 * $i;
 
-			&:nth-child(#{$i}) {
-				background-color: rgba(0,0,0, $j);
-			}
-		}
+		// 	&:nth-child(#{$i}) {
+		// 		background-color: rgba(0,0,0, $j);
+		// 	}
+		// }
 
 		@include breakpoint(large) {
 			.image {
-				width: 45%;
+				width: 50%;
 			}
 
 			.content {
-				width: 55%;
+				width: 50%;
 			}
 		}
 
@@ -1305,7 +1314,7 @@
 	#page-wrapper {
 		@include vendor('transition', 'opacity #{_duration(menu)} ease');
 		opacity: 1;
-		padding-top: 3em;
+		padding-top: 2em;
 
 		&:before {
 			background: rgba(0,0,0,0);
@@ -1408,12 +1417,12 @@
 	#header {
 		@include vendor('transition', 'background-color #{_duration(transitions)} ease');
 		background: _palette(bg);
-		height: 3em;
-		left: 5%;
-		line-height: 3em;
+		height: 2em;
+		left: 0;
+		line-height: 2em;
 		position: fixed;
 		top: 0;
-		width: 90%;
+		width: 100%;
 		z-index: _misc(z-index-base);
 
 		h1 {
@@ -1468,13 +1477,13 @@
 
 							&:after {
 								background-image: url('images/bars.svg');
-								background-position: right center;
+								background-position: center center;
 								background-repeat: no-repeat;
 								content: '';
 								display: inline-block;
-								height: 3.75em;
-								vertical-align: top;
-								width: 2em;
+								height: 1.4em;
+								vertical-align: center;
+								width: 1.4em;
 							}
 
 							@include breakpoint(small) {
@@ -1539,11 +1548,12 @@
 			.x {
 				color: transparent;
 				display: inline;
-				width: 26px;
-	  			height: 26px;
+				width: .5em;
+	  			height: .5em;
 	  			margin: .5em auto;
 		  		background: url('images/whitex.svg') 0 0 no-repeat;
-		  		background-size: 26px 26px;
+		  		background-size: .5em .5em;
+				background-position: left center;
 		  		overflow: hidden;
 		  		border: 0;
 		  		background-color: transparent;
@@ -1555,7 +1565,7 @@
 
 			&:before, &:after {
 				// @include vendor('transition', 'width 0.85s ease');
-				// @include vendor('transition-delay', '0.25s');
+				@include vendor('transition-delay', '0.25s');
 				background: _palette(fg-bold);
 				content: '';
 				display: block;
@@ -1740,11 +1750,12 @@
 				font-size: 3em;
 				margin: 0 0 (_size(element-margin) * 0.25) 0;
 				.x{
-					width: 26px;
-		  			height: 26px;
+					width: .5em;
+		  			height: .5em;
 		  			margin: .5em auto;
 			  		background: url('images/whitex.svg') 0 0 no-repeat;
-			  		background-size: 26px 26px;
+			  		background-size: .5em .5em;
+					background-position: left center;
 			  		overflow: hidden;
 			 		display: block;
 			  		border: 0;
