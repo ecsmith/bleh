@@ -4,6 +4,6 @@
 <svg version="1.1" id="Layer_1" zoomAndPan="disable"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px"
 	 viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
-<line fill="none" stroke="#FFFFFF" x1="0" y1="0" x2="16" y2="16"/>
-<line fill="none" stroke="#FFFFFF" x1="16" y1="0" x2="0" y2="16"/>
+<line fill="none" stroke="#767777" x1="0" y1="0" x2="16" y2="16"/>
+<line fill="none" stroke="#767777" x1="16" y1="0" x2="0" y2="16"/>
 </svg>

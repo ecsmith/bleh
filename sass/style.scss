@@ -10,40 +10,40 @@
 	font-style: normal;
 }
 @font-face {
-    font-family: Proxima Nova Black;
+	font-family: Proxima Nova Black;
 	src: url('../fonts/ProximaNova-Black.otf');
-    font-weight: normal;
-    font-style: normal;
+	font-weight: normal;
+	font-style: normal;
 }
 @font-face {
-    font-family: Proxima Nova Semibold;
+	font-family: Proxima Nova Semibold;
 	src: url('../fonts/ProximaNova-Semibold.otf');
-    font-weight: normal;
-    font-style: normal;
+	font-weight: normal;
+	font-style: normal;
 }
 @font-face {
-    font-family: Proxima Nova Light;
+	font-family: Proxima Nova Light;
 	src: url('../fonts/ProximaNova-Light.otf');
-    font-weight: normal;
-    font-style: normal;
+	font-weight: normal;
+	font-style: normal;
 }
 @font-face {
-    font-family: Proxima Nova Condensed Light;
+	font-family: Proxima Nova Condensed Light;
 	src: url('../fonts/ProximaNovaCond-Light.otf');
-    font-weight: normal;
-    font-style: normal;
+	font-weight: normal;
+	font-style: normal;
 }
 @font-face {
-    font-family: Proxima Nova Bold;
+	font-family: Proxima Nova Bold;
 	src: url('../fonts/ProximaNova-Bold.otf');
-    font-weight: normal;
-    font-style: normal;
+	font-weight: normal;
+	font-style: normal;
 }
 @font-face {
-    font-family: Proxima Nova Condensed Bold;
+	font-family: Proxima Nova Condensed Bold;
 	src: url('../fonts/ProximaNovaCond-Bold.otf');
-    font-weight: normal;
-    font-style: normal;
+	font-weight: normal;
+	font-style: normal;
 }
 // @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic');
 
@@ -51,13 +51,13 @@
 	Spectral by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+	*/
 	
-/* IE Viewport Fix */
+	/* IE Viewport Fix */
 
 	@-ms-viewport { width: device-width; }
 
-/* Skel */
+	/* Skel */
 
 	@include skel-layout(
 		$breakpoints,
@@ -65,10 +65,10 @@
 			reset: 'full',
 			boxModel: 'border',
 			grid: ( gutters: (1.5em, 0) )
-		)
-	);
+			)
+		);
 
-/* Basic */
+	/* Basic */
 
 	body {
 		background: _palette(bg);
@@ -89,7 +89,7 @@
 		letter-spacing: _size(letter-spacing);
 		line-height: 1.65em;
 		-webkit-font-smoothing:antialiased;
-  		-moz-osx-font-smoothing:grayscale;
+		-moz-osx-font-smoothing:grayscale;
 		@include breakpoint(xlarge) {
 			font-size: 14pt;
 		}
@@ -251,7 +251,7 @@
 		text-align: right;
 	}
 
-/* Section/Article */
+	/* Section/Article */
 
 	section, article {
 		&.special {
@@ -312,7 +312,7 @@
 		}
 	}
 
-/* Form */
+	/* Form */
 
 	form {
 		margin: 0 0 _size(element-margin) 0;
@@ -477,7 +477,7 @@
 		opacity: 1.0;
 	}
 
-/* Box */
+	/* Box */
 
 	.box {
 		border-radius: 3px;
@@ -498,7 +498,7 @@
 		}
 	}
 
-/* Icon */
+	/* Icon */
 
 	.icon {
 		@include icon;
@@ -544,7 +544,7 @@
 		}
 	}
 
-/* Image */
+	/* Image */
 
 	.image {
 		border-radius: 3px;
@@ -589,7 +589,7 @@
 		}
 	}
 
-/* List */
+	/* List */
 
 	ol {
 		list-style: decimal;
@@ -765,7 +765,7 @@
 		margin: 0 0 _size(element-margin) 0;
 	}
 
-/* Table */
+	/* Table */
 
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
@@ -841,7 +841,7 @@
 		}
 	}
 
-/* Button */
+	/* Button */
 
 	input[type="submit"],
 	input[type="reset"],
@@ -924,7 +924,7 @@
 		}
 	}
 
-/* Features */
+	/* Features */
 
 	.features {
 		@include vendor('display', 'flex');
@@ -999,7 +999,7 @@
 		}
 	}
 
-/* Spotlight */
+	/* Spotlight */
 
 	.spotlight {
 		@include vendor('align-items', 'center');
@@ -1071,7 +1071,7 @@
 		}
 	}
 
-/* Wrapper */
+	/* Wrapper */
 
 	@mixin wrapper($p) {
 		background-color: _palette($p, bg);
@@ -1079,184 +1079,184 @@
 
 		// Basic
 
-			strong, b {
-				color: _palette($p, fg-bold);
-			}
+		strong, b {
+			color: _palette($p, fg-bold);
+		}
 
-			h2, h3, h4, h5, h6 {
-				color: _palette($p, fg-bold);
-			}
+		h2, h3, h4, h5, h6 {
+			color: _palette($p, fg-bold);
+		}
 
-			hr {
-				border-color: _palette($p, border);
-			}
+		hr {
+			border-color: _palette($p, border);
+		}
 
-			blockquote {
-				border-color: _palette($p, border);
-			}
+		blockquote {
+			border-color: _palette($p, border);
+		}
 
-			code {
-				background: _palette($p, border-bg);
-			}
+		code {
+			background: _palette($p, border-bg);
+		}
 
 		// Section/Article
 
-			header {
-				p {
-					color: _palette($p, bg-light);
+		header {
+			p {
+				color: _palette($p, bg-light);
+			}
+
+			&.major {
+				h2, h3, h4, h5, h6 {
+					border-color: _palette($p, border);
 				}
 
-				&.major {
-					h2, h3, h4, h5, h6 {
-						border-color: _palette($p, border);
-					}
-
-					p {
-						color: _palette($p, fg);
-					}
+				p {
+					color: _palette($p, fg);
 				}
 			}
+		}
 
 		// Form
 
-			label {
-				color: _palette($p, fg-bold);
-			}
+		label {
+			color: _palette($p, fg-bold);
+		}
 
-			input[type="text"],
-			input[type="password"],
-			input[type="email"],
-			select,
-			textarea {
-				background: _palette($p, border-bg);
-			}
+		input[type="text"],
+		input[type="password"],
+		input[type="email"],
+		select,
+		textarea {
+			background: _palette($p, border-bg);
+		}
 
-			.select-wrapper {
+		.select-wrapper {
+			&:before {
+				color: _palette($p, border);
+			}
+		}
+
+		input[type="checkbox"],
+		input[type="radio"], {
+			& + label {
+				color: _palette($p, fg);
+
 				&:before {
-					color: _palette($p, border);
+					background: _palette($p, border-bg);
 				}
 			}
 
-			input[type="checkbox"],
-			input[type="radio"], {
-				& + label {
-					color: _palette($p, fg);
-
-					&:before {
-						background: _palette($p, border-bg);
-					}
-				}
-
-				&:checked + label {
-					&:before {
-						background: _palette($p, fg-bold);
-						color: _palette($p, bg);
-					}
+			&:checked + label {
+				&:before {
+					background: _palette($p, fg-bold);
+					color: _palette($p, bg);
 				}
 			}
+		}
 
-			::-webkit-input-placeholder {
-				color: _palette($p, fg-light) !important;
-			}
+		::-webkit-input-placeholder {
+			color: _palette($p, fg-light) !important;
+		}
 
-			:-moz-placeholder {
-				color: _palette($p, fg-light) !important;
-			}
+		:-moz-placeholder {
+			color: _palette($p, fg-light) !important;
+		}
 
-			::-moz-placeholder {
-				color: _palette($p, fg-light) !important;
-			}
+		::-moz-placeholder {
+			color: _palette($p, fg-light) !important;
+		}
 
-			:-ms-input-placeholder {
-				color: _palette($p, fg-light) !important;
-			}
+		:-ms-input-placeholder {
+			color: _palette($p, fg-light) !important;
+		}
 
-			.formerize-placeholder {
-				color: _palette($p, fg-light) !important;
-			}
+		.formerize-placeholder {
+			color: _palette($p, fg-light) !important;
+		}
 
 		// Icon
 
-			.icon {
-				&.major {
-					border-color: _palette($p, border);
-				}
+		.icon {
+			&.major {
+				border-color: _palette($p, border);
 			}
+		}
 
 		// List
 
-			ul {
-				&.alt {
-					li {
-						border-color: _palette($p, border);
-					}
+		ul {
+			&.alt {
+				li {
+					border-color: _palette($p, border);
 				}
 			}
+		}
 
 		// Table
 
-			table {
-				tbody {
-					tr {
-						border-color: _palette($p, border);
+		table {
+			tbody {
+				tr {
+					border-color: _palette($p, border);
 
-						&:nth-child(2n + 1) {
-							background-color: _palette($p, border-bg);
-						}
+					&:nth-child(2n + 1) {
+						background-color: _palette($p, border-bg);
 					}
 				}
+			}
 
-				th {
-					color: _palette($p, fg-bold);
-				}
+			th {
+				color: _palette($p, fg-bold);
+			}
 
-				thead {
-					border-color: _palette($p, border);
-				}
+			thead {
+				border-color: _palette($p, border);
+			}
 
-				tfoot {
-					border-color: _palette($p, border);
-				}
+			tfoot {
+				border-color: _palette($p, border);
+			}
 
-				&.alt {
-					tbody {
-						tr {
-							td {
-								border-color: _palette($p, border);
-							}
+			&.alt {
+				tbody {
+					tr {
+						td {
+							border-color: _palette($p, border);
 						}
 					}
 				}
 			}
+		}
 
 		// Button
 
-			input[type="submit"],
-			input[type="reset"],
-			input[type="button"],
-			button,
-			.button {
-				box-shadow: inset 0 0 0 2px _palette($p, border);
-				color: _palette($p, fg-bold);
+		input[type="submit"],
+		input[type="reset"],
+		input[type="button"],
+		button,
+		.button {
+			box-shadow: inset 0 0 0 2px _palette($p, border);
+			color: _palette($p, fg-bold);
 
-				&:hover {
-					background-color: _palette($p, border-bg);
-				}
-
-				&:active {
-					background-color: _palette($p, border2-bg);
-				}
+			&:hover {
+				background-color: _palette($p, border-bg);
 			}
+
+			&:active {
+				background-color: _palette($p, border2-bg);
+			}
+		}
 
 		// Features
 
-			.features {
-				li {
-					@include breakpoint(small) {
-						border-top-color: _palette($p, border);
-					}
+		.features {
+			li {
+				@include breakpoint(small) {
+					border-top-color: _palette($p, border);
 				}
 			}
+		}
 
 	}
 
@@ -1309,12 +1309,12 @@
 		}
 	}
 
-/* Page Wrapper + Menu */
+	/* Page Wrapper + Menu */
 
 	#page-wrapper {
 		@include vendor('transition', 'opacity #{_duration(menu)} ease');
 		opacity: 1;
-		padding-top: 2em;
+		padding-top: 0;
 
 		&:before {
 			background: rgba(0,0,0,0);
@@ -1412,12 +1412,11 @@
 		}
 	}
 
-/* Header */
+	/* Header */
 
 	#header {
 		@include vendor('transition', 'background-color #{_duration(transitions)} ease');
 		background: _palette(fg);
-
 		height: 2em;
 		left: 0;
 		line-height: 2em;
@@ -1427,7 +1426,7 @@
 		z-index: _misc(z-index-base);
 
 		h1 {
-											color: _palette(bg);
+			color: _palette(bg);
 
 			@include vendor('transition', 'opacity #{_duration(transitions)} ease');
 			height: inherit;
@@ -1512,6 +1511,7 @@
 
 		&.alt {
 			background: transparent;
+			border: transparent;
 
 			h1 {
 				@include vendor('pointer-events', 'none');
@@ -1519,35 +1519,36 @@
 			}
 			nav {
 
-			> ul {
+				> ul {
 
-				> li {
+					> li {
 
-					> a {
+						> a {
 
-						&.menuToggle {
+							&.menuToggle {
 
-							&:after {
-								background-image: url('images/bars-alt.svg');
-							}}}}}}
-		}
-	}
+								&:after {
+									background-image: url('images/bars-alt.svg');
+								}
+								}}}}}
+							}
+						}
 
-/* Banner */
+						/* Banner */
 
-	#banner {
-		@include vendor('display', 'flex');
-		@include vendor('flex-direction', 'column');
-		@include vendor('justify-content', 'center');
-		cursor: default;
-		height: 100vh;
-		min-height: 35em;
-		overflow: hidden;
-		position: relative;
-		text-align: center;
+						#banner {
+							@include vendor('display', 'flex');
+							@include vendor('flex-direction', 'column');
+							@include vendor('justify-content', 'center');
+							cursor: default;
+							height: 100vh;
+							min-height: 35em;
+							overflow: hidden;
+							position: relative;
+							text-align: center;
 
 
-		h2 {
+							h2 {
 			// @include vendor('transform', 'scale(1)');
 			font-family: _font(family-bold);
 			@include vendor('transition', ('transform 0.5s ease', 'opacity 0.5s ease'));
@@ -1565,18 +1566,18 @@
 				color: transparent;
 				display: inline;
 				width: .5em;
-	  			height: .5em;
-	  			margin: .5em auto;
-		  		background: url('images/whitex.svg') 0 0 no-repeat;
-		  		background-size: .5em .5em;
+				height: .5em;
+				margin: .5em auto;
+				background: url('images/whitex.svg') 0 0 no-repeat;
+				background-size: .5em .5em;
 				background-position: left center;
-		  		overflow: hidden;
-		  		border: 0;
-		  		background-color: transparent;
-		  		background-repeat: no-repeat;
-		  		vertical-align: bottom;
-		  		text-indent: -999em;
-		  		direction: ltr;
+				overflow: hidden;
+				border: 0;
+				background-color: transparent;
+				background-repeat: no-repeat;
+				vertical-align: bottom;
+				text-indent: -999em;
+				direction: ltr;
 			}
 
 			&:before, &:after {
@@ -1703,7 +1704,7 @@
 		}
 	}
 
-/* CTA */
+	/* CTA */
 
 	#cta {
 		.inner {
@@ -1750,7 +1751,7 @@
 		}
 	}
 
-/* Main */
+	/* Main */
 
 	#main {
 		> header {
@@ -1763,26 +1764,26 @@
 			text-align: center;
 
 			h2 {
-						font-family: _font(family-bold);
+				font-family: _font(family-bold);
 
 				font-size: 4.375rem;
 				margin: 0 0 (_size(element-margin) * 0.25) 0;
 				.x{
 					width: .5em;
-		  			height: .5em;
-		  			margin: .5em auto;
-			  		background: url('images/whitex.svg') 0 0 no-repeat;
-			  		background-size: .5em .5em;
+					height: .5em;
+					margin: .5em auto;
+					background: url('images/whitex.svg') 0 0 no-repeat;
+					background-size: .5em .5em;
 					background-position: left center;
-			  		overflow: hidden;
-			 		display: block;
-			  		border: 0;
-			  		background-color: transparent;
-			  		background-repeat: no-repeat;
-			  		vertical-align: top;
-			  		text-align: center;
-			  		text-indent: -999em;
-			  		direction: ltr;
+					overflow: hidden;
+					display: block;
+					border: 0;
+					background-color: transparent;
+					background-repeat: no-repeat;
+					vertical-align: top;
+					text-align: center;
+					text-indent: -999em;
+					direction: ltr;
 				}
 			}
 
@@ -1832,7 +1833,7 @@
 	}
 
 
-/* Footer */
+	/* Footer */
 
 	#footer {
 		@include padding(6em, 0);
@@ -1899,7 +1900,7 @@
 		}
 	}
 
-/* Landing */
+	/* Landing */
 
 	body.landing {
 		#page-wrapper {
