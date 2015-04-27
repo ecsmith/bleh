@@ -3659,8 +3659,8 @@ body.is-menu-visible #menu {
   -ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
   transition: transform 0.5s ease, opacity 0.5s ease;
   display: inline-block;
-  font-size: 3.5em;
-  font-weight: 900;
+  font-size: 4.375rem;
+  font-weight: 500;
   opacity: 1;
   padding: 0.35em .35em;
   position: relative;
