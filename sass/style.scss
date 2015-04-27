@@ -91,15 +91,15 @@
 		-webkit-font-smoothing:antialiased;
   		-moz-osx-font-smoothing:grayscale;
 		@include breakpoint(xlarge) {
-			font-size: 13pt;
+			font-size: 14pt;
 		}
 
 		@include breakpoint(large) {
-			font-size: 12pt;
+			font-size: 13pt;
 		}
 
 		@include breakpoint(small) {
-			font-size: 11pt;
+			font-size: 12pt;
 			letter-spacing: _size(letter-spacing) * 0.5;
 		}
 	}
@@ -1261,7 +1261,7 @@
 	}
 
 	.wrapper {
-		@include padding(6em, 6em);
+		@include padding(6em, 10em);
 
 		> .inner {
 			width: 60em;
@@ -1417,9 +1417,9 @@
 	#header {
 		@include vendor('transition', 'background-color #{_duration(transitions)} ease');
 		background: _palette(bg);
-		height: 3em;
+		height: 2em;
 		left: 0;
-		line-height: 3em;
+		line-height: 2em;
 		position: fixed;
 		top: 0;
 		width: 100%;
@@ -1533,7 +1533,7 @@
 
 		h2 {
 			// @include vendor('transform', 'scale(1)');
-			// font-family: _font(family-bold);
+			font-family: _font(family-bold);
 			@include vendor('transition', ('transform 0.5s ease', 'opacity 0.5s ease'));
 			display: inline-block;
 			font-size: 3.5em;
@@ -1747,7 +1747,9 @@
 			text-align: center;
 
 			h2 {
-				font-size: 3em;
+						font-family: _font(family-bold);
+
+				font-size: 4.375rem;
 				margin: 0 0 (_size(element-margin) * 0.25) 0;
 				.x{
 					width: .5em;
@@ -1822,7 +1824,7 @@
 		text-align: center;
 
 		.icons {
-			font-size: 1.25em;
+			font-size: 1.75em;
 
 			a {
 				color: _palette(fg-light);
@@ -1835,7 +1837,7 @@
 
 		.copyright {
 			color: _palette(fg-light);
-			font-size: 0.8em;
+			font-size: 0.5em;
 			letter-spacing: _size(letter-spacing-alt);
 			list-style: none;
 			padding: 0;

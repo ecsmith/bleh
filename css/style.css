@@ -1726,19 +1726,19 @@ body, input, select, textarea {
 @media screen and (max-width: 1680px) {
   /* line 84, ../sass/style.scss */
   body, input, select, textarea {
-    font-size: 13pt;
+    font-size: 14pt;
   }
 }
 @media screen and (max-width: 1280px) {
   /* line 84, ../sass/style.scss */
   body, input, select, textarea {
-    font-size: 12pt;
+    font-size: 13pt;
   }
 }
 @media screen and (max-width: 736px) {
   /* line 84, ../sass/style.scss */
   body, input, select, textarea {
-    font-size: 11pt;
+    font-size: 12pt;
     letter-spacing: 0.0375em;
   }
 }
@@ -1761,7 +1761,7 @@ a:hover {
 /* line 118, ../sass/style.scss */
 strong, b {
   color: #fff;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 /* line 123, ../sass/style.scss */
@@ -1778,7 +1778,7 @@ p {
 h1, h2, h3, h4, h5, h6 {
   color: #fff;
   font-weight: 800;
-  letter-spacing: 0.225em;
+  letter-spacing: 0.25em;
   line-height: 1em;
   margin: 0 0 1em 0;
   text-transform: uppercase;
@@ -1984,7 +1984,7 @@ label {
   color: #fff;
   display: block;
   font-size: 0.9em;
-  font-weight: 600;
+  font-weight: 700;
   margin: 0 0 1em 0;
 }
 
@@ -2508,7 +2508,7 @@ table td {
 table th {
   color: #fff;
   font-size: 0.9em;
-  font-weight: 600;
+  font-weight: 700;
   padding: 0 0.75em 0.75em 0.75em;
   text-align: left;
 }
@@ -2570,9 +2570,9 @@ button,
   cursor: pointer;
   display: inline-block;
   font-size: 0.8em;
-  font-weight: 600;
+  font-weight: 700;
   height: 3.125em;
-  letter-spacing: 0.225em;
+  letter-spacing: 0.25em;
   line-height: 3.125em;
   padding: 0 2.75em;
   text-align: center;
@@ -2890,7 +2890,7 @@ button:disabled,
 /* Wrapper */
 /* line 1263, ../sass/style.scss */
 .wrapper {
-  padding: 6em 6em 4em 6em;
+  padding: 6em 10em 4em 10em;
 }
 /* line 1266, ../sass/style.scss */
 .wrapper > .inner {
@@ -3460,7 +3460,7 @@ button:disabled,
   color: inherit;
   display: block;
   font-size: 0.8em;
-  letter-spacing: 0.225em;
+  letter-spacing: 0.25em;
   outline: 0;
   text-decoration: none;
   text-transform: uppercase;
@@ -3517,9 +3517,9 @@ body.is-menu-visible #menu {
   -ms-transition: background-color 0.2s ease;
   transition: background-color 0.2s ease;
   background: #2e3842;
-  height: 3em;
+  height: 2em;
   left: 0;
-  line-height: 3em;
+  line-height: 2em;
   position: fixed;
   top: 0;
   width: 100%;
@@ -3576,7 +3576,7 @@ body.is-menu-visible #menu {
   color: #2e3842;
   display: block;
   font-size: 0.8em;
-  letter-spacing: 0.225em;
+  letter-spacing: 0.25em;
   padding: 0 1.5em;
   text-transform: uppercase;
 }
@@ -3653,6 +3653,7 @@ body.is-menu-visible #menu {
 }
 /* line 1534, ../sass/style.scss */
 #banner h2 {
+  font-family: "Proxima Nova Bold", Helvetica, Arial;
   -moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease;
   -webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease;
   -ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
@@ -3708,7 +3709,7 @@ body.is-menu-visible #menu {
 }
 /* line 1588, ../sass/style.scss */
 #banner p {
-  letter-spacing: 0.225em;
+  letter-spacing: 0.25em;
   text-transform: uppercase;
 }
 /* line 1592, ../sass/style.scss */
@@ -3735,11 +3736,11 @@ body.is-menu-visible #menu {
   font-size: 0.8em;
   height: 8.5em;
   left: 50%;
-  letter-spacing: 0.225em;
+  letter-spacing: 0.25em;
   margin-left: -8.5em;
   opacity: 1;
   outline: 0;
-  padding-left: 0.225em;
+  padding-left: 0.25em;
   position: absolute;
   text-align: center;
   text-transform: uppercase;
@@ -3903,10 +3904,11 @@ body.is-loading #banner:after {
 }
 /* line 1749, ../sass/style.scss */
 #main > header h2 {
-  font-size: 3em;
+  font-family: "Proxima Nova Bold", Helvetica, Arial;
+  font-size: 4.375rem;
   margin: 0 0 0.5em 0;
 }
-/* line 1752, ../sass/style.scss */
+/* line 1754, ../sass/style.scss */
 #main > header h2 .x {
   width: .5em;
   height: .5em;
@@ -3924,14 +3926,14 @@ body.is-loading #banner:after {
   text-indent: -999em;
   direction: ltr;
 }
-/* line 1771, ../sass/style.scss */
+/* line 1773, ../sass/style.scss */
 #main > header p {
   color: inherit;
-  letter-spacing: 0.225em;
+  letter-spacing: 0.25em;
   text-transform: uppercase;
   top: 0;
 }
-/* line 1777, ../sass/style.scss */
+/* line 1779, ../sass/style.scss */
 #main > header p a {
   color: inherit;
 }
@@ -3958,13 +3960,13 @@ body.is-loading #banner:after {
   #main > header {
     padding: 5em 3em 3em 3em;
   }
-  /* line 1797, ../sass/style.scss */
+  /* line 1799, ../sass/style.scss */
   #main > header h2 {
     font-size: 1.25em;
     margin: 0 0 1em 0;
   }
 }
-/* line 1803, ../sass/style.scss */
+/* line 1805, ../sass/style.scss */
 #main .style2 {
   background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/GivJoy/GivJoy3.jpg");
   background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/GivJoy/GivJoy3.jpg");
@@ -3972,40 +3974,40 @@ body.is-loading #banner:after {
   background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/GivJoy/GivJoy3.jpg");
 }
 
-/* line 1810, ../sass/style.scss */
+/* line 1812, ../sass/style.scss */
 body.is-mobile #main > header {
   background-attachment: scroll;
 }
 
 /* Footer */
-/* line 1819, ../sass/style.scss */
+/* line 1821, ../sass/style.scss */
 #footer {
   padding: 6em 0 4em 0;
   background-color: #1d242a;
   text-align: center;
 }
-/* line 1824, ../sass/style.scss */
+/* line 1826, ../sass/style.scss */
 #footer .icons {
-  font-size: 1.25em;
+  font-size: 1.75em;
 }
-/* line 1827, ../sass/style.scss */
+/* line 1829, ../sass/style.scss */
 #footer .icons a {
   color: rgba(255, 255, 255, 0.5);
 }
-/* line 1830, ../sass/style.scss */
+/* line 1832, ../sass/style.scss */
 #footer .icons a:hover {
   color: #fff;
 }
-/* line 1836, ../sass/style.scss */
+/* line 1838, ../sass/style.scss */
 #footer .copyright {
   color: rgba(255, 255, 255, 0.5);
-  font-size: 0.8em;
-  letter-spacing: 0.225em;
+  font-size: 0.5em;
+  letter-spacing: 0.25em;
   list-style: none;
   padding: 0;
   text-transform: uppercase;
 }
-/* line 1844, ../sass/style.scss */
+/* line 1846, ../sass/style.scss */
 #footer .copyright li {
   border-left: solid 1px rgba(255, 255, 255, 0.5);
   display: inline-block;
@@ -4013,22 +4015,22 @@ body.is-mobile #main > header {
   margin-left: 1em;
   padding-left: 1em;
 }
-/* line 1851, ../sass/style.scss */
+/* line 1853, ../sass/style.scss */
 #footer .copyright li:first-child {
   border-left: 0;
   margin-left: 0;
   padding-left: 0;
 }
-/* line 1857, ../sass/style.scss */
+/* line 1859, ../sass/style.scss */
 #footer .copyright li a {
   color: inherit;
 }
-/* line 1860, ../sass/style.scss */
+/* line 1862, ../sass/style.scss */
 #footer .copyright li a:hover {
   color: #fff;
 }
 @media screen and (max-width: 480px) {
-  /* line 1844, ../sass/style.scss */
+  /* line 1846, ../sass/style.scss */
   #footer .copyright li {
     border: 0;
     display: block;
@@ -4038,20 +4040,20 @@ body.is-mobile #main > header {
   }
 }
 @media screen and (max-width: 980px) {
-  /* line 1819, ../sass/style.scss */
+  /* line 1821, ../sass/style.scss */
   #footer {
     padding: 4em 3em 2em 3em;
   }
 }
 @media screen and (max-width: 736px) {
-  /* line 1819, ../sass/style.scss */
+  /* line 1821, ../sass/style.scss */
   #footer {
     padding: 3em 2em 1em 2em;
   }
 }
 
 /* Landing */
-/* line 1887, ../sass/style.scss */
+/* line 1889, ../sass/style.scss */
 body.landing #page-wrapper {
   background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/banner.jpg");
   background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/banner.jpg");
@@ -4063,16 +4065,16 @@ body.landing #page-wrapper {
   background-size: cover;
   padding-top: 0;
 }
-/* line 1896, ../sass/style.scss */
+/* line 1898, ../sass/style.scss */
 body.landing #footer {
   background-color: rgba(29, 36, 42, 0.9);
 }
 
-/* line 1903, ../sass/style.scss */
+/* line 1905, ../sass/style.scss */
 body.is-mobile.landing #page-wrapper {
   background: none;
 }
-/* line 1907, ../sass/style.scss */
+/* line 1909, ../sass/style.scss */
 body.is-mobile.landing #banner,
 body.is-mobile.landing .wrapper.style4 {
   background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/banner.jpg");
@@ -4083,7 +4085,7 @@ body.is-mobile.landing .wrapper.style4 {
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* line 1915, ../sass/style.scss */
+/* line 1917, ../sass/style.scss */
 body.is-mobile.landing #footer {
   background-color: #1d242a;
 }
