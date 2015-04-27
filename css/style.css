@@ -2890,7 +2890,7 @@ button:disabled,
 /* Wrapper */
 /* line 1263, ../sass/style.scss */
 .wrapper {
-  padding: 6em 0 4em 0;
+  padding: 6em 6em 4em 6em;
 }
 /* line 1266, ../sass/style.scss */
 .wrapper > .inner {
@@ -3517,9 +3517,9 @@ body.is-menu-visible #menu {
   -ms-transition: background-color 0.2s ease;
   transition: background-color 0.2s ease;
   background: #2e3842;
-  height: 2em;
+  height: 3em;
   left: 0;
-  line-height: 2em;
+  line-height: 3em;
   position: fixed;
   top: 0;
   width: 100%;
@@ -3588,13 +3588,13 @@ body.is-menu-visible #menu {
 /* line 1478, ../sass/style.scss */
 #header nav > ul > li > a.menuToggle:after {
   background-image: url("images/bars.svg");
-  background-position: center center;
+  background-position: center right;
   background-repeat: no-repeat;
   content: '';
   display: inline-block;
-  height: 1.4em;
-  vertical-align: center;
-  width: 1.4em;
+  height: 2em;
+  vertical-align: top;
+  width: 2em;
 }
 @media screen and (max-width: 736px) {
   /* line 1474, ../sass/style.scss */

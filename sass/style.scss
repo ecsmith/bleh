@@ -1261,7 +1261,7 @@
 	}
 
 	.wrapper {
-		@include padding(6em, 0);
+		@include padding(6em, 6em);
 
 		> .inner {
 			width: 60em;
@@ -1417,9 +1417,9 @@
 	#header {
 		@include vendor('transition', 'background-color #{_duration(transitions)} ease');
 		background: _palette(bg);
-		height: 2em;
+		height: 3em;
 		left: 0;
-		line-height: 2em;
+		line-height: 3em;
 		position: fixed;
 		top: 0;
 		width: 100%;
@@ -1477,13 +1477,13 @@
 
 							&:after {
 								background-image: url('images/bars.svg');
-								background-position: center center;
+								background-position: center right;
 								background-repeat: no-repeat;
 								content: '';
 								display: inline-block;
-								height: 1.4em;
-								vertical-align: center;
-								width: 1.4em;
+								height: 2em;
+								vertical-align: top;
+								width: 2em;
 							}
 
 							@include breakpoint(small) {
