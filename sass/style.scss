@@ -1103,7 +1103,7 @@
 
 			header {
 				p {
-					color: _palette($p, fg-light);
+					color: _palette($p, bg-light);
 				}
 
 				&.major {
@@ -1416,7 +1416,8 @@
 
 	#header {
 		@include vendor('transition', 'background-color #{_duration(transitions)} ease');
-		background: _palette(bg);
+		background: _palette(fg);
+
 		height: 2em;
 		left: 0;
 		line-height: 2em;
@@ -1426,6 +1427,8 @@
 		z-index: _misc(z-index-base);
 
 		h1 {
+											color: _palette(bg);
+
 			@include vendor('transition', 'opacity #{_duration(transitions)} ease');
 			height: inherit;
 			left: 1.25em;
@@ -1464,7 +1467,7 @@
 
 					> a {
 						border: 0;
-						color: _palette(bg);
+						color: _palette(fg);
 						display: block;
 						font-size: 0.8em;
 						letter-spacing: _size(letter-spacing-alt);
@@ -1514,6 +1517,19 @@
 				@include vendor('pointer-events', 'none');
 				opacity: 0;
 			}
+			nav {
+
+			> ul {
+
+				> li {
+
+					> a {
+
+						&.menuToggle {
+
+							&:after {
+								background-image: url('images/bars-alt.svg');
+							}}}}}}
 		}
 	}
 
