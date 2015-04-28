@@ -1445,13 +1445,13 @@
 					font-size: 0.8em;
 				}
 								&:before {
-						background-image: url('images/logo.png');
+						background-image: url('images/logo.svg');
 						background-position: center center;
 						background-repeat: no-repeat;
 						content: '';
 						display: inline-block;
 						height: 2em;
-						vertical-align: top;
+						vertical-align: center;
 						width: 2em;
 					}
 			}
