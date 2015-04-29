@@ -1832,6 +1832,12 @@
 		& .style2{
 			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/GivJoy/GivJoy3.jpg")'));
 		}
+		& .style3{
+			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/GivJoy/sketches.jpg")'));
+		}
+		& .style4{
+			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/GivJoy/team.jpg")'));
+		}
 	}
 
 	body.is-mobile {
