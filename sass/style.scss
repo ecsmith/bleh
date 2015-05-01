@@ -125,6 +125,8 @@
 	}
 
 	p {
+		font-family: georgia, times, 'times new roman', serif;
+  		font-style: italic;
 		margin: 0 0 _size(element-margin) 0;
 	}
 
@@ -1798,6 +1800,7 @@
 			}
 
 			p {
+
 				color: inherit;
 				letter-spacing: _size(letter-spacing-alt);
 				text-transform: uppercase;
