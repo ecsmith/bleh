@@ -125,7 +125,7 @@
 	}
 
 	p {
-		font-family: georgia, times, 'times new roman', serif;
+		// font-family: georgia, times, 'times new roman', serif;
   		// font-style: italic;
   		margin: 0 0 _size(element-margin) 0;
   	}
@@ -256,7 +256,7 @@
 
 	section, article {
 		&.special {
-			text-align: center;
+			text-align: left;
 		}
 	}
 
@@ -1109,6 +1109,7 @@
 
 			&.major {
 				h2, h3, h4, h5, h6 {
+					text-align: center;
 					border-color: _palette($p, border);
 				}
 
