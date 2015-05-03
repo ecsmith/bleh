@@ -24,7 +24,7 @@
 	$duration: (
 		transitions:		0.2s,
 		menu:				0.5s,
-		fadein:				3s
+		fadein:				0.1s
 	);
 
 // Size.
@@ -39,6 +39,7 @@
 	$font: (
 		family:				("Proxima Nova", Helvetica, Arial),
 		family-bold:        ("Proxima Nova Bold", Helvetica, Arial),
+		family-semibold:    ("Proxima Nova Semibold", Helvetica, Arial),
 		family-fixed:		('Courier New', monospace),
 		weight:				400,
 		weight-bold:		700,
@@ -58,9 +59,9 @@
 
 		accent1: (
 			bg:				#ffffff,//#21b2a6,
-			fg-bold:		#2e3842,//#ffffff,
-			fg:				mix(#2e3842, #ffffff, 25%),
-			fg-light:		mix(#2e3842, #ffffff, 40%),
+			fg-bold:		#000,//#ffffff,
+			fg:				mix(#000, #ffffff, 25%),
+			fg-light:		mix(#000, #ffffff, 40%),
 			border:			rgba(0,0,0,0.125),
 			border-bg:		rgba(255,255,255,0.075),
 			border2:		rgba(0,0,0,0.25),
