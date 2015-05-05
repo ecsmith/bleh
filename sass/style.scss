@@ -88,8 +88,8 @@
 		font-weight: _font(weight);
 		letter-spacing: _size(letter-spacing);
 		line-height: 1.65em;
-		// -webkit-font-smoothing:antialiased;
-		// -moz-osx-font-smoothing:grayscale;
+		-webkit-font-smoothing:antialiased;
+		-moz-osx-font-smoothing:grayscale;
 		@include breakpoint(xlarge) {
 			font-size: 13pt;
 		}
@@ -104,27 +104,57 @@
 		}
 	}
 
-	a {
-		@include vendor('transition', ('color #{_duration(transitions)} ease', 'border-bottom-color #{_duration(transitions)} ease'));
-		border-bottom: dotted 1px;
-		color: inherit;
-		text-decoration: none;
+// 	.trigger {
+//     width: 100%;
+//     height: 40px;
+//     position: fixed;
+//     bottom: 20px;
+//     cursor: pointer;
+//     z-index: 3;
+//     transition: all 0.4s ease;
+//     -webkit-transition-delay: 0.6s;
+//     transition-delay: 0.6s;
+//     &::before {
+//         content: '';
+//         display: block;
+//         width: 40px;
+//         height: 40px;
+//         margin: 0 auto;
+//         margin-top: -20px;
+//         transition: all 0.4s ease;
+//         border-bottom: solid 1px #212121;
+//         border-right: solid 1px #212121;
+//         -webkit-transform: rotate(45deg);
+//         transform: rotate(45deg);
+//     }
+//     &:hover::before {
+//         border-bottom: solid 1px #212121;
+//         border-right: solid 1px #212121;
+//     }
+// }
 
-		&:hover {
-			border-bottom-color: transparent;
-		}
+a {
+	@include vendor('transition', ('color #{_duration(transitions)} ease', 'border-bottom-color #{_duration(transitions)} ease'));
+	border-bottom: dotted 1px;
+	color: inherit;
+	text-decoration: none;
+
+
+	&:hover {
+		border-bottom-color: transparent;
 	}
+}
 
-	strong, b {
-		color: _palette(fg-bold);
-		font-weight: _font(weight-bold);
-	}
+strong, b {
+	color: _palette(fg-bold);
+	font-weight: _font(weight-bold);
+}
 
-	em, i {
-		font-style: italic;
-	}
+em, i {
+	font-style: italic;
+}
 
-	p {
+p {
 		// font-family: georgia, times, 'times new roman', serif;
   		// font-style: italic;
   		margin: 0 0 _size(element-margin) 0;
@@ -201,13 +231,13 @@
   		}
   	}
 
-	blockquote {
-		border-left: solid 4px _palette(border);
-		font-style: italic;
-		margin: 0 0 _size(element-margin) 0;
-		padding: 0.5em 0 0.5em 2em;
-	}
-	  	blockquote .big{
+  	blockquote {
+  		border-left: solid 4px _palette(border);
+  		font-style: italic;
+  		margin: 0 0 _size(element-margin) 0;
+  		padding: 0.5em 0 0.5em 2em;
+  	}
+  	blockquote .big{
   		font-size: 2em;
   		border-left: solid 4px _palette(border);
   		line-height: 1em;
@@ -1316,7 +1346,7 @@
 	#page-wrapper {
 		@include vendor('transition', 'opacity #{_duration(menu)} ease');
 		opacity: 1;
-		padding-top: 2em;
+		padding-top: 3em;
 
 		&:before {
 			background: rgba(0,0,0,0);
@@ -1845,6 +1875,12 @@
 		}
 		& .style4{
 			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/GivJoy/team.jpg")'));
+		}
+		& .style6{
+			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/Scholastic/facts.png")'));
+		}
+		& .style7{
+			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/Scholastic/lanie.png")'));
 		}
 	}
 
