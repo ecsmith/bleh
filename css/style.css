@@ -1944,7 +1944,6 @@ header.major {
 }
 /* line 316, ../sass/style.scss */
 header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
-  background: #C3CCA9;
   display: inline-block;
   padding: 1em;
   position: relative;
