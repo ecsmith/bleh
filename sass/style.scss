@@ -286,7 +286,7 @@ p {
 
 	section, article {
 		&.special {
-			text-align: left;
+			text-align: center;
 		}
 	}
 
@@ -315,9 +315,10 @@ p {
 
 			h2, h3, h4, h5, h6 {
 				// font-family: _font(family-semibold);
-				border-bottom: solid 1px _palette(border);
+				background: #C3CCA9;
+				// border-bottom: solid 1px _palette(border);
 				display: inline-block;
-				padding-bottom: 1em;
+				padding: 1em;
 				position: relative;
 
 				&:after {
