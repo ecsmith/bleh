@@ -3,6 +3,7 @@
 @import 'mixins';
 @import 'skel-layout';
 @import 'font-awesome.min.css';
+@import url(http://fonts.googleapis.com/css?family=Lora);
 @font-face { 
 	font-family: Proxima Nova;
 	src: url('../fonts/ProximaNova-Regular.otf');
@@ -155,8 +156,9 @@ em, i {
 }
 
 p {
-		// font-family: georgia, times, 'times new roman', serif;
-  		// font-style: italic;
+		font-family: 'Lora', 'times new roman', serif;
+  		font-size: 20px;
+  		line-height: 1.5;
   		margin: 0 0 _size(element-margin) 0;
   	}
 
@@ -1817,7 +1819,7 @@ p {
 	#main {
 		> header {
 			@include padding(12em, 0);
-			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/banner.jpg")'));
+			@include vendor('background-image', ('linear-gradient(to bottom right,rgba(0,47,75,.6),rgba(220,67,37,.6))', 'url("../images/banner.jpg")'));
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -1978,7 +1980,7 @@ p {
 
 	body.landing {
 		#page-wrapper {
-			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/banner.jpg")'));
+			@include vendor('background-image', ('linear-gradient(to bottom right,rgba(0,47,75,.6),rgba(220,67,37,.6))', 'url("../images/banner.jpg")'));
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -1999,7 +2001,7 @@ p {
 
 			#banner,
 			.wrapper.style4 {
-				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/banner.jpg")'));
+				@include vendor('background-image', ('linear-gradient(to bottom right,rgba(0,47,75,.6),rgba(220,67,37,.6))', 'url("../images/banner.jpg")'));
 				background-position: center center;
 				background-repeat: no-repeat;
 				background-size: cover;
