@@ -156,95 +156,95 @@ em, i {
 }
 
 p {
-	font-family: 'Lora', 'times new roman', serif;
-	line-height: 1.5;
-	font-size: 18px;
-	margin: 0 0 4em
-}
+		font-family: 'Lora', 'times new roman', serif;
+  		font-size: 17px;
+  		line-height: 1.7;
+  		margin: 0 0 _size(element-margin) 0;
+  	}
 
-h1, h2, h3, h4, h5, h6 {
-	color: _palette(fg-bold);
-	font-weight: _font(weight-extrabold);
-	letter-spacing: _size(letter-spacing-alt);
-	line-height: 1em;
-	margin: 0 0 (_size(element-margin) * 0.5) 0;
-	text-transform: uppercase;
+  	h1, h2, h3, h4, h5, h6 {
+  		color: _palette(fg-bold);
+  		font-weight: _font(weight-extrabold);
+  		letter-spacing: _size(letter-spacing-alt);
+  		line-height: 1em;
+  		margin: 0 0 (_size(element-margin) * 0.5) 0;
+  		text-transform: uppercase;
 
-	a {
-		color: inherit;
-		text-decoration: none;
-	}
-}
+  		a {
+  			color: inherit;
+  			text-decoration: none;
+  		}
+  	}
 
-h2 {
-	font-size: 1.35em;
-	line-height: 1.75em;
+  	h2 {
+  		font-size: 1.35em;
+  		line-height: 1.75em;
 
-	@include breakpoint(small) {
-		font-size: 1.1em;
-		line-height: 1.65em;
-	}
-}
+  		@include breakpoint(small) {
+  			font-size: 1.1em;
+  			line-height: 1.65em;
+  		}
+  	}
 
-h3 {
-	font-size: 1.15em;
-	line-height: 1.75em;
+  	h3 {
+  		font-size: 1.15em;
+  		line-height: 1.75em;
 
-	@include breakpoint(small) {
-		font-size: 1em;
-		line-height: 1.65em;
-	}
-}
+  		@include breakpoint(small) {
+  			font-size: 1em;
+  			line-height: 1.65em;
+  		}
+  	}
 
-h4 {
-	font-size: 1em;
-	line-height: 1.5em;
-}
+  	h4 {
+  		font-size: 1em;
+  		line-height: 1.5em;
+  	}
 
-h5 {
-	font-size: 0.8em;
-	line-height: 1.5em;
-}
+  	h5 {
+  		font-size: 0.8em;
+  		line-height: 1.5em;
+  	}
 
-h6 {
-	font-size: 0.7em;
-	line-height: 1.5em;
-}
+  	h6 {
+  		font-size: 0.7em;
+  		line-height: 1.5em;
+  	}
 
-sub {
-	font-size: 0.8em;
-	position: relative;
-	top: 0.5em;
-}
+  	sub {
+  		font-size: 0.8em;
+  		position: relative;
+  		top: 0.5em;
+  	}
 
-sup {
-	font-size: 0.8em;
-	position: relative;
-	top: -0.5em;
-}
+  	sup {
+  		font-size: 0.8em;
+  		position: relative;
+  		top: -0.5em;
+  	}
 
-hr {
-	border: 0;
-	border-bottom: solid 2px _palette(border);
-	margin: (_size(element-margin) * 1.5) 0;
+  	hr {
+  		border: 0;
+  		border-bottom: solid 2px _palette(border);
+  		margin: (_size(element-margin) * 1.5) 0;
 
-	&.major {
-		margin: (_size(element-margin) * 2.25) 0;
-	}
-}
+  		&.major {
+  			margin: (_size(element-margin) * 2.25) 0;
+  		}
+  	}
 
-blockquote {
-	border-left: solid 4px _palette(border);
-	font-style: italic;
-	margin: 0 0 _size(element-margin) 0;
-	padding: 0.5em 0 0.5em 2em;
-}
-blockquote .big{
-	font-size: 2em;
-	border-left: solid 4px _palette(border);
-	line-height: 1em;
-	font-style: italic;
-	margin: 0 0 _size(element-margin) 0;
+  	blockquote {
+  		border-left: solid 4px _palette(border);
+  		font-style: italic;
+  		margin: 0 0 _size(element-margin) 0;
+  		padding: 0.5em 0 0.5em 2em;
+  	}
+  	blockquote .big{
+  		font-size: 2em;
+  		border-left: solid 4px _palette(border);
+  		line-height: 1em;
+  		font-style: italic;
+  		margin: 0 0 _size(element-margin) 0;
 		// padding: 0.1em 0 0.1em 2em;
 	}
 
@@ -289,6 +289,11 @@ blockquote .big{
 	section, article {
 		&.special {
 			text-align: center;
+			p {
+				margin: 1em;
+				padding: 5em;
+				text-align: left;
+			}
 		}
 	}
 
