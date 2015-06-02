@@ -1384,11 +1384,11 @@ p {
 	}
 
 	#menu {
-		@include vendor('transform', 'translateX(25em)');
+		@include vendor('transform', 'translateX(20em)');
 		@include vendor('transition', 'transform #{_duration(menu)} ease');
 		-webkit-overflow-scrolling: touch;
-		background: _palette(accent2, fg-light);
-		color: _palette(accent1, bg);
+		background: _palette(fg);
+		color: _palette(bg);
 		height: 100%;
 		max-width: 80%;
 		overflow-y: auto;
@@ -1396,7 +1396,7 @@ p {
 		position: fixed;
 		right: 0;
 		top: 0;
-		width: 25em;
+		width: 20em;
 		// text-align: center;
 		// padding: 3em;
 		z-index: _misc(z-index-base) + 2;
@@ -1407,8 +1407,8 @@ p {
 
 			> li {
 				border-top: solid 1px _palette(accent2, border);
-				margin: 2em 0 0 0;
-				padding: 2em 0 0 0;
+				margin: 1em 0 0 0;
+				padding: 1em 0 0 0;
 
 				&:first-child {
 					// border-bottom: solid 1px _palette(accent2, border);
@@ -1421,7 +1421,7 @@ p {
 					border: 0;
 					color: inherit;
 					display: block;
-					font-size: 1.2em;
+					font-size: 0.8em;
 					letter-spacing: _size(letter-spacing-alt);
 					outline: 0;
 					text-decoration: none;
@@ -1830,9 +1830,9 @@ p {
 	#main {
 		> header {
 			@include padding(12em, 0);
-			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/banner.jpg")'));
+			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/banner.png")'));
 			background-attachment: fixed;
-			background-position: center center;
+			background-position: left center;
 			background-repeat: no-repeat;
 			background-size: cover;
 			text-align: center;
@@ -1991,9 +1991,9 @@ p {
 
 	body.landing {
 		#page-wrapper {
-			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/banner.jpg")'));
+			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/banner.png")'));
 			background-attachment: fixed;
-			background-position: center center;
+			background-position: top center;
 			background-repeat: no-repeat;
 			background-size: cover;
 			padding-top: 0;
@@ -2012,7 +2012,7 @@ p {
 
 			#banner,
 			.wrapper.style4 {
-				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/banner.jpg")'));
+				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/banner.png")'));
 				background-position: center center;
 				background-repeat: no-repeat;
 				background-size: cover;
