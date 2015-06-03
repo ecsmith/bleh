@@ -4,12 +4,12 @@
 <svg version="1.1" id="Layer_1" zoomAndPan="disable"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px"
 	 viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
-<line fill="none" stroke="#000000" stroke-width="1.05" x1="2.304" y1="2.355" x2="13.695" y2="13.615"/>
-<line fill="none" stroke="#000000" stroke-width="1.05" x1="13.695" y1="2.355" x2="2.304" y2="13.615"/>
+<line fill="none" stroke="#212121" stroke-width="1.07" x1="2.304" y1="2.355" x2="13.695" y2="13.615"/>
+<line fill="none" stroke="#212121" stroke-width="1.07" x1="13.695" y1="2.355" x2="2.304" y2="13.615"/>
 <g>
 	<g>
-		<path fill="none" stroke="#FFFFFF" stroke-width="1.9885" d="M3895,3891.093l30,29.657"/>
-		<path fill="none" stroke="#FFFFFF" stroke-width="1.9885" d="M3925,3891.093l-30,29.657"/>
+		<path fill="none" stroke="#212121" stroke-width="1.9885" d="M3895,3891.093l30,29.657"/>
+		<path fill="none" stroke="#212121" stroke-width="1.9885" d="M3925,3891.093l-30,29.657"/>
 	</g>
 </g>
 </svg>
