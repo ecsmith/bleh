@@ -321,45 +321,6 @@
 	47.938,32.5 "/>
 <polyline fill="#FFFFFF" points="25.084,42.425 25.084,39.25 32.562,39.234 32.712,38.25 42.938,38.25 42.938,42.62 "/>
 <g>
-	<g>
-		<rect x="-36.229" y="2.049" fill="#020202" width="20.604" height="20.605"/>
-	</g>
-	<g>
-		
-			<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="-56.2305" y1="-1185.6538" x2="-35.6256" y2="-1165.049" gradientTransform="matrix(1 0 0 -1 20 -1163)">
-			<stop  offset="0" style="stop-color:#0099CC"/>
-			<stop  offset="1" style="stop-color:#CC0066"/>
-		</linearGradient>
-		<rect x="-36.229" y="2.049" display="none" fill="url(#SVGID_2_)" width="20.604" height="20.605"/>
-	</g>
-	<g>
-		<rect x="-34.942" y="3.337" fill="#FFFFFF" width="18.028" height="18.028"/>
-	</g>
-	<g>
-		<rect x="-33.654" y="4.625" fill="#020202" width="15.453" height="15.453"/>
-	</g>
-	<g>
-		<rect x="-32.366" y="5.913" fill="#FFFFFF" width="12.877" height="12.878"/>
-	</g>
-	<g>
-		<rect x="-31.079" y="7.2" fill="#020202" width="10.302" height="10.302"/>
-	</g>
-	<g>
-		
-			<linearGradient id="SVGID_7_" gradientUnits="userSpaceOnUse" x1="-51.0786" y1="-1180.5015" x2="-40.7772" y2="-1170.2001" gradientTransform="matrix(1 0 0 -1 20 -1163)">
-			<stop  offset="0" style="stop-color:#0099CC"/>
-			<stop  offset="1" style="stop-color:#CC0066"/>
-		</linearGradient>
-		<rect x="-31.079" y="7.2" display="none" fill="url(#SVGID_7_)" width="10.302" height="10.302"/>
-	</g>
-	<g>
-		<rect x="-29.791" y="8.488" fill="#FFFFFF" width="7.727" height="7.727"/>
-	</g>
-	<g>
-		<rect x="-28.503" y="9.775" fill="#020202" width="5.15" height="5.152"/>
-	</g>
-</g>
-<g>
 	<path d="M-41.415,18.091c-0.883,1.062-2.244,1.729-3.734,1.729c-2.721,0-4.946-2.223-4.946-4.943c0-2.744,2.226-4.947,4.946-4.947
 		c2.72,0,4.945,2.203,4.945,4.947c0,0.3-0.023,0.58-0.085,0.884h-6.954c0.127,0.345,0.302,0.647,0.539,0.906
 		c0.454,0.497,1.036,0.759,1.664,0.759c0.58,0,1.164-0.262,1.595-0.695L-41.415,18.091z M-42.816,14.118
@@ -395,9 +356,9 @@
 	<path fill="#D94448" d="M34.083,40.977c-0.456,0-0.817-0.373-0.817-0.83c0-0.455,0.361-0.856,0.817-0.856"/>
 </g>
 <rect x="25.084" y="41.875" width="17.333" height="6.458"/>
-<pattern  id="SVGID_8_" xlink:href="#SVGID_3_" patternTransform="matrix(1 0 0 -1 -397.6001 -17445.875)">
+<pattern  id="SVGID_2_" xlink:href="#SVGID_3_" patternTransform="matrix(1 0 0 -1 -397.6001 -17445.875)">
 </pattern>
-<line fill="none" stroke="url(#SVGID_8_)" stroke-width="0.33" x1="26.312" y1="41.422" x2="41.414" y2="41.422"/>
+<line fill="none" stroke="url(#SVGID_2_)" stroke-width="0.33" x1="26.312" y1="41.422" x2="41.414" y2="41.422"/>
 <g>
 	<g>
 		<g>
@@ -458,15 +419,15 @@
 		</g>
 	</g>
 </g>
-<pattern  id="SVGID_9_" xlink:href="#SVGID_4_" patternTransform="matrix(1 0 0 -1 -397.6001 -17445.875)">
+<pattern  id="SVGID_7_" xlink:href="#SVGID_4_" patternTransform="matrix(1 0 0 -1 -397.6001 -17445.875)">
 </pattern>
-<line fill="none" stroke="url(#SVGID_9_)" x1="25.084" y1="39.75" x2="25.084" y2="41.422"/>
-<pattern  id="SVGID_10_" xlink:href="#SVGID_5_" patternTransform="matrix(1 0 0 -1 -380.2671 -17445.4355)">
+<line fill="none" stroke="url(#SVGID_7_)" x1="25.084" y1="39.75" x2="25.084" y2="41.422"/>
+<pattern  id="SVGID_8_" xlink:href="#SVGID_5_" patternTransform="matrix(1 0 0 -1 -380.2671 -17445.4355)">
 </pattern>
-<line fill="none" stroke="url(#SVGID_10_)" x1="42.417" y1="39.311" x2="42.417" y2="40.982"/>
-<pattern  id="SVGID_11_" xlink:href="#SVGID_6_" patternTransform="matrix(1 0 0 -1 -397.3735 -17445.875)">
+<line fill="none" stroke="url(#SVGID_8_)" x1="42.417" y1="39.311" x2="42.417" y2="40.982"/>
+<pattern  id="SVGID_9_" xlink:href="#SVGID_6_" patternTransform="matrix(1 0 0 -1 -397.3735 -17445.875)">
 </pattern>
-<line fill="none" stroke="url(#SVGID_11_)" stroke-width="0.33" stroke-linecap="square" x1="41.414" y1="41.422" x2="41.414" y2="38.417"/>
+<line fill="none" stroke="url(#SVGID_9_)" stroke-width="0.33" stroke-linecap="square" x1="41.414" y1="41.422" x2="41.414" y2="38.417"/>
 <text transform="matrix(1 0 0 1 28.6279 40.5859)" font-family="'ProximaNova-Bold'" font-size="1">ES</text>
 <rect x="30.178" y="39.768" width="1.397" height="0.879"/>
 <line fill="none" stroke="#FFFFFF" stroke-width="0.2699" x1="25.084" y1="48.229" x2="42.417" y2="48.229"/>
@@ -988,15 +949,15 @@
 	</g>
 </g>
 <g>
-	<path d="M7.904,16c-1.989,0-3.696-0.709-5.124-2.125c-1.428-1.418-2.142-3.131-2.142-5.141c0-2.011,0.708-3.724,2.126-5.141
-		c1.417-1.417,3.13-2.125,5.14-2.125c2.009,0,3.723,0.708,5.14,2.125c1.416,1.417,2.126,3.13,2.126,5.141
-		c0,0.465-0.042,0.897-0.126,1.301H4.827c0.189,0.528,0.454,0.973,0.793,1.332c0.676,0.742,1.491,1.11,2.443,1.11 M4.763,7.624
-		h6.568c-0.17-0.593-0.455-1.111-0.857-1.556C9.819,5.35,9.015,4.99,8.064,4.99c-0.952,0-1.768,0.36-2.443,1.079
-		C5.26,6.492,4.974,7.011,4.763,7.624z"/>
+	<path fill="#2E3842" d="M10.877,15.176c-1.989,0-3.696-0.709-5.125-2.125C4.324,11.633,3.611,9.92,3.611,7.91
+		c0-2.011,0.707-3.724,2.125-5.141s3.131-2.125,5.141-2.125c2.009,0,3.723,0.708,5.14,2.125c1.416,1.417,2.126,3.13,2.126,5.141
+		c0,0.465-0.042,0.897-0.126,1.301H7.8c0.188,0.528,0.454,0.973,0.793,1.332c0.676,0.742,1.491,1.11,2.442,1.11 M7.736,6.8h6.567
+		c-0.17-0.593-0.455-1.111-0.856-1.556c-0.656-0.719-1.459-1.079-2.41-1.079c-0.953,0-1.769,0.36-2.443,1.079
+		C8.232,5.668,7.947,6.187,7.736,6.8z"/>
 </g>
-<path fill="none" stroke="#000000" stroke-width="3.56" d="M7.904,14.25c2.448,0,3.01-1.166,4.388-1.166"/>
+<path fill="none" stroke="#2E3842" stroke-width="3.56" d="M10.877,13.426c2.447,0,3.01-1.166,4.388-1.166"/>
 <g>
-	<path fill="none" stroke="#000000" stroke-width="3.56" d="M13.292,13.031c2.117,0,2.117,1.271,4.233,1.271
+	<path fill="none" stroke="#2E3842" stroke-width="3.56" d="M16.265,12.207c2.117,0,2.117,1.271,4.233,1.271
 		c2.119,0,2.119-1.271,4.238-1.271c2.117,0,2.118,1.271,4.236,1.271"/>
 </g>
 <circle fill="#FFFFFF" cx="39.576" cy="39.821" r="0.208"/>
