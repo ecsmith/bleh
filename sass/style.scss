@@ -1478,16 +1478,16 @@
 				@include breakpoint(small) {
 					font-size: 0.8em;
 				}
-				&:before {
-					background-image: url('images/logo.svg');
-					background-position: center center;
-					background-repeat: no-repeat;
-					content: '';
-					display: inline-block;
-					height: 3em;
-					vertical-align: center;
-					width: 3em;
-				}
+				// &:before {
+				// 	background-image: url('images/logo.svg');
+				// 	background-position: center center;
+				// 	background-repeat: no-repeat;
+				// 	content: '';
+				// 	display: inline-block;
+				// 	height: 3em;
+				// 	vertical-align: center;
+				// 	width: 3em;
+				// }
 			}
 		}
 
