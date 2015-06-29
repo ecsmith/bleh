@@ -294,7 +294,6 @@
 			h2, h3, h4, h5, h6 {
 				// font-family: _font(family-semibold);
 				// background: #C3CCA9;
-				border-bottom: solid 2px _palette(bg);
 				display: inline-block;
 				padding: 1em .01em;
 				position: relative;
@@ -302,7 +301,9 @@
 				&:after {
 					content: '';
 					display: block;
-					height: 1px;
+					width: 50%;
+					margin: 2em auto 0;
+					border-bottom: solid 3px;
 				}
 			}
 
@@ -1387,7 +1388,7 @@
 				// 	// margin-top: 0 !important;
 				// 	padding-top: 0 !important;
 				// }
-									&:hover {
+				&:hover {
 						// @include vendor('transform', 'translateX(1em)');
 						@include vendor('transition', 'box-shadow #{_duration(transitions)} ease-in-out');
 						// padding: 0 1em;
@@ -1400,46 +1401,46 @@
 						width: 25%;
 					}
 
-				> a {
-					border: 0;
-					color: inherit;
-					display: block;
-					font-size: 0.8em;
-					letter-spacing: _size(letter-spacing-alt);
-					outline: 0;
-					text-decoration: none;
-					text-transform: uppercase;
+					> a {
+						border: 0;
+						color: inherit;
+						display: block;
+						font-size: 0.8em;
+						letter-spacing: _size(letter-spacing-alt);
+						outline: 0;
+						text-decoration: none;
+						text-transform: uppercase;
 
 
-					@include breakpoint(small) {
-						line-height: 3em;
+						@include breakpoint(small) {
+							line-height: 3em;
+						}
 					}
 				}
 			}
+
+			.close {
+				background-image: url('images/close.svg');
+				background-position: 4.85em 1em;
+				background-repeat: no-repeat;
+				border: 0;
+				cursor: pointer;
+				display: block;
+				height: 3em;
+				position: absolute;
+				right: 0;
+				top: 0;
+				vertical-align: middle;
+				width: 7em;
+			}
+
+			@include breakpoint(small) {
+				padding: 3em 1.5em;
+			}
 		}
 
-		.close {
-			background-image: url('images/close.svg');
-			background-position: 4.85em 1em;
-			background-repeat: no-repeat;
-			border: 0;
-			cursor: pointer;
-			display: block;
-			height: 3em;
-			position: absolute;
-			right: 0;
-			top: 0;
-			vertical-align: middle;
-			width: 7em;
-		}
-
-		@include breakpoint(small) {
-			padding: 3em 1.5em;
-		}
-	}
-
-	body.is-menu-visible {
-		#page-wrapper {
+		body.is-menu-visible {
+			#page-wrapper {
 			// color: _palette(bg);
 			opacity: 0.55;
 
