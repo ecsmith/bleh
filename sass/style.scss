@@ -1822,7 +1822,7 @@
 			@include padding(12em, 0);
 			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/banner.png")'));
 			background-attachment: fixed;
-			background-position: left center;
+			background-position: center center;
 			background-repeat: no-repeat;
 			background-size: cover;
 			text-align: center;
@@ -1983,7 +1983,7 @@
 		#page-wrapper {
 			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../images/banner.png")'));
 			background-attachment: fixed;
-			background-position: center center;
+			background-position: top center;
 			background-repeat: no-repeat;
 			background-size: cover;
 			padding-top: 0;
