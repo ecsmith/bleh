@@ -1015,6 +1015,7 @@
 	.spotlight {
 		@include vendor('align-items', 'center');
 		@include vendor('display', 'flex');
+		margin: 0 0 _size(element-margin) 0;
 
 		.image {
 			@include vendor('order', '1');
