@@ -1934,7 +1934,7 @@
 			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../cisco/images/bg.png")'));
 		}
 		& .style8{
-			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../perforce/images/bg.png")'));
+			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.2), rgba(0,0,0,0.2))', 'url("../perforce/images/bg.png")'));
 		}
 	}
 
