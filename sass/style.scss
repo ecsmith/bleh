@@ -136,9 +136,9 @@
 
 	p {
 		// font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, Sans-Serif;
-		font-family: 'Lora', 'times new roman', serif;
-		font-size: 17px;
-		line-height: 1.7;
+		// font-family: 'Lora', 'times new roman', serif;
+		font-size: 0.875rem;
+		line-height: 1.5;
 		margin: 0 0 _size(element-margin) 0;
 
 		a {
@@ -181,7 +181,7 @@
 	}
 
 	h2 {
-		font-size: 1.35em;
+		font-size: 1.275rem;
 		line-height: 1.75em;
 
 		@include breakpoint(small) {
@@ -1913,7 +1913,7 @@
 				@include padding(5em, 3em);
 
 				h2 {
-					font-size: 1.25em;
+					font-size: 1.25rem;
 					margin: 0 0 (_size(element-margin) * 0.5) 0;
 				}
 			}
