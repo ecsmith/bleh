@@ -16,7 +16,15 @@
 	<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 </head>
 <body>
-
+<script src="../js/md5.js"></script>
+<script>
+	var password; 
+    var thePassword="fa8eca2cac8fea6f15afb977bff2ffa3"; 
+    password=prompt('Enter Password',''); 
+    if (md5(password)==thePassword) {  }
+    else { alert('Incorrect Password! Click OK to Enter!');
+		window.location="http://erchsm.me"; } 
+</script>
 	<!-- Page Wrapper -->
 	<div id="page-wrapper">
 
