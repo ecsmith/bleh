@@ -1,11 +1,11 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-	<title>Perforce: Case Study</title>
+	<title>Cisco: Case Study</title>
 	<link rel="shortcut icon" href="../favicon.ico" />
-	<meta prefix="og: http://ogp.me/ns#" property="og:image" content="https://raw.githubusercontent.com/erchsm/me/gh-pages/perforce/images/bg.png" />
+	<meta prefix="og: http://ogp.me/ns#" property="og:image" content="https://raw.githubusercontent.com/erchsm/me/gh-pages/cisco/images/bg.png" />
 	<meta prefix="og: http://ogp.me/ns#" />
-	<meta property="image" content="https://raw.githubusercontent.com/erchsm/me/gh-pages/perforce/images/bg.png"/>
+	<meta property="image" content="https://raw.githubusercontent.com/erchsm/me/gh-pages/cisco/images/bg.png"/>
 	<meta name="description" content="I'm a UI/UX Designer & Engineer located in the SF Bay Area. I've prepared this site to showcase my work. For code samples check out my Github.">
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -31,11 +31,11 @@
 						<div id="menu">
 							<ul>
 								<li><a href="../">Home</a></li>
-								<li><a href=".">Perforce</a></li>
+								<li><a href="../perforce/">Perforce</a></li>
 								<li><a href="../givjoy/">GivJoy</a></li>
 								<li><a href="../content-mutual/">CM</a></li>
 								<li><a href="../scholastic/">Scholastic</a></li>
-								<li><a href="../cisco/">Cisco</a></li>
+								<li><a href=".">Cisco</a></li>
 								<li><a href="https://github.com/erchsm/M-E">M&E</a></li>
 								<li><a href="https://github.com/erchsm/box-app">Box</a></li>
 								<li><a href="http://erchsm.github.io/me/resume/ericsmith-resume.pdf">Resume</a></li>
@@ -48,37 +48,24 @@
 
 			<!-- Main -->
 			<article id="main">
-				<header class="style8">
-					<h2>Helix Sync<span class="x">&times;</span>Perforce</h2>
+				<header class="style7">
+					<h2>Cisco</h2>
 <!-- 							<p>Aliquam ut ex ut interdum donec amet imperdiet eleifend</p>
 -->					</header>
 <section class="wrapper style5">
 	<div class="inner">
 		
 		<div class="row">
-			<div class="6u 12u$(medium)">
-				<h3>Helix Sync</h3>
-				<p>I'm currently working at <a href="https://perforce.com">Perforce</a> as a UX Designer! Me and the UX team are working on a project called Helix Sync. The product is in its early stages and I'm creating a concept prototype to test with our existing customers. I'm creating it with this awesome prototyping tool called <a href="https://proto.io">Proto.io</a> & hopefully I'll be able to publish a link here soon!
+			<div class="6u 12u(medium)">
+				<span class="image fit"><img src="images/mate-ui.png" alt=""/></span>
+			</div>
+			<div class="6u$ 12u$(medium)">
+				<h4>UI Engineer</h4>
+				<p>In my second role at Cisco I worked as a UI Engineer. The project I worked on was a web application that utilized HTML, CSS and Javascript to allow our users to visualize their WAN(Wide Area Network). More specifically our application utilized  javascript libraries/frameworks including NodeJS, BackboneJS & HighchartsJS. 
 				</p>
-				<p>In the meantime I've been creating little logos & headlines with Sketch. Enjoy!</p>
-			</div>
-			<div class="6u 12u$(medium)">
-				<span class="image fit"><img src="images/HELIX  INVERSE.png" alt=""/></span>
-				<span class="image fit"><img src="images/HELIX .png" alt=""/></span>
-				<!-- <span class="image fit"><img src="images/HELIX WITH SOME TEXT.png" alt=""/></span> -->
+				<p>Unfortunately, my work on this team is covered under an NDA and I am not allowed to disclose any further details on my personal site. I can however, show my contributions to the project in a in-person demo. Please contact me for more details regarding the project or to schedule a time to see it live!</p>
 			</div>
 		</div>
-		<div class="row">
-			<div class="6u 12u$(medium)">
-				<h3>Helix Cloud</h3>
-				<p>Some icon design I did for their Helix Cloud product. Made with Illustrator. Enjoy!</p>
-			</div>
-			<div class="6u 12u$(medium)">
-				<span class="image fit"><img src="images/P4 HEX.png" alt=""/></span>
-				<span class="image fit"><img src="images/P4.png" alt=""/></span>
-			</div>
-		</div>
-
 	</div>
 </section>
 <!-- <header class="style3">

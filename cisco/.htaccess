@@ -1,0 +1,4 @@
+AuthType Basic  
+AuthName "restricted area"  
+AuthUserFile /me/cisco/.htpasswd  
+require valid-user
