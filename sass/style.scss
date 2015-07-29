@@ -3,7 +3,7 @@
 @import 'mixins';
 @import 'skel-layout';
 @import 'font-awesome.min.css';
-@import url(http://fonts.googleapis.com/css?family=Lora);
+// @import url(http://fonts.googleapis.com/css?family=Lora);
 @font-face { 
 	font-family: Proxima Nova;
 	src: url('../fonts/ProximaNova-Regular.otf');
@@ -136,7 +136,7 @@
 
 	p {
 		// font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, Sans-Serif;
-		font-family: 'Lora', 'times new roman', serif;
+		// font-family: 'Lora', 'times new roman', serif;
 		font-size: 1.125rem;
 		line-height: 1.7;
 		margin: 0 0 _size(element-margin) 0;
@@ -1422,7 +1422,24 @@
 				// 	// margin-top: 0 !important;
 				// 	padding-top: 0 !important;
 				// }
-				&:hover {
+
+
+				> a {
+					border: 0;
+					color: inherit;
+					display: block;
+					letter-spacing: 0.05em;
+					font-size: 0.85em;
+					outline: 0;
+					text-decoration: none;
+					text-transform: uppercase;
+
+
+					@include breakpoint(small) {
+						line-height: 3em;
+					}
+
+					&:hover {
 						// @include vendor('transform', 'translateX(1em)');
 						@include vendor('transition', 'box-shadow #{_duration(transitions)} ease-in-out');
 						// padding: 0 1em;
@@ -1434,47 +1451,61 @@
 						inset 0 -5px 0 _palette(fg);
 						width: 25%;
 					}
+				}
 
-					> a {
-						border: 0;
-						color: inherit;
+				&:first-child  {
+					padding-bottom: 1em;
+					&:after {
+						border-bottom: solid 2px rgba(0,0,0,0.015);
+						content: '';
 						display: block;
-						font-size: 0.8em;
-						letter-spacing: _size(letter-spacing-alt);
-						outline: 0;
-						text-decoration: none;
-						text-transform: uppercase;
-
-
-						@include breakpoint(small) {
-							line-height: 3em;
-						}
+						height: 1.5em;
+						position: absolute;
+						width: 30em;
+						left: -1em;
+					}
+				}
+				&:nth-last-child(3) {
+					padding-bottom: 1em;
+					&:after {
+						border-bottom: solid 2px rgba(0,0,0,0.015);
+						content: '';
+						display: block;
+						height: 1.5em;
+						position: absolute;
+						width: 30em;
+						left: -1em;
 					}
 				}
 			}
 
-			.close {
-				background-image: url('images/close.svg');
-				background-position: 4.85em 1em;
-				background-repeat: no-repeat;
-				border: 0;
-				cursor: pointer;
-				display: block;
-				height: 3em;
-				position: absolute;
-				right: 0;
-				top: 0;
-				vertical-align: middle;
-				width: 7em;
-			}
-
-			@include breakpoint(small) {
-				padding: 3em 1.5em;
-			}
 		}
 
-		body.is-menu-visible {
-			#page-wrapper {
+
+
+
+		.close {
+			background-image: url('images/close.svg');
+			background-position: 4.85em 1em;
+			background-repeat: no-repeat;
+			border: 0;
+			cursor: pointer;
+			display: block;
+			height: 3em;
+			position: absolute;
+			right: 0;
+			top: 0;
+			vertical-align: middle;
+			width: 7em;
+		}
+
+		@include breakpoint(small) {
+			padding: 3em 1.5em;
+		}
+	}
+
+	body.is-menu-visible {
+		#page-wrapper {
 			// color: _palette(bg);
 			opacity: 0.55;
 
