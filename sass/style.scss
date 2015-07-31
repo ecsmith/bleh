@@ -1457,7 +1457,7 @@
 					padding-bottom: 1em;
 					&:after {
 						// border-bottom: solid 2px _palette(accent1, border2-bg);;
-						border-bottom: solid 2px _palette(accent1, border2-bg);
+						border-bottom: solid 1px _palette(accent1, border2-bg);
 						content: '';
 						display: block;
 						height: 1.5em;
@@ -1469,7 +1469,7 @@
 				&:nth-last-child(3) {
 					padding-bottom: 1em;
 					&:after {
-						border-bottom: solid 2px _palette(accent1, border2-bg);
+						border-bottom: solid 1px _palette(accent1, border2-bg);
 						content: '';
 						display: block;
 						height: 1.5em;
