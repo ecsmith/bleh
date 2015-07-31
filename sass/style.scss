@@ -1456,7 +1456,8 @@
 				&:first-child  {
 					padding-bottom: 1em;
 					&:after {
-						border-bottom: solid 2px rgba(0,0,0,0.015);
+						// border-bottom: solid 2px _palette(accent1, border2-bg);;
+						border-bottom: solid 2px _palette(accent1, border2-bg);
 						content: '';
 						display: block;
 						height: 1.5em;
@@ -1468,7 +1469,7 @@
 				&:nth-last-child(3) {
 					padding-bottom: 1em;
 					&:after {
-						border-bottom: solid 2px rgba(0,0,0,0.015);
+						border-bottom: solid 2px _palette(accent1, border2-bg);
 						content: '';
 						display: block;
 						height: 1.5em;
@@ -1962,7 +1963,7 @@
 			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../scholastic/images/facts.png")'));
 		}
 		& .style7{
-			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../cisco/images/bg.png")'));
+			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.25), rgba(0,0,0,0.15))', 'url("../cisco/images/bg.png")'));
 		}
 		& .style8{
 			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.25), rgba(0,0,0,0.15))', 'url("../perforce/images/bg.png")'));
