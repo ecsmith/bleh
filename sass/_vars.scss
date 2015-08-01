@@ -21,7 +21,7 @@ $breakpoints: (
 $duration: (
 	transitions:		0.2s,
 	menu:				0.5s,
-	fadein:				0.1s
+	fadein:				0.5s
 	);
 
 // Size.
@@ -59,7 +59,7 @@ $palette: (
 			fg-bold:		#212121,//#ffffff,
 			fg:				mix(#000, #ffffff, 25%),
 			fg-light:		mix(#000, #ffffff, 40%),
-			border:			rgba(0,0,0,0.125),
+			border:			rgba(0,0,0,0.015),
 			border-bg:		rgba(255,255,255,0.075),
 			border2:		rgba(0,0,0,0.25),
 			border2-bg:		rgba(0,0,0,0.04)
