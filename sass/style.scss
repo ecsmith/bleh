@@ -91,7 +91,7 @@
 	body, input, select, textarea {
 		color: _palette(fg);
 		font-family: _font(family);
-		font-size: 25pt;
+		font-size: 1.125rem;
 		font-weight: _font(weight);
 		letter-spacing: _size(letter-spacing);
 		line-height: 1.65em;
@@ -147,7 +147,7 @@
 			text-decoration: none;
 			position: relative;
 			text-shadow: -1px -1px 0 _palette(accent7,bg), 1px -1px 0 _palette(accent7,bg), -1px 1px 0 _palette(accent7,bg), 1px 1px 0 _palette(accent7,bg);
-			background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 1px, _palette(accent7,fg) 1px, _palette(accent7,fg) 3px, rgba(0, 0, 0, 0) 3px);
+			background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 0px, _palette(accent7,fg) 0px, _palette(accent7,fg) 2px, rgba(0, 0, 0, 0) 2px);
 		}
 		@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
 			a {
@@ -156,7 +156,7 @@
 		}
 		a:hover, a:focus {
 			color: #55abad;
-			background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 1px, #55abad 1px, #55abad 3px, rgba(0, 0, 0, 0) 3px);
+			background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 0px, #55abad 0px, #55abad 2px, rgba(0, 0, 0, 0) 2px);
 		}
 		@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
 			a:hover, a:focus {
@@ -1548,7 +1548,7 @@
 		top: 0;
 		width: 100%;
 		z-index: _misc(z-index-base);
-		box-shadow: 0 0 0 2px _palette(accent1, border2-bg);
+		// box-shadow: 0 0 0 2px _palette(accent1, border2-bg);
 
 		h1 {
 			@include vendor('transition', 'opacity #{_duration(transitions)} ease');
