@@ -102,7 +102,7 @@
 		}
 
 		@include breakpoint(large) {
-			font-size: 12pt;
+			// font-size: 12pt;
 		}
 
 		@include breakpoint(small) {
@@ -1928,6 +1928,10 @@
 					text-align: center;
 					text-indent: -999em;
 					direction: ltr;
+
+					@include breakpoint(large) {
+						background-color: 10px _palette(bg);
+					}
 				}
 			}
 
