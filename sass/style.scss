@@ -102,7 +102,7 @@
 		}
 
 		@include breakpoint(large) {
-			font-size: 12pt;
+			// font-size: 12pt;
 		}
 
 		@include breakpoint(small) {
@@ -1400,7 +1400,7 @@
 		overflow-y: auto;
 		padding: 1em 2em;
 		position: fixed;
-		border-left: solid 2px _palette(accent1, border);
+		border-left: solid 1px _palette(accent1, border2-bg);
 		right: 0;
 		top: 0;
 		width: 20em;
@@ -1425,12 +1425,13 @@
 
 
 				> a {
-					@include vendor('transition', 'width #{_duration(transitions)} ease');
+					@include vendor('transition', ('color #{_duration(transitions)} ease', 'border-bottom-color #{_duration(transitions)} ease'));
+					// @include vendor('transition', 'width #{_duration(transitions)} ease');
 					border: 0;
 					color: inherit;
 					display: block;
 					letter-spacing: 0.05em;
-					font-size: 0.85em;
+					font-size: 0.82rem;
 					outline: 0;
 					text-decoration: none;
 					white-space: nowrap;
@@ -1438,10 +1439,13 @@
 
 
 					@include breakpoint(small) {
-						line-height: 3em;
+						// line-height: 3em;
 					}
 
 					&:hover {
+						color: #71E1DF;
+						// text-decoration: underline;
+						// background-color: rgba(254, 255, 163, 0.5);
 						// @include vendor('transform', 'translateX(1em)');
 						// padding: 0 1em;
 						// border-left: solid 2px _palette(bg);
@@ -1453,14 +1457,15 @@
 						// width: 25%;
 						&:before {
 							z-index: -1;
-							box-shadow: inset 0 -30px 0 rgba(254, 255, 163, 0.5);
+							// border: solid 1px black;
+							// box-shadow: inset 0 2em 0 rgba(254, 255, 163, 0.5);
 							// inset 0 -5px 0 _palette(fg);
 							content: '';
-							content: auto;
 							position: absolute;
-							display: block;
-							height: 2em;
-							width: 5em;
+							left: 2em;
+							// display: block;
+							height: 1em;
+							width: 4em;
 							// top: 2.3em;
 						}
 					}
@@ -1499,6 +1504,7 @@
 
 
 		.close {
+			// @include vendor('transition', ('background-image 0.25s ease'));
 			background-image: url('images/close.svg');
 			background-position: 4.85em 1em;
 			background-repeat: no-repeat;
@@ -1509,9 +1515,24 @@
 			position: absolute;
 			right: 0;
 			top: 0;
-			vertical-align: middle;
+			vertical-align: top;
 			width: 7em;
+
+			&:hover {
+				background-image: url('images/close-alt.svg');
+				// &:before {
+				// 	z-index: -1;
+				// 	box-shadow: inset 0 -30px 0 rgba(254, 255, 163, 0.3);
+				// 	content: '';
+				// 	content: auto;
+				// 	position: absolute;
+				// 	display: block;
+				// 	height: 2em;
+				// 	width: 5em;
+				// }
+			}
 		}
+
 
 		@include breakpoint(small) {
 			padding: 3em 1.5em;
@@ -1691,12 +1712,16 @@
 
 
 		h2 {
-			// @include vendor('transform', 'scale(1)');
+			@include vendor('transition', ('transform 0.75s ease', 'opacity 0.75s ease'));
+			@include vendor('transition-delay', '0.25s');
+			@include vendor('transform', 'translateY(1em)');
+			@include vendor('transform', 'scale(1.0)');
 			font-family: _font(family-bold);
-			@include vendor('transition', ('transform 0.5s ease', 'opacity 0.5s ease'));
+			// bottom: 0;
 			display: inline-block;
 			font-size: 4.375rem;
 			font-weight: 500;
+			position: absolute;
 			// letter-spacing: 0.2em;
 			opacity: 1;
 			// padding: 0.35em 1em;
@@ -1724,7 +1749,7 @@
 			}
 
 			&:before, &:after {
-				// @include vendor('transition', 'width 0.85s ease');
+				@include vendor('transition', 'opacity 0.25s ease-out');
 				@include vendor('transition-delay', '0.25s');
 				background: _palette(fg-bold);
 				content: '';
@@ -1761,7 +1786,7 @@
 			border: none;
 			bottom: 0;
 			color: inherit;
-			font-size: 0.8em;
+			font-size: 0.8rem;
 			height: 8.5em;
 			left: 50%;
 			letter-spacing: _size(letter-spacing-alt);
@@ -1793,7 +1818,7 @@
 
 		&:after {
 			@include vendor('pointer-events', 'none');
-			@include vendor('transition', 'opacity #{_duration(fadein)} ease-in-out');
+			@include vendor('transition', 'height #{_duration(fadein)} ease');
 			@include vendor('transition-delay', '0.1s');
 			content: '';
 			background: _palette(bg);
@@ -1899,7 +1924,7 @@
 	#main {
 		> header {
 			@include padding(12em, 0);
-			@include vendor('background-image', ('linear-gradient(left, rgba(0,0,0,0.6), rgba(0,0,0,0.5))', 'url("../images/banner.png")'));
+			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.6))', 'url("../images/banner.png")'));
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -1983,7 +2008,7 @@
 			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.25), rgba(0,0,0,0.15))', 'url("../cisco/images/bg.png")'));
 		}
 		& .style8{
-			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.25), rgba(0,0,0,0.15))', 'url("../perforce/images/bg.png")'));
+			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.15), rgba(0,0,0,0.20))', 'url("../perforce/images/bg.png")'));
 		}
 		& .style9{
 			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.25), rgba(0,0,0,0.15))', 'url("../content-mutual/images/bg.png")'));
@@ -2070,9 +2095,9 @@
 
 	body.landing {
 		#page-wrapper {
-			@include vendor('background-image', ('linear-gradient(left, rgba(0,0,0,0.6), rgba(0,0,0,0.5))', 'url("../images/banner.png")'));
+			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.6))', 'url("../images/banner.png")'));
 			background-attachment: fixed;
-			background-position: center center;
+			background-position: center top;
 			background-repeat: no-repeat;
 			background-size: cover;
 			padding-top: 0;
@@ -2091,8 +2116,8 @@
 
 			#banner,
 			.wrapper.style4 {
-				@include vendor('background-image', ('linear-gradient(left, rgba(0,0,0,0.6), rgba(0,0,0,0.5))', 'url("../images/banner.png")'));
-				background-position: center center;
+				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.6))', 'url("../images/banner.png")'));
+				background-position: center top;
 				background-repeat: no-repeat;
 				background-size: cover;
 			}

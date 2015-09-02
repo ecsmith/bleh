@@ -73,9 +73,9 @@ function md51(r) {
 		var password, thePassword = "fa8eca2cac8fea6f15afb977bff2ffa3";
 		// password = prompt("Enter Password", ""), md5(password) == thePassword || (alert("Incorrect Password! Click OK to Enter!"), window.location = "../");
 
-		password = prompt('Prompt text','Suggested input');
+		password = prompt("Hiya! This case study is password protected. Please ping me at eric@erchsm.me for the password. Feel free to check out the rest of my site in the meantime! :)","");
 		if (password) {
-			md5(password) == thePassword || (alert("Incorrect Password! Click OK to Enter!"), window.location = "../");
+			md5(password) == thePassword || (alert("Incorrect Password! Ask me for the password at eric@erchsm.me. Click OK to Enter!"), window.location = "../");
 		} else {
 			window.location = "../";	
 		}
