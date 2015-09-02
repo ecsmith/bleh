@@ -1,5 +1,5 @@
 /*
-	HIT THERE I AM JAVASCRIPT OK
+	HI THERE I AM JAVASCRIPT OK
 */
 
 (function($) {
