@@ -20,19 +20,19 @@
   font-weight: normal;
   font-style: normal;
 }
- @font-face { 
+@font-face { 
   font-family: Proxima Nova Bold;
   src: url('../../../fonts/ProximaNova-Bold.otf');
   font-weight: normal;
   font-style: normal;
 }
- @font-face { 
+@font-face { 
   font-family: Proxima Nova Black;
   src: url('../../../fonts/ProximaNova-Black.otf');
   font-weight: normal;
   font-style: normal;
 }
- @font-face { 
+@font-face { 
   font-family: Proxima Nova;
   src: url('../../../fonts/ProximaNova-Light.otf');
   font-weight: normal;
@@ -60,6 +60,7 @@ html, body {
 }
 .demo-drawer {
   border: none;
+  box-shadow: none;
 }
 /* iOS Safari specific workaround */
 .demo-drawer .mdl-menu__container {
@@ -136,16 +137,18 @@ html, body {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  color: rgba(255, 255, 255, 0.56);
+  font-family: 'Proxima Nova Bold', 'Helvetica', sans-serif;;
+
+  color: rgba(23,20,21, 0.30);
   font-weight: 500;
 }
 .demo-layout .demo-navigation .mdl-navigation__link:hover {
-  background-color: #197D8B;
+  background-color: #none;
   color: #FFF;
 }
 .demo-navigation .mdl-navigation__link .material-icons {
-  font-size: 18px;
-  color: rgba(255, 255, 255, 0.56);
+  font-size: 16px;
+  color: rgba(23, 20, 21, 0.10);
   margin-right: 18px;
 }
 
@@ -229,33 +232,30 @@ _:-ms-input-placeholder, :root .demo-graph {
   font-size: 1em;
 }
 .demo-updates .mdl-card__title {
-  -webkit-transition-duration: 0.28s;
-  transition-duration: 0.28s;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  -webkit-transition-property: text-decoration;
-  transition-property: text-decoration;
   min-height: 200px;
-  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url("../../images/sale.png");
-  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url("../../images/ysale.png");
-  background-image: -ms-linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url("../../images/sale.png");
-  background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.4)), url('../../images/sale.png');
-  /*background-image: url('../images/yard-sale.jpg');*/
+  
+  background-image: url('../../images/sale.png');
   /*background-attachment: fixed;*/
   background-position: right bottom;
   background-size: cover;
   background-repeat: no-repeat;
-  -webkit-mask-image: -webkit-radial-gradient(circle, white, black);
+  text-shadow: 2px 2px rgba(0,0,0,0.5);
+  /*-webkit-mask-image: -webkit-radial-gradient(circle, white, black);*/
 }
 .demo-updates .mdl-card__title:hover {
+  -webkit-transition-duration: 0.28s;
+  transition-duration: 0.28s;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition-property: background;
+  transition-property: background;
   cursor: pointer;
   min-height: 200px;
-  text-decoration: underline;
-/*  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url("../images/yard-sale.jpg");
-  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url("../images/yard-sale.jpg");
-  background-image: -ms-linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url("../images/yard-sale.jpg");
-  background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.4)), url('../images/yard-sale.jpg');*/
-  background-image: url('../../images/sale.png');
+  background-image: -moz-linear-gradient(left, rgba(0,0,0,0.4), rgba(0,0,0,0.0)), url("../../images/sale.png");
+  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0.4), rgba(0,0,0,0.0)), url("../../images/sale.png");
+  background-image: -ms-linear-gradient(left, rgba(0,0,0,0.4), rgba(0,0,0,0.0)), url("../../images/sale.png");
+  background-image: linear-gradient(left, rgba(0,0,0,0.4), rgba(0,0,0,0.0)), url('../../images/sale.png');
+  /*background-image: url('../../images/sale.png');*/
   background-position: 0 100%;
   background-repeat: no-repeat;
 }
@@ -296,7 +296,7 @@ _:-ms-input-placeholder, :root .demo-graph {
 
 
 .demo-cards .mdl-card__media {
-
+  background-color: white;
   box-sizing: border-box;
   background-size: cover;
   padding: 24px;
@@ -363,8 +363,13 @@ _:-ms-input-placeholder, :root .demo-graph {
   -ms-flex-align: center;
   align-items: center;
 }
-.demo-updates .meta > *:first-child {
-    margin-right: 8px;
+.demo-updates .meta > * {
+  margin-right: 8px;
+}
+.demo-updates .meta > *:nth-child(3) {
+  padding-right: 16px;
+  border-right: solid 1px rgba(0,0,0,.1);
+
 }
 
 /*
@@ -891,15 +896,19 @@ body .demo-blog {
 .demo-blog .amazing .mdl-card__title {
   background-color: #263238;
 }
+
 .minilogo {
-  width: 44px;
-  height: 44px;
-  background-image: url('../images/avatar.png');
+  width: 34px;
+  height: 34px;
+  background-image: url('../images/co2.jpg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 50%;
+  background-size: 100%;
   border-radius: 22px;
   background-color: #F5F5F5;
+}
+.alt {
+  background-image: url('../images/co3.png');
 }
 
 /* Fixes for IE 10 */
@@ -949,7 +958,7 @@ body .demo-blog {
 }
 
 .mdl-card__supporting-text {
-  border-top: solid 1px rgba(0,0,0,0.1);
+  border-bottom: solid 1px rgba(0,0,0,0.1);
 }
 
 
