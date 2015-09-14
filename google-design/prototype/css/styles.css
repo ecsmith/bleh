@@ -239,7 +239,7 @@ _:-ms-input-placeholder, :root .demo-graph {
   background-position: right bottom;
   background-size: cover;
   background-repeat: no-repeat;
-  text-shadow: 2px 2px rgba(0,0,0,0.5);
+  /*text-shadow: 2px 2px rgba(0,0,0,0.5); */
   /*-webkit-mask-image: -webkit-radial-gradient(circle, white, black);*/
 }
 .demo-updates .mdl-card__title:hover {

@@ -2013,6 +2013,7 @@
 		}
 		& .style9{
 			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.0), rgba(0,0,0,0.15))', 'url("../google-design/images/bg.png")'));
+			background-position: center top;
 		}
 	}
 
