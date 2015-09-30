@@ -1727,9 +1727,11 @@
 			opacity: 1;
 			// padding: 0.35em 1em;
 			// padding: 0.35em .35em;
-			padding: 0.35em 0;
+			padding: 0.75em 0.55em;
 			position: relative;
 			z-index: 1;
+			border: solid 10px;
+			color: f9f9f8;
 
 			.x {
 				color: transparent;
@@ -1755,7 +1757,7 @@
 				background: _palette(fg-bold);
 				content: '';
 				display: block;
-				height: 2px;
+				// height: 2px;
 				position: absolute;
 				width: 100%;
 			}
