@@ -1,10 +1,10 @@
 /*
 	HI THERE I AM JAVASCRIPT OK
-*/
+	*/
 
-(function($) {
+	(function($) {
 
-	skel
+		skel
 		.breakpoints({
 			xlarge:	'(max-width: 1680px)',
 			large:	'(max-width: 1280px)',
@@ -13,106 +13,113 @@
 			xsmall:	'(max-width: 480px)'
 		});
 
-	$(function() {
+		$(function() {
 
-		var	$window = $(window),
+			var	$window = $(window),
 			$body = $('body'),
 			$wrapper = $('#page-wrapper'),
 			$banner = $('#banner'),
+			$inner = $banner.find('.inner'),
 			$header = $('#header');
 
 		// Disable animations/transitions until the page has loaded.
-			$body.addClass('is-loading');
+		$body.addClass('is-loading');
 
-			$window.on('load', function() {
-				window.setTimeout(function() {
-					$body.removeClass('is-loading');
-				}, 100);
-			});
+		$window.on('load', function() {
+			window.setTimeout(function() {
+				$body.removeClass('is-loading');
+			}, 100);
+		});
+
+		$window.scroll(function() {
+			var oVal;
+			oVal = $(window).scrollTop() / 640;
+			return $inner.css("opacity", (1-oVal));
+		});
 
 		// Mobile?
-			if (skel.vars.isMobile)
-				$body.addClass('is-mobile');
-			else
-				skel
-					.on('-medium !medium', function() {
-						$body.removeClass('is-mobile');
-					})
-					.on('+medium', function() {
-						$body.addClass('is-mobile');
-					});
+		if (skel.vars.isMobile)
+			$body.addClass('is-mobile');
+		else
+			skel
+		.on('-medium !medium', function() {
+			$body.removeClass('is-mobile');
+		})
+		.on('+medium', function() {
+			$body.addClass('is-mobile');
+		});
 
 		// Scrolly.
-			$('.scrolly')
-				.scrolly({
-					speed: 1500,
-					offset: $header.outerHeight()
-				});
+		$('.scrolly')
+		.scrolly({
+			speed: 1500,
+			offset: $header.outerHeight()
+		});
 
 		// Menu.
-			var	$menu = $('#menu'),
-				$menuClose = $('<a class="close">').appendTo($menu),
-				$menuToggle = $('.menuToggle');
+		var	$menu = $('#menu'),
+		$menuClose = $('<a class="close">').appendTo($menu),
+		$menuToggle = $('.menuToggle');
 
 			// Move to end of body.
-				$menu
-					.appendTo($body);
+			$menu
+			.appendTo($body);
 
 			// Close.
-				$menuClose
-					.on('click touchend', function(event) {
+			$menuClose
+			.on('click touchend', function(event) {
 
-						event.preventDefault();
-						event.stopPropagation();
+				event.preventDefault();
+				event.stopPropagation();
 
-						$body.removeClass('is-menu-visible');
+				$body.removeClass('is-menu-visible');
 
-					});
+			});
 
 			// Toggle.
-				$menuToggle
-					.on('click touchend', function(event) {
+			$menuToggle
+			.on('click touchend', function(event) {
 
-						event.preventDefault();
-						event.stopPropagation();
+				event.preventDefault();
+				event.stopPropagation();
 
-						$body.toggleClass('is-menu-visible');
+				$body.toggleClass('is-menu-visible');
 
-					});
+			});
 
 			// Wrapper.
-				$wrapper
-					.on('click touchend', function(event) {
+			$wrapper
+			.on('click touchend', function(event) {
 
-						if ($body.hasClass('is-menu-visible')) {
+				if ($body.hasClass('is-menu-visible')) {
 
-							event.preventDefault();
-							event.stopPropagation();
+					event.preventDefault();
+					event.stopPropagation();
 
-							$body.removeClass('is-menu-visible');
+					$body.removeClass('is-menu-visible');
 
-						}
+				}
 
-					});
+			});
 
 		// Header.
-			if (skel.vars.IEVersion < 9)
-				$header.removeClass('alt');
+		if (skel.vars.IEVersion < 9)
+			$header.removeClass('alt');
 
-			if ($banner.length > 0
+		if ($banner.length > 0
 			&&	$header.hasClass('alt')) {
 
-				$window.on('resize', function() { $window.trigger('scroll'); });
+			$window.on('resize', function() { $window.trigger('scroll'); });
 
-				$banner.scrollex({
-					bottom:		$header.outerHeight() + 1,
-					terminate:	function() { $header.removeClass('alt'); },
-					enter:		function() { $header.addClass('alt'); },
-					leave:		function() { $header.removeClass('alt'); }
-				});
+		$banner.scrollex({
+			bottom:		$header.outerHeight() + 1,
+			terminate:	function() { $header.removeClass('alt'); },
+			enter:		function() { $header.addClass('alt'); },
+			leave:		function() { $header.removeClass('alt'); }
+		});
 
-			}
+	}
 
-	});
+});
 
 })(jQuery);

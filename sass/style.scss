@@ -46,6 +46,12 @@
 	font-weight: normal;
 	font-style: normal;
 }
+@font-face {
+	font-family: DIN Pro;
+	src: url('../fonts/DINPro-Regular.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
 
 // @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic');
 
@@ -139,7 +145,7 @@
 		// font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, Sans-Serif;
 		// font-family: 'Lora', 'times new roman', serif;
 		font-size: 1.125rem;
-		line-height: 1.7;
+		line-height: 1.675em;
 		margin: 0 0 _size(element-margin) 0;
 
 		a {
@@ -171,7 +177,7 @@
 		color: _palette(fg-bold);
 		font-weight: _font(weight-extrabold);
 		letter-spacing: _size(letter-spacing-alt);
-		line-height: 1em;
+		// line-height: 1em;
 		margin: 0 0 (_size(element-margin) * 0.5) 0;
 		text-transform: uppercase;
 
@@ -183,7 +189,7 @@
 
 	h2 {
 		font-size: 1.35em;
-		line-height: 1.75em;
+		line-height: 1.675em;
 
 		@include breakpoint(small) {
 			font-size: 1.1em;
@@ -1730,8 +1736,9 @@
 			padding: 0.75em 0.55em;
 			position: relative;
 			z-index: 1;
+			letter-spacing: 0.5em;
 			border: solid 10px;
-			color: f9f9f8;
+			color: #f9f9f8;
 
 			.x {
 				color: transparent;
@@ -2099,7 +2106,7 @@
 
 	body.landing {
 		#page-wrapper {
-			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0))', 'url("../images/banner.png")'));
+			@include vendor('background-image', ('linear-gradient(top, rgba(255,255,255,0), rgba(255,255,255,0))', 'url("../images/banner.png")'));
 			background-attachment: fixed;
 			background-position: center bottom;
 			background-repeat: no-repeat;
@@ -2120,7 +2127,7 @@
 
 			#banner,
 			.wrapper.style4 {
-				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0))', 'url("../images/banner.png")'));
+				@include vendor('background-image', ('linear-gradient(top, rgba(255,255,255,0), rgba(255,255,255,0))', 'url("../images/banner.png")'));
 				background-position: center bottom;
 				background-repeat: no-repeat;
 				background-size: cover;
