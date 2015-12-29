@@ -134,7 +134,7 @@
 
 	strong, b {
 		color: _palette(fg-bold);
-		font-weight: _font(weight-bold);
+		font-weight: _font(weight-semibold);
 	}
 
 	em, i {
@@ -173,9 +173,9 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		// font-family: "source-code-pro", sans-serif;
+		font-family: "Proxima Nova Semibold", sans-serif;
 		color: _palette(fg-bold);
-		font-weight: _font(weight-extrabold);
+		font-weight: _font(weight-bold);
 		letter-spacing: _size(letter-spacing-alt);
 		// line-height: 1em;
 		margin: 0 0 (_size(element-margin) * 0.5) 0;
@@ -1711,7 +1711,7 @@
 		@include vendor('flex-direction', 'column');
 		@include vendor('justify-content', 'center');
 		cursor: default;
-		height: 100vh;
+		height: 80vh;
 		min-height: 35em;
 		overflow: hidden;
 		position: relative;
@@ -1723,7 +1723,7 @@
 			@include vendor('transition-delay', '0.25s');
 			@include vendor('transform', 'translateY(1em)');
 			@include vendor('transform', 'scale(1.0)');
-			font-family: _font(family-bold);
+			font-family: _font(family-semibold);
 			// bottom: 0;
 			display: inline-block;
 			font-size: 4.075rem;
@@ -1733,11 +1733,11 @@
 			opacity: 1;
 			// padding: 0.35em 1em;
 			// padding: 0.35em .35em;
-			padding: 0.75em 0.55em;
+			padding: 0.85em 0.85em;
 			position: relative;
 			z-index: 1;
 			letter-spacing: 0.5em;
-			border: solid 10px;
+			border: solid 6px;
 			color: #f9f9f8;
 
 			.x {
@@ -1799,6 +1799,7 @@
 			font-size: 0.8rem;
 			height: 8.5em;
 			left: 50%;
+			font-family: "Proxima Nova Semibold";
 			letter-spacing: _size(letter-spacing-alt);
 			margin-left: -8.5em;
 			opacity: 1;
@@ -1934,9 +1935,9 @@
 	#main {
 		> header {
 			@include padding(12em, 0);
-			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.6))', 'url("../images/banner.png")'));
+			@include vendor('background-image', ('linear-gradient(top, rgba(235,221,214,.7), rgba(235,221,214,.7))', 'url("../images/banner-yea.jpg")'));
 			background-attachment: fixed;
-			background-position: center center;
+			background-position: left center;
 			background-repeat: no-repeat;
 			background-size: cover;
 			text-align: center;
@@ -1968,9 +1969,7 @@
 					}
 				}
 			}
-
 			p {
-
 				color: inherit;
 				letter-spacing: _size(letter-spacing-alt);
 				text-transform: uppercase;
@@ -2106,9 +2105,9 @@
 
 	body.landing {
 		#page-wrapper {
-			@include vendor('background-image', ('linear-gradient(top, rgba(255,255,255,0), rgba(255,255,255,0))', 'url("../images/banner.png")'));
+			@include vendor('background-image', ('linear-gradient(top, rgba(235,221,214,.7), rgba(235,221,214,.7))', 'url("../images/banner-yea.jpg")'));
 			background-attachment: fixed;
-			background-position: center bottom;
+			background-position: left center;
 			background-repeat: no-repeat;
 			background-size: cover;
 			padding-top: 0;
@@ -2127,8 +2126,8 @@
 
 			#banner,
 			.wrapper.style4 {
-				@include vendor('background-image', ('linear-gradient(top, rgba(255,255,255,0), rgba(255,255,255,0))', 'url("../images/banner.png")'));
-				background-position: center bottom;
+				@include vendor('background-image', ('linear-gradient(top, rgba(235,221,214,.7), rgba(235,221,214,.7))', 'url("../images/banner-yea.jpg")'));
+				background-position: left center;
 				background-repeat: no-repeat;
 				background-size: cover;
 			}

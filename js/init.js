@@ -31,11 +31,11 @@
 			}, 100);
 		});
 
-		$window.scroll(function() {
-			var oVal;
-			oVal = $(window).scrollTop() / 640;
-			return $inner.css("opacity", (1-oVal));
-		});
+		// $window.scroll(function() {
+		// 	var oVal;
+		// 	oVal = $(window).scrollTop() / 640;
+		// 	return $inner.css("opacity", (1-oVal));
+		// });
 
 		// Mobile?
 		if (skel.vars.isMobile)
@@ -52,7 +52,7 @@
 		// Scrolly.
 		$('.scrolly')
 		.scrolly({
-			speed: 1500,
+			speed: 999999,
 			offset: $header.outerHeight()
 		});
 
@@ -112,7 +112,7 @@
 			$window.on('resize', function() { $window.trigger('scroll'); });
 
 		$banner.scrollex({
-			bottom:		$header.outerHeight() + 1,
+			bottom:		$header.outerHeight() + 10,
 			terminate:	function() { $header.removeClass('alt'); },
 			enter:		function() { $header.addClass('alt'); },
 			leave:		function() { $header.removeClass('alt'); }
