@@ -179,7 +179,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-family: "Proxima Nova Semibold", sans-serif;
+		// font-family: "Proxima Nova Semibold", sans-serif;
 		color: _palette(fg-bold);
 		font-weight: _font(weight-bold);
 		letter-spacing: _size(letter-spacing-alt);
@@ -194,8 +194,9 @@
 	}
 
 	h2 {
-		font-size: 1.35em;
+		font-size: 1.2em;
 		line-height: 1.675em;
+		letter-spacing: 0.125em;
 
 		@include breakpoint(small) {
 			font-size: 1.1em;
@@ -347,9 +348,9 @@
 				&:after {
 					content: '';
 					display: block;
-					width: 50%;
+					width: 5.5em;
 					margin: 2em auto 0;
-					border-bottom: solid 3px;
+					border-bottom: solid 2px _palette(bg);
 				}
 			}
 
@@ -914,7 +915,7 @@
 		color: _palette(fg-bold);
 		cursor: pointer;
 		display: inline-block;
-		font-size: 0.8em;
+		font-size: 0.85em;
 		font-weight: _font(weight-bold);
 		height: 3.125em;
 		letter-spacing: _size(letter-spacing-alt);
@@ -1755,11 +1756,11 @@
 			.x {
 				color: transparent;
 				display: inline;
-				width: .5em;
-				height: .5em;
-				margin: .5em auto;
+				width: .6em;
+				height: .6em;
+				margin: .6em auto;
 				background: url('images/whitex.svg') 0 0 no-repeat;
-				background-size: .5em .5em;
+				background-size: .6em .6em;
 				background-position: left center;
 				overflow: hidden;
 				border: 0;
@@ -1960,11 +1961,11 @@
 				font-size: 4.375rem;
 				margin: 0 0 (_size(element-margin) * 0.25) 0;
 				.x{
-					width: .5em;
-					height: .5em;
-					margin: .5em auto;
+					width: .6em;
+					height: .6em;
+					margin: .6em auto;
 					background: url('images/whitex.svg') 0 0 no-repeat;
-					background-size: .5em .5em;
+					background-size: .6em .6em;
 					background-position: left center;
 					overflow: hidden;
 					display: block;
