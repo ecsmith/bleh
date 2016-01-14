@@ -58,6 +58,12 @@
 	font-weight: normal;
 	font-style: normal;
 }
+@font-face {
+	font-family: Minion Pro;
+	src: url('../fonts/Minion Pro Regular.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
 
 // @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic');
 
@@ -199,7 +205,6 @@
 		letter-spacing: 0.125em;
 
 		@include breakpoint(small) {
-			font-size: 1.1em;
 			font-size: 1.35em;
 			line-height: 1.65em;
 		}
@@ -352,6 +357,9 @@
 					width: 5.5em;
 					margin: 2em auto 0;
 					border-bottom: solid 2px _palette(bg);
+				}
+				@include breakpoint(small) {
+					font-size: 1.25em;
 				}
 			}
 
@@ -982,7 +990,7 @@
 			height: 3.75em;
 			line-height: 3.75em;
 			font-size: 0.95em;
-		    max-width: 15em !important;
+			max-width: 15em !important;
 		}
 	}
 
@@ -1871,6 +1879,7 @@
 
 			h2 {
 				font-size: 1.25em;
+				border: solid 3px;
 			}
 
 			br {
@@ -1959,7 +1968,7 @@
 			@include padding(12em, 0);
 			@include vendor('background-image', ('linear-gradient(top, rgba(235,221,214,.7), rgba(235,221,214,.7))', 'url("../images/banner-yea.jpg")'));
 			background-attachment: fixed;
-			background-position: left center;
+			background-position: center center;
 			background-repeat: no-repeat;
 			background-size: cover;
 			text-align: center;
@@ -2134,7 +2143,7 @@
 		#page-wrapper {
 			@include vendor('background-image', ('linear-gradient(top, rgba(235,221,214,.7), rgba(235,221,214,.7))', 'url("../images/banner-yea.jpg")'));
 			background-attachment: fixed;
-			background-position: left center;
+			background-position: center center;
 			background-repeat: no-repeat;
 			background-size: cover;
 			padding-top: 0;
@@ -2154,7 +2163,7 @@
 			#banner,
 			.wrapper.style4 {
 				@include vendor('background-image', ('linear-gradient(top, rgba(235,221,214,.7), rgba(235,221,214,.7))', 'url("../images/banner-yea.jpg")'));
-				background-position: left center;
+				background-position: center center;
 				background-repeat: no-repeat;
 				background-size: cover;
 			}
