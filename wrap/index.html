@@ -77,33 +77,22 @@
 
 			<!-- Spotify Artists -->
 			<div class="2u 3u(xlarge) 4u(large) 6u(small) 12u(xsmall)" style="padding: 0;">
-				<!-- <div class="2u 3u(xlarge) 4u(large) 6u(small) 12u(xsmall) wrap-details">
-					<h1>01</h1>
-					<div class="wrap-details-content">
-						<strong>My Role</strong>
-						alksdjhfsalkj
-					</div>
-					<a href="wrap/" class="button">Learn More</a>
-				</div> -->
 				<div class="wrap-media-embed " data-wrap-id="dea519fa-4aca-43c1-a0e3-517f8b49ae52">
 				</div>
 				<script src="https://wrap.co/embed/bootstrap.js" async defer></script>
-
 			</div>
-			<!-- Bearded Bastard -->
+			<!-- Loverly -->
 			<div class="2u 3u(xlarge) 4u(large) 6u(small) 12u(xsmall)" style="padding: 0;">
-				<!-- <div class="2u 3u(xlarge) 4u(large) 6u(small) 12u(xsmall) wrap-details">
-					<h1>02</h1>
-					<div class="wrap-details-content">
-						<strong>My Role</strong>
-						alksdjhfsalkj
-					</div>
-					<a href="wrap/" class="button">Learn More</a>
-				</div> -->
-				<div class="wrap-media-embed" data-wrap-id="eefa297e-3e80-4acb-a77e-e3290bcec9ca">
+				<div class="wrap-media-embed" data-wrap-id="87deae3c-5df4-4db2-b75e-3687cfd1221b">
 				</div>
 				<script src="https://wrap.co/embed/bootstrap.js" async defer></script>
 			</div>
+			<!-- Bearded Bastard -->
+			<!-- <div class="2u 3u(xlarge) 4u(large) 6u(small) 12u(xsmall)" style="padding: 0;">
+				<div class="wrap-media-embed" data-wrap-id="eefa297e-3e80-4acb-a77e-e3290bcec9ca">
+				</div>
+				<script src="https://wrap.co/embed/bootstrap.js" async defer></script>
+			</div> -->
 			<!-- Bare -->
 			<div class="2u 3u(xlarge) 4u(large) 6u(small) 12u(xsmall)" style="padding: 0;">
 				<div class="wrap-media-embed" data-wrap-id="452c042f-bb3f-4045-90e6-5014c77745f4"></div>
@@ -285,13 +274,22 @@
 
 <script>
 	$( ".wrap-media-embed-overlay" ).each(function( index ) {
-		$( this ).html('<div class="2u 3u(xlarge) 4u(large) 6u(small) 12u(xsmall) wrap-details"> <h1>02</h1><div class="wrap-details-content"><strong>My Role</strong>alksdjhfsalkj</div><a href="wrap/" class="button">Learn More</a></div>');
+		index++;
+		if(index < 10)
+			index = "0" + index;
+		$( this ).html('<div class="2u 3u(xlarge) 4u(large) 6u(small) 12u(xsmall) wrap-details"> <h1>'+ index +'</h1><div class="wrap-details-content"><ul><li><strong>My Role</strong></li><li>alksdjhfsalkj</li></ul><ul><li><strong>My Role</strong></li><li>alksdjhfsalkj</li></ul></div><a class="button">—Launch—</a></div>');
 	});
 </script>
 
 
 </body>
 <style>
+	iframe {
+		height: 102% !important;
+	}
+	.\34 u\28large\29, .\34 u\24\28large\29 {
+		width: 33.3%;
+	}
 	.wrap-media-embed:hover .wrap-details {
 		display: block;
 		top: 0;
@@ -317,11 +315,20 @@
 		font-size: 0.6875rem;
 	}
 	.wrap-details .wrap-details-content strong {
-		font-family: "Proxima Nova Semibold";
+		font-family: "Proxima Nova Bold";
 	}
 	.wrap-details .button {
 		font-size: 0.75rem;
 		box-shadow: inset 0 0 0 1px #fff;
+		 height: 3.125em; 
+		 line-height: 3.125em; 
+	}
+	.wrap-details ul {
+		list-style: none;
+	}
+	.wrap-details ul li {
+		padding-left: 0;
+		line-height: 0.975rem;
 	}
 	.wrap-details {
 		padding: 3em;
