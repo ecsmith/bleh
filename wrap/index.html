@@ -77,12 +77,31 @@
 
 			<!-- Spotify Artists -->
 			<div class="2u 3u(xlarge) 4u(large) 6u(small) 12u(xsmall)" style="padding: 0;">
-				<div class="wrap-media-embed" data-wrap-id="dea519fa-4aca-43c1-a0e3-517f8b49ae52"></div>
+				<!-- <div class="2u 3u(xlarge) 4u(large) 6u(small) 12u(xsmall) wrap-details">
+					<h1>01</h1>
+					<div class="wrap-details-content">
+						<strong>My Role</strong>
+						alksdjhfsalkj
+					</div>
+					<a href="wrap/" class="button">Learn More</a>
+				</div> -->
+				<div class="wrap-media-embed " data-wrap-id="dea519fa-4aca-43c1-a0e3-517f8b49ae52">
+				</div>
 				<script src="https://wrap.co/embed/bootstrap.js" async defer></script>
+
 			</div>
 			<!-- Bearded Bastard -->
 			<div class="2u 3u(xlarge) 4u(large) 6u(small) 12u(xsmall)" style="padding: 0;">
-				<div class="wrap-media-embed" data-wrap-id="eefa297e-3e80-4acb-a77e-e3290bcec9ca"></div>
+				<!-- <div class="2u 3u(xlarge) 4u(large) 6u(small) 12u(xsmall) wrap-details">
+					<h1>02</h1>
+					<div class="wrap-details-content">
+						<strong>My Role</strong>
+						alksdjhfsalkj
+					</div>
+					<a href="wrap/" class="button">Learn More</a>
+				</div> -->
+				<div class="wrap-media-embed" data-wrap-id="eefa297e-3e80-4acb-a77e-e3290bcec9ca">
+				</div>
 				<script src="https://wrap.co/embed/bootstrap.js" async defer></script>
 			</div>
 			<!-- Bare -->
@@ -264,6 +283,64 @@
 <script src="../js/skel.min.js"></script>
 <script src="../js/init.js"></script>
 
+<script>
+	$( ".wrap-media-embed-overlay" ).each(function( index ) {
+		$( this ).html('<div class="2u 3u(xlarge) 4u(large) 6u(small) 12u(xsmall) wrap-details"> <h1>02</h1><div class="wrap-details-content"><strong>My Role</strong>alksdjhfsalkj</div><a href="wrap/" class="button">Learn More</a></div>');
+	});
+</script>
+
 
 </body>
+<style>
+	.wrap-media-embed:hover .wrap-details {
+		display: block;
+		top: 0;
+		left: 0;
+		content: '';
+		position: absolute;
+		width: 100%;
+		z-index: 999;
+		background-color: rgba(33,31,30,0.8);
+		height: 100%;
+	}
+	.wrap-details:hover {
+		position: absolute;
+		background-color: rgba(16,17,18,.9);
+		text-align: center;
+		opacity: 1;
+	}
+	.wrap-details h1 {
+		font-family: "Times New Roman";
+		font-size: 1.875rem;
+	}
+	.wrap-details .wrap-details-content {
+		font-size: 0.6875rem;
+	}
+	.wrap-details .wrap-details-content strong {
+		font-family: "Proxima Nova Semibold";
+	}
+	.wrap-details .button {
+		font-size: 0.75rem;
+		box-shadow: inset 0 0 0 1px #fff;
+	}
+	.wrap-details {
+		padding: 3em;
+		opacity: 0;
+		position: absolute;
+		z-index: 999;
+		left: 0;
+		right: 0;
+	}
+	.wrap-media-embed:hover:after {
+		background-color: rgba(16,17,18,.9);
+		content: '';
+		position: absolute;
+		width: 100%;
+		z-index: 999;
+	}
+	.wrap-media-embed-overlay:hover {
+		background-color: rgba(16,17,18,.9);
+	}
+
+</style>
 </html>
