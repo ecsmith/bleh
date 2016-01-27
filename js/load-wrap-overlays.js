@@ -16,6 +16,11 @@
 	$( ".wrap-spotify .wrap-media-embed-overlay .wrap-details-content .type").text('Widget Experimentation');
 	$( ".wrap-spotify .wrap-media-embed-overlay .wrap-details-content .description").text('Created as an experiment using the Spotify API');
 
+	$( ".wrap-architect .wrap-media-embed-overlay .wrap-details-content .title").text('Blog: Architect\'s Digest');
+	$( ".wrap-architect .wrap-media-embed-overlay .wrap-details-content .role").text('Visual Design');
+	$( ".wrap-architect .wrap-media-embed-overlay .wrap-details-content .type").text('Template Wrap');
+	$( ".wrap-architect .wrap-media-embed-overlay .wrap-details-content .description").text('Created as a template wrap for our users');
+
 	$( ".wrap-loverly .wrap-media-embed-overlay .wrap-details-content .title").text('Loverly Lookbook');
 	$( ".wrap-loverly .wrap-media-embed-overlay .wrap-details-content .role").text('N/A');
 	$( ".wrap-loverly .wrap-media-embed-overlay .wrap-details-content .type").text('Client Wrap');
