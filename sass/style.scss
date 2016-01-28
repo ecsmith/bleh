@@ -96,6 +96,10 @@
 		background: rgba(254, 255, 163, 0.5) !important;
 	}
 
+	*::-webkit-scrollbar { 
+	    display: none; 
+	}
+
 	body {
 		background: _palette(fg);
 
