@@ -1463,7 +1463,7 @@
 				> a {
 					@include vendor('transition', ('color #{_duration(transitions)} ease', 'border-bottom-color #{_duration(transitions)} ease'));
 					// @include vendor('transition', 'width #{_duration(transitions)} ease');
-					font-family: "Proxima Nova Semibold Italic",Helvetica,Arial;
+					font-family: "Proxima Nova Semibold",Helvetica,Arial;
 					border: 0;
 					color: inherit;
 					display: block;
@@ -1489,7 +1489,6 @@
 					only screen and (                min-resolution: 2dppx) { 
 
 						/* Retina-specific stuff here */
-						font-size: 0.9rem;
 						letter-spacing: 0.075em;
 					}
 
@@ -1701,7 +1700,7 @@
 							}
 
 							@include breakpoint(small) {
-								padding: 0 1.5em;
+								padding: 0 1em;
 
 								span {
 									display: none;
@@ -1897,7 +1896,7 @@
 		}
 
 		@include breakpoint(small) {
-			@include padding(7em, 3em);
+			@include padding(7em, 0.5em);
 			height: auto;
 			min-height: 0;
 

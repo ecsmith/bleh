@@ -1,7 +1,16 @@
+#node files
+/node_modules/*
+
+#sass cache files
 .sass-cache/*/style.scssc
+.sass-cache
+
+#ds store
 .DS_Store
 */.DS_Store
 */**/.DS_Store
+
+#psds
 .psd
 */.psd
 */**/.psd
