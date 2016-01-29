@@ -11,6 +11,6 @@
 */**/.DS_Store
 
 #psds
-.psd
+*.psd
 */.psd
 */**/.psd
