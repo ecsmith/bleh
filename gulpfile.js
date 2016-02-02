@@ -69,8 +69,9 @@ gulp.task('default', function() {
 
 	browserSync.init({
        	open: false,
+    	port: 35729,
         server: {
-            baseDir: "./",
+            baseDir: "./"
         }
     });
 

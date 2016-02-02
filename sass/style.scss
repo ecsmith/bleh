@@ -366,7 +366,7 @@
 					border-bottom: solid 2px _palette(bg);
 				}
 				@include breakpoint(small) {
-					font-size: 1.25em;
+					font-size: 1.15em;
 				}
 			}
 
@@ -996,8 +996,8 @@
 		@include breakpoint(small) {
 			height: 3.75em;
 			line-height: 3.75em;
-			font-size: 0.95em;
-			max-width: 15em !important;
+			font-size: 0.9em;
+			max-width: 13em !important;
 		}
 	}
 
@@ -1556,7 +1556,7 @@
 
 		.close {
 			@include vendor('transition', ('opacity 0.25s ease'));
-			background-image: url('images/close.svg');
+			background-image: url('images/bars.svg');
 			background-position: 4.85em 1em;
 			background-repeat: no-repeat;
 			border: 0;
@@ -1614,6 +1614,7 @@
 	#header {
 		@include vendor('transition', 'background-color #{_duration(transitions)} ease');
 		background: _palette(fg);
+		// background: transparent;
 		height: 3em;
 		left: 0;
 		line-height: 3em;
@@ -2313,4 +2314,7 @@
 	}
 	.wrap-media-embed-overlay:hover {
 		background-color: rgba(16,17,18,.9) !important;
+	}
+	.embedded-wrap .stage .wrap-header .close-embed {
+		text-transform: un
 	}
