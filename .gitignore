@@ -17,6 +17,6 @@
 */**/.psd
 
 #sketch
-*.sketch
-*/.sketch
-*/**/.sketch
+#*.sketch
+#*/.sketch
+#*/**/.sketch
