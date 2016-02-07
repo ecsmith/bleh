@@ -11,6 +11,9 @@ var gulp             = require('gulp'),
 	plumber          = require('gulp-plumber'),
 	wait 			 = require('gulp-wait'),
 	path             = require('path'),
+	gutil  			 = require('gulp-util'),
+	which  			 = require('npm-which')(__dirname),
+	sketch 			 = require('gulp-sketch'),
 	browserSync 	 = require('browser-sync').create();
 
 //the title and icon that will be used for the Grunt notifications
@@ -56,6 +59,45 @@ gulp.task('scripts', function() {
 		.pipe(rename({ suffix: '.min' }))
 });
 
+gulp.task('export-slices', function(){
+  try {
+    which.sync('sketchtool');
+  } catch(error){
+    gutil.log(error); 
+    return;
+  }
+
+  return gulp.src('./*.sketch')
+    .pipe(sketch({
+      export: 'slices',
+      saveForWeb: true
+    }))
+
+    .pipe(gulp.dest('./'));
+});
+
+gulp.task('export-artboards', function(){
+  try {
+    which.sync('sketchtool');
+  } catch(error){
+    gutil.log(error); return;
+  }
+
+  try {
+  return gulp.src('./*.sketch')
+  	console.log('')
+    .pipe(sketch({
+      export: 'artboards',
+      saveForWeb: true
+    }))
+
+    .pipe(gulp.dest('./'));
+	}
+	catch(error){
+    gutil.log(error); return;
+  }
+});
+
 
 //watch
 gulp.task('default', function() {
@@ -69,13 +111,11 @@ gulp.task('default', function() {
 
 	browserSync.init({
        	open: false,
-    	port: 35729,
+    	port: 35730,
         server: {
             baseDir: "./"
         }
     });
-
 	gulp.watch(['**/*.html', 'css/style.css', 'js/main.js']).on('change', browserSync.reload);
-
-	
+	gulp.watch('./*.sketch', ['export-slices', 'export-artboards']).on('change', browserSync.reload);
 });
