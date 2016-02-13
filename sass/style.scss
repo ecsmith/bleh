@@ -1468,8 +1468,8 @@
 					color: inherit;
 					display: block;
 
-					letter-spacing: 0.1em;
-					font-size: 0.80rem;
+					letter-spacing: 0.15em;
+					font-size: 0.70rem;
 					outline: 0;
 					text-decoration: none;
 					white-space: nowrap;
@@ -2069,7 +2069,7 @@
 			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../scholastic/images/facts.png")'));
 		}
 		& .style7{
-			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.25), rgba(0,0,0,0.15))', 'url("../cisco/images/bg.png")'));
+			@include vendor('background-image', ('linear-gradient(top, rgba(87,159,232,0.85), rgba(87,159,232,0.75))', 'url("../cisco/images/bg.png")'));
 		}
 		& .style8{
 			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.15), rgba(0,0,0,0.20))', 'url("../perforce/images/bg.png")'));
