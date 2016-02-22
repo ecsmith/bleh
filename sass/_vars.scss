@@ -5,7 +5,7 @@
 $misc: (
 	max-spotlights:		10,
 	max-features:		10,
-	max-wraps:			0,
+	max-wraps:			20,
 	z-index-base:		10000
 	);
 
@@ -56,15 +56,15 @@ $palette: (
 	border2-bg:			rgba(144,144,144,0.5),
 
 	accent1: (
-			bg:				#ffffff,//#21b2a6,
-			fg-bold:		#212121,//#ffffff,
-			fg:				mix(#000, #ffffff, 25%),
-			fg-light:		mix(#000, #ffffff, 40%),
-			border:			rgba(0,0,0,0.015),
-			border-bg:		rgba(255,255,255,0.075),
-			border2:		rgba(0,0,0,0.25),
-			border2-bg:		rgba(0,0,0,0.04)
-			),
+		bg:				#ffffff,//#21b2a6,
+		fg-bold:		#212121,//#ffffff,
+		fg:				mix(#000, #ffffff, 25%),
+		fg-light:		mix(#000, #ffffff, 40%),
+		border:			rgba(0,0,0,0.015),
+		border-bg:		rgba(255,255,255,0.075),
+		border2:		rgba(0,0,0,0.25),
+		border2-bg:		rgba(0,0,0,0.04)
+		),
 
 	accent2: (
 		bg:				#0fafae,
