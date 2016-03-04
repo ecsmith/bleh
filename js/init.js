@@ -112,7 +112,7 @@
 			$window.on('resize', function() { $window.trigger('scroll'); });
 
 		$banner.scrollex({
-			bottom:		$header.outerHeight() + 10,
+			// bottom:		$header.outerHeight() + 10,
 			terminate:	function() { $header.removeClass('alt'); },
 			enter:		function() { $header.addClass('alt'); },
 			leave:		function() { $header.removeClass('alt'); }
@@ -124,7 +124,7 @@
 		$window.on('resize', function() { $window.trigger('scroll'); });
 
 	$articleBanner.scrollex({
-		bottom:		$header.outerHeight() + 10,
+		// bottom:		$header.outerHeight() + 10,
 		terminate:	function() { $header.removeClass('alt'); },
 		enter:		function() { $header.addClass('alt'); },
 		leave:		function() { $header.removeClass('alt'); }

@@ -116,6 +116,6 @@ gulp.task('default', function() {
             baseDir: "./"
         }
     });
-	gulp.watch(['**/*.html', 'css/style.css', 'js/main.js']).on('change', browserSync.reload);
+	// gulp.watch(['**/*.html', 'css/style.css', 'js/main.js']).on('change', browserSync.reload);
 	gulp.watch('./*.sketch', ['export-slices', 'export-artboards']).on('change', browserSync.reload);
 });
