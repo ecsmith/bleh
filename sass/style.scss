@@ -364,7 +364,7 @@
 			margin: 0 0 (_size(element-margin) * 1.75) 0;
 
 			h2, h3, h4, h5, h6 {
-				// font-family: _font(family-semibold);
+				font-family: _font(family);
 				// background: #C3CCA9;
 				display: inline-block;
 				padding: 1em .01em;
@@ -375,7 +375,7 @@
 					display: block;
 					width: 5.5em;
 					margin: 2em auto 0;
-					border-bottom: solid 2px _palette(bg);
+					border-bottom: solid 1px _palette(bg);
 				}
 				@include breakpoint(small) {
 					font-size: 1.15em;
@@ -1449,6 +1449,18 @@
 			}
 		}
 
+
+		&.card {
+			background-color: #F7F7F7;
+
+			> .inner {
+				padding: 7rem;
+				background-color: #FFF;
+				margin-top: -7rem;
+				box-shadow: 0 0 50px 30px rgba(0,0,0,0.03);
+			}
+		}
+
 		&.alt {
 			padding: 0;
 		}
@@ -1993,7 +2005,7 @@
 	body.is-loading {
 		#banner {
 			h2 {
-				// @include vendor('transform', 'scale(0.95)');
+				@include vendor('transform', 'scale(0.95)');
 				opacity: 0;
 
 				&:before, &:after {
@@ -2064,7 +2076,7 @@
 	#main {
 		> header {
 			@include padding(12em, 0);
-			@include vendor('background-image', ('linear-gradient(top, rgba(235,221,214,.7), rgba(235,221,214,.7))', 'url("../images/banner-yea.jpg")'));
+			@include vendor('background-image', ('linear-gradient(top, rgba(215,221,214,.7), rgba(215,221,214,.7))', 'url("../images/banner-yea.jpg")'));
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -2249,7 +2261,7 @@
 
 	body.landing {
 		#page-wrapper {
-			@include vendor('background-image', ('linear-gradient(top, rgba(235,221,214,.7), rgba(235,221,214,.7))', 'url("../images/banner-yea.jpg")'));
+			@include vendor('background-image', ('linear-gradient(top, rgba(215,221,214,.7), rgba(215,221,214,.7))', 'url("../images/banner-yea.jpg")'));
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -2270,7 +2282,7 @@
 
 			#banner,
 			.wrapper.style4 {
-				@include vendor('background-image', ('linear-gradient(top, rgba(235,221,214,.7), rgba(235,221,214,.7))', 'url("../images/banner-yea.jpg")'));
+				@include vendor('background-image', ('linear-gradient(top, rgba(215,221,214,.7), rgba(215,221,214,.7))', 'url("../images/banner-yea.jpg")'));
 				background-position: center center;
 				background-repeat: no-repeat;
 				background-size: cover;
