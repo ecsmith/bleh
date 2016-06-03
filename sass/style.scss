@@ -1644,19 +1644,20 @@
 
 		.close {
 			@include vendor('transition', ('opacity 0.25s ease'));
-			background-image: url('images/whitex.svg');
-			background-position: 4.85em 1em;
+			background-image: url("images/whitex.svg");
+			background-position: bottom left;
+			background-size: 1.6em 1.3em; 
 			background-repeat: no-repeat;
 			border: 0;
 			opacity: 0.8;
 			cursor: pointer;
 			display: block;
-			height: 3em;
+			height: 2.35em;
 			position: absolute;
 			right: 0;
 			top: 0;
 			vertical-align: top;
-			width: 7em;
+			width: 2.6em;
 
 			&:hover {
 				opacity: 1;
