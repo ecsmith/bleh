@@ -103,10 +103,10 @@ gulp.task('export-artboards', function(){
 gulp.task('default', function() {
 	livereload.listen();
 	//watch .scss files
-	gulp.watch('sass/**/*.scss', ['styles']);
+	gulp.watch('sass/**/*.scss', ['styles']).on('change', browserSync.reload);
 
 	//watch .js files
-	gulp.watch('js/**/*.js', ['scripts']);
+	gulp.watch('js/**/*.js').on('change', browserSync.reload);
 
 
 	browserSync.init({

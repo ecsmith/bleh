@@ -29,7 +29,7 @@ $duration: (
 $size: (
 	element-height:		2.75em,
 	element-margin:		2em,
-	letter-spacing:		0.065em,
+	letter-spacing:		0.01rem,
 	letter-spacing-alt:	0.1em
 	);
 
@@ -38,6 +38,7 @@ $font: (
 	family:				("Proxima Nova", Helvetica, Arial),
 	family-bold:        ("Proxima Nova Bold", Helvetica, Arial),
 	family-semibold:    ("Proxima Nova Semibold", Helvetica, Arial),
+	family-light:       ("Proxima Nova Light", Helvetica, Arial),
 	family-fixed:		('Courier New', monospace),
 	weight:				400,
 	weight-bold:		600,

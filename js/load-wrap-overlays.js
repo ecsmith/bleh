@@ -1,4 +1,4 @@
-	$( ".wrap-media-embed-overlay").each(function( index ) {
+	$(".wrap-media-embed-overlay").each(function( index ) {
 		index++;
 		if(index < 10)
 			index = "0" + index;
@@ -9,8 +9,43 @@
 			'<ul><li><strong>My Role</strong></li><li class="role">alksdjhfsalkj</li></ul>' +
 			'<ul><li><strong>Wrap Type</strong></li><li class="type">alksdjhfsalkj</li></ul>' +
 			'<p class="description"></p></div>' +
-			'<a class="button">—Launch—</a></div>');
+			'<a class="button">Launch</a></div>');
 	});
+	$( ".wrap-mod-vintage .wrap-media-embed-overlay .wrap-details-content .title").text('Mod Vintage Lookbook');
+	$( ".wrap-mod-vintage .wrap-media-embed-overlay .wrap-details-content .role").text('Visual Design / Interaction Design');
+	$( ".wrap-mod-vintage .wrap-media-embed-overlay .wrap-details-content .type").text('Wrap Template');
+	$( ".wrap-mod-vintage .wrap-media-embed-overlay .wrap-details-content .description").text('A template wrap for a brand looking to showcase their prodcuts.');
+
+	$( ".wrap-mod-furniture .wrap-media-embed-overlay .wrap-details-content .title").text('Mod Vintage Lookbook');
+	$( ".wrap-mod-furniture .wrap-media-embed-overlay .wrap-details-content .role").text('Visual Design / Interaction Design');
+	$( ".wrap-mod-furniture .wrap-media-embed-overlay .wrap-details-content .type").text('Wrap Template');
+	$( ".wrap-mod-furniture .wrap-media-embed-overlay .wrap-details-content .description").text('A template wrap for a brand looking to showcase their prodcuts.');
+
+	$( ".wrap-mod-real-estate .wrap-media-embed-overlay .wrap-details-content .title").text('Real Estate Listing');
+	$( ".wrap-mod-real-estate .wrap-media-embed-overlay .wrap-details-content .role").text('Visual Design / Interaction Design');
+	$( ".wrap-mod-real-estate .wrap-media-embed-overlay .wrap-details-content .type").text('Wrap Template');
+	$( ".wrap-mod-real-estate .wrap-media-embed-overlay .wrap-details-content .description").text('A template wrap for a brand looking to showcase their prodcuts.');
+
+	$( ".wrap-fitness-bay .wrap-media-embed-overlay .wrap-details-content .title").text('Fitness Bay');
+	$( ".wrap-fitness-bay .wrap-media-embed-overlay .wrap-details-content .role").text('Visual Design / Interaction Design');
+	$( ".wrap-fitness-bay .wrap-media-embed-overlay .wrap-details-content .type").text('Wrap Template');
+	$( ".wrap-fitness-bay .wrap-media-embed-overlay .wrap-details-content .description").text('A template wrap for a brand looking to showcase their prodcuts.');
+
+	$( ".wrap-design-event .wrap-media-embed-overlay .wrap-details-content .title").text('Design Event/Conference');
+	$( ".wrap-design-event .wrap-media-embed-overlay .wrap-details-content .role").text('Visual Design / Interaction Design');
+	$( ".wrap-design-event .wrap-media-embed-overlay .wrap-details-content .type").text('Wrap Template');
+	$( ".wrap-design-event .wrap-media-embed-overlay .wrap-details-content .description").text('A template wrap for a brand looking to showcase their prodcuts.');
+
+	$( ".wrap-summer-adventures .wrap-media-embed-overlay .wrap-details-content .title").text('Design Event/Conference');
+	$( ".wrap-summer-adventures .wrap-media-embed-overlay .wrap-details-content .role").text('Visual Design / Interaction Design');
+	$( ".wrap-summer-adventures .wrap-media-embed-overlay .wrap-details-content .type").text('Wrap Template');
+	$( ".wrap-summer-adventures .wrap-media-embed-overlay .wrap-details-content .description").text('A template wrap for a brand looking to showcase their prodcuts.');
+
+	$( ".wrap-offer-deal .wrap-media-embed-overlay .wrap-details-content .title").text('Design Event/Conference');
+	$( ".wrap-offer-deal .wrap-media-embed-overlay .wrap-details-content .role").text('Visual Design / Interaction Design');
+	$( ".wrap-offer-deal .wrap-media-embed-overlay .wrap-details-content .type").text('Wrap Template');
+	$( ".wrap-offer-deal .wrap-media-embed-overlay .wrap-details-content .description").text('A template wrap for a brand looking to showcase their prodcuts.');
+
 	$( ".wrap-spotify .wrap-media-embed-overlay .wrap-details-content .title").text('Spotify Artist Spotlight');
 	$( ".wrap-spotify .wrap-media-embed-overlay .wrap-details-content .role").text('Vis Design / Widget Design');
 	$( ".wrap-spotify .wrap-media-embed-overlay .wrap-details-content .type").text('Widget Experimentation');

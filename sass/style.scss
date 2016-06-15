@@ -230,12 +230,15 @@
 	}
 
 	h3 {
-		font-size: 1.15em;
-		line-height: 1.75em;
+		font-family: _font('family-light');
+		font-size: 2rem;
+		text-align: center;
+		line-height: 1.5em;
+		letter-spacing: _size(letter-spacing);
 
 		@include breakpoint(small) {
-			font-size: 1em;
-			line-height: 1.65em;
+			font-size: 1.5rem;
+			// line-height: 1.65em;
 		}
 	}
 
@@ -373,9 +376,9 @@
 				&:after {
 					content: '';
 					display: block;
-					width: 5.5em;
-					margin: 2em auto 0;
-					border-bottom: solid 1px _palette(bg);
+					width: 5rem;
+					margin: 1em auto 0;
+					border-bottom: solid 1px #FF3530;
 				}
 				@include breakpoint(small) {
 					font-size: 1.15em;
@@ -1203,7 +1206,7 @@
 
 			.content {
 				// @include padding(4em, 3em);
-			    margin: 15em 0em -4em 0em;
+				margin: 15em 0em -4em 0em;
 				max-width: none;
 				text-align: center;
 				width: 100%;
@@ -1530,7 +1533,7 @@
 		// padding: 1em 2em;
 		position: fixed;
 		// border-left: solid 1px _palette(accent1, border2-bg);
-		box-shadow: -1px -1px 10px _palette(accent1, border2-bg);
+		// box-shadow: 0px 3px 25px 15px rgba(0,0,0,0.05);
 		right: 0;
 		top: 0;
 		width: 20em;
@@ -1645,20 +1648,20 @@
 
 		.close {
 			@include vendor('transition', ('opacity 0.25s ease'));
-			background-image: url("images/whitex.svg");
+			background-image: url("images/bars-alt.svg");
 			background-position: bottom left;
-			background-size: 1.6em 1.3em; 
+			background-size: 1rem 1rem;
 			background-repeat: no-repeat;
 			border: 0;
 			opacity: 0.8;
 			cursor: pointer;
 			display: block;
-			height: 2.35em;
+			height: 1.7rem;
 			position: absolute;
 			right: 0;
 			top: 0;
 			vertical-align: top;
-			width: 2.6em;
+			width: 2.5em;
 
 			&:hover {
 				opacity: 1;
@@ -1696,6 +1699,7 @@
 
 		#menu {
 			@include vendor('transform', 'translateX(0)');
+			box-shadow: 0px 3px 25px 15px rgba(0,0,0,0.05);
 		}
 	}
 
@@ -1990,11 +1994,11 @@
 			min-height: 0;
 
 			h2 {
-				font-size: 2.25em;
+				font-size: 1.5em;
 				border-bottom: solid 3px;
 				border-top: solid 3px;
-				margin: 1em;
-				text-align: left;
+				// margin: 1em;
+				// text-align: left;
 			}
 
 			br {
@@ -2083,7 +2087,7 @@
 			@include padding(12em, 0);
 			@include vendor('background-image', ('linear-gradient(top, rgba(235,221,214,.7), rgba(235,221,214,.7))', 'url("../images/banner-yea.jpg")'));
 			background-attachment: fixed;
-			background-position: center center;
+			background-position: bottom center;
 			background-repeat: no-repeat;
 			background-size: cover;
 			text-align: center;
@@ -2266,7 +2270,7 @@
 		#page-wrapper {
 			@include vendor('background-image', ('linear-gradient(top, rgba(235,221,214,.7), rgba(235,221,214,.7))', 'url("../images/banner-yea.jpg")'));
 			background-attachment: fixed;
-			background-position: center center;
+			background-position: bottom center;
 			background-repeat: no-repeat;
 			background-size: cover;
 			padding-top: 0;
@@ -2286,7 +2290,7 @@
 			#banner,
 			.wrapper.style4 {
 				@include vendor('background-image', ('linear-gradient(top, rgba(235,221,214,.7), rgba(235,221,214,.7))', 'url("../images/banner-yea.jpg")'));
-				background-position: center center;
+				background-position: bottom center;
 				background-repeat: no-repeat;
 				background-size: cover;
 			}
@@ -2324,7 +2328,27 @@
 	}
 
 	.wraps {
+		@include breakpoint(large) {
+			.wrap {
+			    margin-left: -0.01rem;
+				&:nth-child(3n) {
+					.wrap-media-embed {
+						iframe {
+							background-color:  #f5f5f5;
+						}
+					}
+				}
+				&:nth-child(3n-2), &:nth-child(3n-3) {
+					.wrap-media-embed {
+						iframe {
+							background-color:  #f8f8f8;
+						}
+					}
+				}
+			}
+		}
 		.wrap {
+		    margin-left: -0.01rem;
 			&:nth-child(2n) {
 				.wrap-media-embed {
 					iframe {
@@ -2334,11 +2358,6 @@
 			}
 			&:nth-child(n+7) {
 				.wrap-media-embed {
-					// display: none;
-
-					@include breakpoint(small) {
-						display: none !important
-					}
 				}
 			}
 		}
