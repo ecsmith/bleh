@@ -1,8 +1,9 @@
 #node files
-/node_modules/*
+node_modules/*
 
 #sass cache files
-.*.scssc
+*.scssc
+.sass-cache/*
 .*/.scssc
 .*/**/.scssc
 
