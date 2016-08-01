@@ -8,3 +8,22 @@
 .bc-iframe, .bc-iframe body {
     background-color: transparent !important;
 }
+
+.video-js .vjs-dock-text {
+    background: transparent !important;
+}
+
+.video-js .vjs-dock-description, .video-js .vjs-dock-title {
+    color: #333031 !important;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.video-js .vjs-dock-title {
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.video-js .vjs-dock-description {
+    font-size: 20px;
+    font-weight: 500;
+}
