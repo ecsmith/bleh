@@ -76,6 +76,12 @@
 	font-weight: normal;
 	font-style: normal;
 }
+@font-face {
+	font-family: Avenir UltraLight;
+	src: url('../fonts/AvenirNext-UltraLight.woff');
+	font-weight: normal;
+	font-style: normal;
+}
 
 // @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic');
 
@@ -378,7 +384,7 @@
 					display: block;
 					width: 5rem;
 					margin: 1em auto 0;
-					border-bottom: solid 1px _palette(bg);
+					border-bottom: solid 1px #dededc;
 				}
 				@include breakpoint(small) {
 					font-size: 1.15em;
@@ -1277,7 +1283,7 @@
 
 				}
 				p {
-					font-size: 0.7875em;
+					font-size: 0.875rem;
 					// color: _palette($p, bg);
 				}
 				a {
@@ -1406,8 +1412,9 @@
 		input[type="button"],
 		button,
 		.button {
-			box-shadow: inset 0 0 0 1px _palette($p, border-fg);
+			box-shadow: inset 0 0 0 1px #dededc _palette($p, border-fg);
 			color: _palette($p, fg-bold);
+
 
 			&:hover {
 				// color: _palette($p, border);
@@ -1441,7 +1448,7 @@
 		> .inner {
 			// width: 60em;
 			margin: 0 auto;
-			max-width: 50em;
+			max-width: 45em;
 
 
 			@include breakpoint(large) {
@@ -1525,10 +1532,10 @@
 	}
 
 	#menu {
-		@include vendor('transform', 'translateX(20em)');
+		@include vendor('transform', 'translateX(-20em)');
 		@include vendor('transition', 'transform #{_duration(menu)} ease');
 		-webkit-overflow-scrolling: touch;
-		background: darken(_palette(bg), 4);
+		background: _palette(fg);
 		color: _palette(new_fg);
 		height: 100%;
 		max-width: 80%;
@@ -1539,14 +1546,16 @@
 		position: fixed;
 		// border-left: solid 1px _palette(accent1, border2-bg);
 		// box-shadow: 0px 3px 25px 15px rgba(0,0,0,0.05);
-		right: 0;
+		left: 0;
 		top: 0;
 		width: 20em;
 		// text-align: center;
 		// padding: 3em;
 		z-index: _misc(z-index-base) + 2;
+		display: flex;
 
 		ul {
+			margin: auto 0;
 			list-style: none;
 			padding: 0;
 
@@ -1558,13 +1567,13 @@
 				> a {
 					@include vendor('transition', ('color #{_duration(transitions)} ease', 'border-bottom-color #{_duration(transitions)} ease'));
 					// @include vendor('transition', 'width #{_duration(transitions)} ease');
-					font-family: _font(family-bold);
+					font-family: _font(family-light);
 					border: 0;
 					color: inherit;
 					display: block;
 
 					letter-spacing: 0.15em;
-					font-size: 0.75rem;
+					font-size: 0.875rem;
 					outline: 0;
 					text-decoration: none;
 					white-space: nowrap;
@@ -1589,7 +1598,7 @@
 
 					&:hover {
 						color: #F53F23;
-						color: _palette(fg);
+						color: _palette(bg);
 						// text-decoration: underline;
 						// background-color: rgba(254, 255, 163, 0.5);
 						// @include vendor('transform', 'translateX(1em)');
@@ -1653,9 +1662,9 @@
 
 		.close {
 			@include vendor('transition', ('opacity 0.25s ease'));
-			background-image: url("images/bars-alt.svg");
+			background-image: url("images/bars.svg");
 			background-position: bottom left;
-			background-size: 1rem 1rem;
+			background-size: 22px 15px;
 			background-repeat: no-repeat;
 			border: 0;
 			opacity: 0.8;
@@ -1663,8 +1672,8 @@
 			display: block;
 			height: 1.7rem;
 			position: absolute;
-			right: 0;
-			top: 0;
+			right: 10px;
+			top: calc(50vh - 3em);
 			vertical-align: top;
 			width: 2.5em;
 
@@ -1714,12 +1723,12 @@
 		@include vendor('transition', 'background-color #{_duration(transitions)} ease');
 		// background: _palette(fg);
 		background: transparent;
-		height: 3em;
+		height: 100%;
 		left: 0;
 		line-height: 3em;
 		position: fixed;
 		top: 0;
-		width: 100%;
+		width: 6em;
 		z-index: _misc(z-index-base);
 		// box-shadow: 0 0 0 2px _palette(accent1, border2-bg);
 
@@ -1759,11 +1768,14 @@
 		}
 
 		nav {
+			background: _palette(fg);
 			height: inherit;
 			line-height: inherit;
 			position: absolute;
-			right: 0;
+			left: 0;
+			width: 6em;
 			top: 0;
+			box-shadow: 0 0 50px 1px rgba(0,0,0,0.2);
 
 			> ul {
 				list-style: none;
@@ -1772,6 +1784,10 @@
 				white-space: nowrap;
 
 				> li {
+					position: fixed;
+					top: calc(100% - 50vh);
+					margin-top: -3em;
+					width: 6em;
 					display: inline-block;
 					padding: 0;
 
@@ -1794,9 +1810,11 @@
 								background-repeat: no-repeat;
 								content: '';
 								display: inline-block;
-								height: 3em;
+								height: 15px;
 								vertical-align: center;
-								width: 3em;
+								width: 22px;
+								margin-left: 17px;
+								background-size: cover;
 							}
 
 							@include breakpoint(small) {
@@ -1840,7 +1858,7 @@
 							&.menuToggle {
 
 								&:after {
-									background-image: url('images/bars-alt.svg');
+									background-image: url('images/bars.svg');
 								}
 							}
 						}
@@ -2088,6 +2106,9 @@
 	/* Main */
 
 	#main {
+		@include vendor('transform', 'translateX(6em)');
+		width: calc(100% - 6em);
+
 		> header {
 			@include padding(12em, 0);
 			@include vendor('background-image', ('linear-gradient(top, rgba(235,221,214,.7), rgba(235,221,214,.7))', 'url("../images/banner-yea.jpg")'));
@@ -2177,8 +2198,9 @@
 
 		}
 		& .style9{
-			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.0), rgba(0,0,0,0.15))', 'url("../google-design/images/bg.png")'));
+			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.25), rgba(0,0,0,0.15))', 'url("../css/images/pattern.svg")'));
 			background-position: center top;
+			background-size: contain;
 		}
 		& .style10{
 			@include vendor('background-image', ('linear-gradient(top, rgba(93,153,67,0.6), rgba(93,153,67,0.1))', 'url("../wrap/images/banner.jpg")'));
@@ -2205,7 +2227,7 @@
 
 		&.alt {
 			@include padding(3em, 0);
-			background-color: darken(_palette(bg), 8);
+			background-color: darken(_palette(bg), 3);
 		}
 
 		.icons {
@@ -2284,6 +2306,8 @@
 			background-repeat: no-repeat;
 			background-size: cover;
 			padding-top: 0;
+			@include vendor('transform', 'translateX(6em)');
+			width: calc(100% - 6em);
 		}
 
 		#footer {
