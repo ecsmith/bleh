@@ -1,0 +1,10 @@
+.vjs-poster {
+    background: transparent !important;
+}
+.video-js {
+    background-color: transparent !important;
+}
+
+.bc-iframe, .bc-iframe body {
+    background-color: transparent !important;
+}
