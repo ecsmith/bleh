@@ -25,5 +25,22 @@
 
 .video-js .vjs-dock-description {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
+}
+
+button.vjs-fullscreen-control.vjs-control.vjs-button {
+    display: none;
+}
+
+.video-js .vjs-tech {
+    margin-left: 25%;
+    width: 300px;
+}
+
+.bc-player-default_default.not-hover.vjs-has-started.vjs-paused.vjs-user-active .vjs-control-bar, .bc-player-default_default.not-hover.vjs-has-started.vjs-paused.vjs-user-inactive .vjs-control-bar, .bc-player-default_default.not-hover.vjs-has-started.vjs-playing.vjs-user-active .vjs-control-bar, .bc-player-default_default.not-hover.vjs-has-started.vjs-playing.vjs-user-inactive .vjs-control-bar, .bc-player-default_default.vjs-has-started.vjs-playing.vjs-user-inactive .vjs-control-bar {
+    -webkit-transform: translateY(0em);
+    -moz-transform: translateY(0em);
+    -ms-transform: translateY(0em);
+    -o-transform: translateY(0em);
+    transform: translateY(0em);
 }
