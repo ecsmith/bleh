@@ -95,3 +95,7 @@ button.vjs-fullscreen-control.vjs-control.vjs-button {
 .vjs-big-play-button {
     display: none !important;
 }
+
+.vjs-time-tooltip {
+    display: none !important;
+}
