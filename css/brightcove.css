@@ -1,8 +1,12 @@
 .vjs-poster {
-    background: transparent !important;
+    background-image: inherit !important;
 }
 .video-js {
     background-color: transparent !important;
+}
+
+video {
+    display: none;
 }
 
 .bc-iframe, .bc-iframe body {
@@ -35,6 +39,7 @@ button.vjs-fullscreen-control.vjs-control.vjs-button {
 .video-js .vjs-tech {
     margin-left: 25%;
     width: 300px;
+    display: none;
 }
 
 .bc-player-default_default.not-hover.vjs-has-started.vjs-paused.vjs-user-active .vjs-control-bar, .bc-player-default_default.not-hover.vjs-has-started.vjs-paused.vjs-user-inactive .vjs-control-bar, .bc-player-default_default.not-hover.vjs-has-started.vjs-playing.vjs-user-active .vjs-control-bar, .bc-player-default_default.not-hover.vjs-has-started.vjs-playing.vjs-user-inactive .vjs-control-bar, .bc-player-default_default.vjs-has-started.vjs-playing.vjs-user-inactive .vjs-control-bar {
