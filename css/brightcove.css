@@ -90,3 +90,7 @@ button.vjs-fullscreen-control.vjs-control.vjs-button {
     height: .5em !important;
     top: -.5em !important;
 }
+
+.vjs-big-play-button {
+    display: none !important;
+}
