@@ -11,6 +11,10 @@ video {
     display: none;
 }
 
+.vjs-has-started .vjs-poster {
+    display: block;
+}
+
 .bc-iframe, .bc-iframe body {
     background-color: transparent !important;
 }
@@ -53,5 +57,19 @@ button.vjs-fullscreen-control.vjs-control.vjs-button {
 }
 
 .vjs-has-started.not-hover .vjs-dock-shelf, .vjs-has-started.not-hover .vjs-dock-text {
-    opacity: 1;
+    opacity: 1 !important;
+}
+
+.video-js .vjs-mute-control, .video-js .vjs-volume-menu-button {
+    display: none !important;
+}
+
+.video-js .vjs-time-control {
+    font-size: 18px !important;
+    line-height: 60px !important;
+}
+
+.video-js .vjs-control:before {
+    font-size: 32px !important;
+    line-height: 1.67 !important;
 }
