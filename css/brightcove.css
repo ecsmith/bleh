@@ -76,10 +76,10 @@ button.vjs-fullscreen-control.vjs-control.vjs-button {
 
 .video-js .vjs-control-bar {
     height: 60px !important;
-    display: block;
+    display: flex;
 }
 
-.video-js .vjs-control {
+.vjs-play-control.vjs-control.vjs-button.vjs-paused {
     width: 80px !important;
 }
 
