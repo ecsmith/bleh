@@ -1,5 +1,5 @@
 .vjs-poster {
-    background: transparent !important;
+    /* background: transparent !important; */
     background-color: transparent !important;
     /* background-image: inherit !important; */
 }
@@ -79,7 +79,7 @@ button.vjs-fullscreen-control.vjs-control.vjs-button {
     display: flex;
 }
 
-.vjs-play-control.vjs-control.vjs-button.vjs-paused {
+.vjs-play-control.vjs-control.vjs-button{
     width: 80px !important;
 }
 
