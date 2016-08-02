@@ -76,6 +76,7 @@ button.vjs-fullscreen-control.vjs-control.vjs-button {
 
 .video-js .vjs-control-bar {
     height: 60px !important;
+    display: block;
 }
 
 .video-js .vjs-control {
