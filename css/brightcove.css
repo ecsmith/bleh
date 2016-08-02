@@ -73,3 +73,20 @@ button.vjs-fullscreen-control.vjs-control.vjs-button {
     font-size: 32px !important;
     line-height: 1.67 !important;
 }
+
+.video-js .vjs-control-bar {
+    height: 60px !important;
+}
+
+.video-js .vjs-control {
+    width: 80px !important;
+}
+
+.bc-player-default_default.not-hover.vjs-has-started.vjs-paused.vjs-user-active .vjs-progress-control, .bc-player-default_default.not-hover.vjs-has-started.vjs-paused.vjs-user-inactive .vjs-progress-control, .bc-player-default_default.not-hover.vjs-has-started.vjs-playing.vjs-user-active .vjs-progress-control, .bc-player-default_default.not-hover.vjs-has-started.vjs-playing.vjs-user-inactive .vjs-progress-control, .bc-player-default_default.vjs-has-started.vjs-playing.vjs-user-inactive .vjs-progress-control {
+    height: .5em !important;
+    top: -.5em !important;
+}
+.vjs-mouse.bc-player-default_default .vjs-progress-control:hover {
+    height: .5em !important;
+    top: -.5em !important;
+}
