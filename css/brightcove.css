@@ -44,3 +44,7 @@ button.vjs-fullscreen-control.vjs-control.vjs-button {
     -o-transform: translateY(0em);
     transform: translateY(0em);
 }
+
+.vjs-has-started.not-hover .vjs-dock-shelf, .vjs-has-started.not-hover .vjs-dock-text {
+    opacity: 1;
+}
