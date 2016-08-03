@@ -55,7 +55,7 @@ video {
 }
 
 .video-js .vjs-dock-description {
-    font-size: 18px;
+    font-size: 24px !important;
     font-weight: 400;
 }
 
