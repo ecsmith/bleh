@@ -1,13 +1,13 @@
 .vjs-poster {
-    /* background: transparent !important; */
     background-color: transparent !important;
     background-size: cover;
     background-position: center;
-    /* background-image: inherit !important; */
 }
+
 .vjs-poster {
     outline: none;
 }
+
 .video-js {
     background-color: transparent !important;
 }
@@ -15,6 +15,7 @@
 .vjs-using-native-controls .vjs-control-bar {
     display: flex !important;
 }
+
 video {
     display: none;
 }
