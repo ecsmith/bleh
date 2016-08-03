@@ -12,11 +12,22 @@
     background-color: transparent !important;
 }
 
+.vjs-using-native-controls .vjs-control-bar {
+    display: flex !important;
+}
 video {
     display: none;
 }
 
+.vjs-using-native-controls .vjs-poster {
+    display: block;
+}
+
 .vjs-has-started .vjs-poster {
+    display: block;
+}
+
+.vjs-using-native-controls .vjs-poster {
     display: block;
 }
 
@@ -75,7 +86,8 @@ button.vjs-fullscreen-control.vjs-control.vjs-button {
 
 .video-js .vjs-time-control {
     font-size: 18px !important;
-    line-height: 60px !important;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 600;
 }
 
 .video-js .vjs-control:before {
