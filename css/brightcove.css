@@ -1,6 +1,8 @@
 .vjs-poster {
     /* background: transparent !important; */
     background-color: transparent !important;
+    background-size: cover;
+    background-position: top;
     /* background-image: inherit !important; */
 }
 .vjs-poster {
