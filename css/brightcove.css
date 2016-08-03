@@ -50,7 +50,7 @@ video {
 }
 
 .video-js .vjs-dock-title {
-    font-size: 28px;
+    font-size: 32px !important;
     font-weight: 300;
 }
 
