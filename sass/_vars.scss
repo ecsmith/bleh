@@ -6,7 +6,9 @@ $misc: (
 	max-spotlights:		10,
 	max-features:		10,
 	max-wraps:			20,
-	z-index-base:		10000
+	max-menu-items:		20,
+	z-index-base:		10000,
+	easing:             cubic-bezier(0.175, 0.885, 0.32, 1.275)
 	);
 
 // Breakpoints.
