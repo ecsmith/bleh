@@ -1535,7 +1535,7 @@
 
 	#menu {
 		@include vendor('transform', 'translateX(-100em)');
-		@include vendor('transition', ('width #{_duration(menu)} #{_misc(easing)}', 'height #{_duration(menu)} #{_misc(easing)}'));
+		@include vendor('transition', 'opacity #{_duration(menu)} #{_misc(easing)}');
 		-webkit-overflow-scrolling: touch;
 		background: rgba(_palette(fg), 0.9);
 		color: _palette(new_fg);
@@ -1549,9 +1549,6 @@
 		// box-shadow: 0px 3px 25px 15px rgba(0,0,0,0.05);
 		left: 0;
 		top: 0;
-		width: 0;
-		height: 0;
-		border-radius: 1000px;
 		// text-align: center;
 		// padding: 3em;
 		z-index: _misc(z-index-base) + 2;
@@ -1577,24 +1574,27 @@
 				@include vendor('transition', 'opacity #{_misc(easing)}');
 				margin: 3em 0 0 0;
 				opacity: 0;
+				padding: 0;
 				// padding: 1em 0 0 0;
 
 
 				> a {
 					@include vendor('transition', ('color #{_duration(transitions)} ease', 'border-bottom-color #{_duration(transitions)} ease'));
 					// @include vendor('transition', 'width #{_duration(transitions)} ease');
-					font-family: _font(family-light);
+					font-family: _font(family);
 					border: 0;
 					color: inherit;
 					display: block;
 
 					letter-spacing: -0.015em;
 					font-size: 1.575rem;
+					text-align: center;
 					outline: 0;
 					text-decoration: none;
 					white-space: nowrap;
 					opacity: 0.8;
 					color: _palette(bg);
+					text-align: center;
 					// text-transform: uppercase;
 
 
@@ -1689,7 +1689,7 @@
 			display: block;
 			height: 1.7rem;
 			position: absolute;
-			left: 3em;
+			left: calc(50% - .625em);
 			top: calc(3em - 15px);
 			vertical-align: top;
 			width: 2.5em;
@@ -1733,6 +1733,7 @@
 		#menu {
 			// @include vendor('transition', 'all #{_duration(menu)} #{_misc(easing)}');
 			@include vendor('transform', 'translateX(0)');
+			opacity: 1;
 			width: 100em;
 			height: 100%;
 			border-radius: 0;
@@ -1740,8 +1741,8 @@
 			@for $i from 1 through _misc(max-wraps) {
 				ul {
 					> li {
-						&:nth-child(#{$i}) {
-							@include vendor('transition-delay', '#{_duration(transitions) + $i * 0.05}');
+						&:nth-last-child(#{$i}) {
+							@include vendor('transition-delay', '#{$i * 0.05}');
 							opacity: 1;
 						}
 					}
